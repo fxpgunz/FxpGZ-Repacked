@@ -1,14 +1,34 @@
-steps:
+name: flawfinder
+on: [push]
+
+jobs:
+  build:
+    name: flawfinder-action
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: flawfinder-action 
+        uses: deep5050/flawfinder-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN}}
+          report_type:
+          data_only: 
+          never_ignore: 
+          false_positive:
+          inputs_flag: enable
+          dot_directories: enable
+          allow_link: enable
+          
 - name: Codecov
   uses: codecov/codecov-action@v3.1.0
   with:
     token: ${{ secrets.CODECOV_TOKEN }} # not required for public repos
     files: ./coverage1.xml,./coverage2.xml # optional
-    flags: unittests # optional
-    name: codecov-umbrella # optional
+    flags: gunzAuditing # optional
+    name: codecov-fxp # optional
     fail_ci_if_error: true # optional (default = false)
     verbose: true # optional (default = false)
-    name: Example workflow for Codecov
+    name: FxpGunZ
 on: [push]
 jobs:
   run:
