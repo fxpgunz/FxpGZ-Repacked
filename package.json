@@ -1,0 +1,16 @@
+{
+    "git.enableSmartCommit": true,
+    "codiga.api.token": "0000-0000-175c7209-114e-4a3e-b3d5-e4fdf4a416a5",
+    "snyk.yesWelcomeNotification": false,
+    "git.autofetch": true,
+    "npm.exclude": [
+        "**/xpacks/**"
+    ],
+    "telemetry.telemetryLevel": "off",
+    "snyk.advanced.advancedMode": true,
+    "snyk.advanced.autoScanOpenSourceSecurity": true,
+    "snyk.advanced.organization": "https://app.snyk.io/org/fxpgunz/",
+    "files.autoSave": "afterDelay",
+    "snyk.features.preview": {
+    }
+}
