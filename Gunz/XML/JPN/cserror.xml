@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<XML>
+<!-- Error Massage -->
+<STR id="100">Communicator does not have a UID. This Communicator must be initialized by the Master-Controller.</STR>
+<STR id="101">Communicator has no UID space to allocate your UID.</STR>
+<STR id="110">Communicator tries to connect to an invalid direct connection.</STR>
+<STR id="200">Command has an invalid receiver UID. If you did not connect to any server and set default receiver, you must do it first.</STR>
+<STR id="300">Zone-Server is not connected to the Master-Controller.</STR>
+<STR id="301">Zone-Server tries to invalidate the Master-Controller.</STR>
+<STR id="1000">Invalid object UID.</STR>
+<!--
+<STR id="1001"></STR>
+-->
+
+<STR id="2000">Map file open error.</STR>
+
+<!-- Connection, Login -->
+<STR id="10000"> パスワードが違います。全・半角英数を確認してください。</STR>
+<STR id="10001">すでに同じＩＤが接続しています。</STR>
+<STR id="10002">サーバーとのバージョンが違います。</STR>
+<STR id="10003">サーバーがフルです。他のサーバーをご利用ください。</STR>
+<STR id="10004">GunZオンラインにアクセスできないＩＤです。</STR>
+<STR id="10005">ユーザー認証に失敗しました。</STR>
+<STR id="10006">他のPCから同一IDで接続したため、現在の接続を終了いたします。</STR>
+<STR id="10007">Connection failed. Please try again later.</STR>
+<STR id="10008">Failed to retrieve the account information. Please try again later.</STR>
+<STR id="10009">Wrong client version. Please reinstall the client.</STR>
+<STR id="10010">Please wait while the game attempts to connect.</STR>
+<STR id="10011">Your IP address is from an area we don't support.</STR>
+<STR id="10012">Your log-in information is outdated or unavailable.  Please restart the client.</STR>
+
+<!-- Character Admin -->
+<STR id="10100">すでに存在するキャラクターの名前です。</STR>
+<STR id="10101">ご使用できない文字があります。</STR>
+<STR id="10102">名前が短すぎます。</STR>
+<STR id="10103">名前が長すぎます。</STR>
+<STR id="10104">キャラクターの名前を入力してください。</STR>
+<STR id="10110">存在しないキャラクターの名前です。</STR>
+<STR id="10111">キャラクターを削除することができません。クランに加入していたりキャッシュアイテムがあると削除できません。</STR>
+
+<!-- Item -->
+<STR id="20001">Bountyが足りません。</STR>
+<STR id="20002">該当アイテムを購入することができません。</STR>
+<STR id="20003">該当アイテムを装備することができません。</STR>
+<STR id="20004">該当アイテムを脱ぐことができません。</STR>	
+<STR id="20005">該当アイテムを売ることができません。</STR>
+<STR id="20006">着けたアイテムは売ることができません。</STR>
+<STR id="20007">該当アイテムがありません。</STR>
+<STR id="20008">持っているアイテムが多すぎます。</STR>
+<STR id="20009">選択したアイテムはありません。</STR>
+<STR id="20010">重量オーバーです。</STR>
+<STR id="20011">貴方のレベルでは使用できません。</STR>
+<STR id="20012">武器スロットに同じアイテムは着用できません。</STR>
+<STR id="20013">重さのため脱ぐことができません。</STR>
+<STR id="20014">キャッシュアイテムをショップで売ることはできません。</STR>
+<STR id="20015">性別が合わないのでアイテムを装備することができません。</STR>
+<STR id="20016">レベルが合わないのでアイテムを装備することができません。それでも持ってきますか？</STR>
+<STR id="20017">銀行に入れることはできません。</STR>
+<STR id="20018">キャッシュアイテムのみ銀行に入れることができます。</STR>
+<STR id="20019">レベルダウンでアイテムが外れました。</STR>
+<STR id="20020">重複着することができないアイテムです.</STR>
+<STR id="20021">クエストサーバ以外では使用出来ません。</STR>
+
+<!-- Stage -->
+<STR id="30000">ルームに入ることができません。</STR>
+<STR id="30001">人数がいっぱいです。</STR>
+<STR id="30002">パスワードが違います。</STR>
+<STR id="30003">レベルが違うため参加できません。</STR>
+<STR id="30004">乱入できません。</STR>
+<STR id="30005">入室が禁止されました。</STR>
+<STR id="30006">存在しないステージです。</STR>
+<STR id="30007">すでに存在しているステージです。</STR>
+<STR id="30008">ルームを作ることができません。</STR>
+<STR id="30009">入室できるルームがありません。</STR>
+
+<!-- Channel -->
+<STR id="30020">チャンネルに入れません。</STR>
+<STR id="30021">満員です。</STR>
+<STR id="30022">レベルが違うため入れません。</STR>
+<STR id="30023">レベルが21以上のキャラクターがいる場合は入門、初心者チャンネルには入れません。</STR>
+
+<!-- Primium Ticket -->
+<STR id="30024">입장권이 없어 들어갈 수 없습니다.</STR>
+<STR id="30025">입장권이 없는 유저가 있어 게임을 시작할 수 없습니다.</STR>
+
+<STR id="30026">相手がいません。</STR>
+
+<!-- Clan -->
+<STR id="30030">クランを作ることはできません。</STR>
+<STR id="30031">クランを解散することはできません。</STR>
+<STR id="30032">クランがすでに存在しています。</STR>
+<STR id="30033">クラン結成メンバーが足りません。</STR>
+<STR id="30034">クラン結成メンバーがすでに他のクランに加入しています。</STR>
+<STR id="30035">クラン結成メンバーがロビーにいません。</STR>
+<STR id="30036">クランの名前が違います。</STR>
+<STR id="30037">クランマスターではありません。</STR>
+<STR id="30038">クランマスターまたは運営者ではありません。</STR>
+<STR id="30039">加入者ががすでに他のクランに加入しています。</STR>
+<STR id="30040">加入処理がされていません。</STR>
+<STR id="30041">すでにクランに加入しています。</STR>
+<STR id="30042">加入者がロビーにいません。</STR>
+<STR id="30043">クランに加入していません。</STR>
+<STR id="30044">クランから脱退できません。</STR>
+<STR id="30045">これ以上クランを追加することはできません。</STR>
+<STR id="30046">相手が接続していません。</STR>
+<STR id="30047">同じクランではありません。</STR>
+<STR id="30048">権限を変更することはできません。</STR>
+<STR id="30049">該当のクランがいません。</STR>
+<STR id="30050">クランを結成するのに必要なBounty(1000BP)が足りません。</STR>
+<STR id="30051">10レベル以上のみクランを結成することができます。</STR>
+<STR id="30052">Clan will be closed on '%s'.</STR>
+
+<!-- Ladder -->
+<STR id="30070">クラン戦の申請ができません。</STR>
+<STR id="30071">チームメンバーが違います。</STR>
+<STR id="30072">チームメンバーがいません。</STR>
+<STR id="30073">チームゲームに申請できないメンバーがいます。</STR>
+<STR id="30074">クラン戦の申請ができません。</STR>
+
+<!-- Clan Battle -->
+<STR id="30080">同じクランではありません。</STR>
+<STR id="30081">メンバーがいません。</STR>
+<STR id="30082">クラン戦に申請できない状態のメンバーがいます。</STR>
+
+<!-- Client -->
+<STR id="30103">まだサポートされていません。</STR>
+<STR id="30104">タイピングミスまたは正しい表現ではありません。</STR>
+<STR id="30105">同じ発言を3回以上続けて使えません。</STR>
+<STR id="30106">1分間チャットを禁止します。</STR>
+
+<!-- Server Message -->
+<STR id="90000">サーバーに接続できません。</STR>
+<STR id="90002">接続が切れました。</STR>
+
+<!-- Clan Message -->
+<STR id="100000">クランに加入しました。</STR>
+<STR id="100001">クランが結成されました。</STR>
+
+<!-- Follow -->
+<STR id="110000">入れません。</STR>
+
+<!-- Vote -->
+<STR id="120000">投票申請ができません。</STR>	
+
+<!-- Disconnect message -->
+<STR id="130001">不正なアクセスが検出されました。サーバーから切断されます。</STR>
+<STR id="130002">です。一時間後に接続してください。</STR>
+<STR id="130003">です。サーバーから切断されます。</STR>
+<STR id="130004">間違ったファイルが検出されました。</STR>
+<STR id="130005">ハッキングが検出されました。お客様のアカウントは、今後1時間ご使用になれません。</STR>
+<STR id="130006">운영자에 의해 블럭 되었습니다. 계정 블럭은 1시간정도 지속됩니다.</STR>
+
+<!-- DuelTournament message -->
+<STR id="140000">デュエルトーナメントのチャンネルではありません。</STR>
+<STR id="140001">既にデュエル トーナメントへ参加を申し込んでいます。</STR>
+<STR id="140002">参加申込に失敗しました。しばらく待った後にもう一度申し込んで下さい。 この問題が続く場合は、管理者に問い合わせてください。</STR>
+<STR id="140003">参加申込の制限時間が過ぎました。</STR>
+<STR id="140004">トーナメントを生成出来ませんでした。</STR>
+<STR id="140005">トーナメントが見つかりませんでした。</STR>
+<STR id="140006">トーナメントの設定が正しくありません。</STR>
+<STR id="140007">トーナメントを開始できません。</STR>
+<STR id="140008">通信が円滑に行われていません。</STR>
+<STR id="140009">デュエルトーナメントが行える時間は、%d時00分～%d時59分です。</STR>
+
+<!-- Administartor message -->
+<STR id="150000">처벌할 대상이 없습니다.</STR>
+<STR id="150001">DB와의 통신이 원활하지 않습니다.</STR>
+
+<!-- Server -->
+<STR id="200000">投票できません。</STR>	
+<STR id="200001">ラダーゲームは投票できません。</STR>	
+<STR id="200002">すでに投票が開始しています。</STR>	
+<STR id="200003">投票に失敗しました。</STR>	
+<STR id="200004">制限時間 ：残り10秒です！</STR>	
+<STR id="200005">制限時間 ：残り30秒です！</STR>	
+<STR id="200006">制限時間 ：残り60秒です！</STR>	
+<STR id="200007">ルームの最大人数を増やしてください。</STR>	
+<STR id="200008"> '%s'さんがまだReadyをしてないです。</STR>	
+
+</XML>

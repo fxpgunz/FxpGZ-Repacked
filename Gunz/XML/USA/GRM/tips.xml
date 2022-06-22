@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="windows-1252" ?>
+<XML>
+
+<!-- Category
+	default = 0 
+	0 - &#xC77C;&#xBC18;
+	1 - &#xAC1C;&#xC778;&#xC804;
+	2 - &#xD300;&#xC804;
+	3 - &#xD074;&#xB79C;&#xC804;
+	4 - &#xC655;&#xCD08;&#xBCF4;
+	5 - &#xCD08;&#xBCF4;
+	6 - &#xC911;&#xC218;
+	7 - &#xACe0;&#xC218;
+
+	MSG&#xD0DC;&#xADF8;&#xC758; id&#xB294; &#xD2B9;&#xC815;&#xD55C; &#xC870;&#xAC74;&#xC5D0;&#xB9CC; &#xBC1C;&#xB3D9;&#xB420; &#xACBD;&#xC6B0;&#xB97C; &#xC704;&#xD574;&#xC11C; &#xB9CC;&#xB4e4;&#xC5B4;&#xB193;&#xC74C;.
+-->
+
+<!-- &#xC77C;&#xBC18; -->
+<TIPS category="0">
+	<!-- STATIC TIPS -->
+	<MSG>Falls Du irgendwelche Fragen zu GunZ hast, kannst Du die Helpdesk-Funktion auf der GunZ Hauptseite benutzen.</MSG>
+	<MSG>Du kannst ein Replay ansehen, indem Du auf die Files in .../My Documents/Gunz/Replay doppelklickst.</MSG>
+	<MSG>Drücke die F11-Taste, um eine Replay-Datei aufzunehmen. Drücke nochmals F11, um die Aufnahme zu beenden.</MSG>
+	<MSG>Du kannst die Replay-Datei ansehen, indem Du in der Haupt-Lobby auswählst.</MSG>
+	<MSG>Screenshots werden unter .../My Documents/Gunz/Screenshots gespeichert.</MSG>
+	<MSG>Trete jetzt einem Clan bei, damit Du bei einem Clan War mitmachen kannst!</MSG>
+	<MSG>Drücke die F12-Taste, um einen Screenshot aufzunehmen.</MSG>
+	<MSG>Berichte Deinen Freunden von GunZ. Zusammen könnt ihr einen Clan gründen.</MSG>
+	<MSG>Alle Premium-Gegenstände können über das &quot;Lager&quot; mit jeder Spielfigur auf demselben Account geteilt werden.</MSG>
+	<MSG>Benutzt Du einen Router? Probiere die Portweiterleitung aus, um am optimierten Netzwerkspiel teilnehmen zu können.</MSG>
+	<MSG>Du kannst einem Freund einen Gegenstand schenken, indem Du die Schenk-Funktion auf der Webpage benutzt.</MSG>
+	<MSG>Läuft GunZ auf Deinem Computer zu langsam? Nutze die Optimierungs-Funktion im Optionen-Menüs</MSG>
+	<MSG>Mit der &quot;Jetzt spielen&quot;-Funktion kannst Du sofort an einem Spiel teilnehmen.</MSG>
+	<MSG>Gib niemals Dein Passwort an jemand anderes weiter. Der Administrator wird Dich niemals nach Deinem Passwort fragen.</MSG>
+	<MSG>Die Premium-Gegenstände, die Du im Shop gekauft hast, werden in Deinem &quot;Lager&quot; erscheinen.</MSG>
+	<MSG>Bounty-Gegenstände können nicht mit anderen Spielfiguren über Dein &quot;Lager&quot; geteilt werden.</MSG>
+	<MSG>Benutze den Trainingsmodus, um Deine Fähigkeiten zu trainieren, ohne dabei Experience-Punkte zu verlieren.</MSG>
+	<MSG>Benutze den Chat-Befehl '/r', um schnell auf ein Flüstern zu antworten.</MSG>
+	<MSG>Wenn eine Deiner Spielfiguren über Level 21 ist, kannst Du auch mit keiner anderen Spielfigur den Einstiegs- oder Anfänger-Channel betreten.</MSG>
+
+
+	<!-- GM Message -->
+	<MSG>Jede ID, die andere beleidigt, wird zugangsbeschränkt werden. </MSG>
+	<MSG>Jeder, der andere in einem Spiel beleidigt, wird vom GunZ-Team bestraft werden.</MSG>
+
+	<!-- &#xC0C8;&#xB85C; &#xCD94;&#xAC00; -->
+	<MSG>Wenn Du Dich erfolgreich gegen eine Nahkampfattacke verteidigst, erhältst Du die Chance, sofort einen massiven Schlag auszuführen!</MSG>
+	<MSG>Drücke im Beobachtungsmodus die Tastenkombination Strg+irgendeine Zahl, um einem Spieler eine Nummer zuzuordnen.</MSG>
+
+	<!-- &#xD074;&#xB79C;&#xC804; &#xC804;&#xC6A9; -->
+	<MSG>Hast Du schon einen aufregenden Clan War gespielt? Gleich ausprobieren!</MSG>
+	<MSG>In einem Clan War wirst Du die 1,5-fache Exp. bekommen. Es gibt keinen Verlust von Exp. aufgrund der unterschiedlichen Level.</MSG>
+</TIPS>    
+
+<!-- &#xC655;&#xCD08;&#xBCF4; -->
+<TIPS category="4">
+	<MSG id="1">Wähle einen Server in deiner näheren Umgebung, um zu annehmbaren Wartezeiten zu kommen. </MSG>
+</TIPS>
+
+<!-- 듀얼토너먼트 -->
+<TIPS category="8">
+	<MSG id="1"></MSG>
+</TIPS>
+</XML>
+

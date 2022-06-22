@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<XML>
+	<XMLHEADER>version="1.0" encoding="UTF-8"</XMLHEADER>
+	
+	<SKIN>Default</SKIN>
+	
+	<DEFFONT>MS UI Gothic</DEFFONT>
+	
+	<IME>true</IME>
+	
+	<BAREPORT>
+		<ADDR>www.battlearena.com</ADDR>
+		<DIR>incoming/gunz_japan</DIR>
+	</BAREPORT>
+	
+	<EMBLEM_URL>http://www.gunzwei.jp/uploadform/upload_images/</EMBLEM_URL>
+	
+	<HOMEPAGE>
+	    <URL>http://www.gunzwei.jp/</URL>
+	    <TITLE>GameOn</TITLE>
+	</HOMEPAGE>
+</XML>

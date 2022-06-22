@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="windows-1252" ?>
+<XML>
+<!-- Error Massage -->
+<STR id="100">Der Communicator besitzt keine UID. Dieser Communicator muss vom Master-Controller initialisiert werden.</STR>
+<STR id="101">Der Communicator verfügt über keinen UID-Space, um Deine UID zuzuweisen.</STR>
+<STR id="110">Der Communicator versucht, eine ungültige Direktverbindung zu erstellen.</STR>
+<STR id="200">Der Befehl verweist auf eine ungültige Empfänger-UID. Wenn Du Dich nicht mit einem Server verbunden und dabei einen Default-Receiver bestimmt hast, musst Du das erst noch erledigen.</STR>
+<STR id="300">Der Zone-Server ist nicht mit dem Master-Controller verbunden.</STR>
+<STR id="301">Der Zone-Server versucht, den Master-Controller für ungültig zu erklären.</STR>
+<STR id="1000">Ungültige Objekt-UID.</STR>
+<!--
+<STR id="1001"></STR>
+-->
+
+<STR id="2000">Fehler beim Öffnen der Karte.</STR>
+
+<!-- Connection, Login -->
+<STR id="10000">Du hast ein ungültiges Passwort eingegeben. Überprüfe bitte Dein Passwort und versuche es noch einmal.</STR>
+<STR id="10001">Diese ID ist schon in Benutzung.</STR>
+<STR id="10002">Die Client-Version passt nicht mit dem Server zusammen.</STR>
+<STR id="10003">Der Server ist voll.</STR>
+<STR id="10004">Diese ID ist auf GunZ online gesperrt.</STR>
+<STR id="10005">Authentifizierung fehlgeschlagen.</STR>
+<STR id="10006"></STR>
+<STR id="10007">Connection failed. Please try again later.</STR>
+<STR id="10008">Failed to retrieve the account information. Please try again later.</STR>
+<STR id="10009">Wrong client version. Please run 'Repair' from the Ijji Reactor or reinstall the GunZ client.</STR>
+<STR id="10010">Please wait while the game attempts to connect.</STR>
+<STR id="10011">Your IP address is from an area we don't support.</STR>
+<STR id="10012">Your log-in information is outdated or unavailable.  Please restart the Ijji Reactor.</STR>
+
+<!-- Character Admin -->
+<STR id="10100">Dieser Spielername wird schon benutzt.</STR>
+<STR id="10101">Du hast Zeichen benutzt, die nicht zugelassen sind. Benutze bitte nur Buchstaben und Zahlen.</STR>
+<STR id="10102">Dieser Spielername ist zu kurz.</STR>
+<STR id="10103">Dieser Spielername ist zu lang.</STR>
+<STR id="10104">Gib einen Spielernamen ein.</STR>
+<STR id="10110">Dieser Spielername existiert nicht.</STR>
+<STR id="10111">Man kann eine Spielfigur nicht löschen, wenn sie zu einem Clan gehört oder bezahlte Gegenstände besitzt.</STR>
+
+<!-- Item -->
+<STR id="20001">Nicht genügend Bounty!</STR>
+<STR id="20002">Du darfst diesen Gegenstand nicht kaufen.</STR>
+<STR id="20003">Du darfst Dich mit diesem Gegenstand nicht ausrüsten.</STR>
+<STR id="20004">Du darfst diesen Gegenstand nicht aus Deiner Ausrüstung entfernen.</STR>
+<STR id="20005">Du darfst diesen Gegenstand nicht verkaufen.</STR>
+<STR id="20006">Du darfst den Ausrüstungsgegenstand nicht verkaufen.</STR>
+<STR id="20007">Dieser Gegenstand ist nicht verfügbar.</STR>
+<STR id="20008">Du besitzt zu viele Gegenstände.</STR>
+<STR id="20009">Der gewählte Gegenstand existiert nicht.</STR>
+<STR id="20010">Der gewählte Gegenstand ist für Deine derzeitige Konfiguration zu schwer.</STR>
+<STR id="20011">Du musst in einem höheren Level sein, um diesen Gegenstand benutzen zu können.</STR>
+<STR id="20012">Diese Ausrüstung (oder dieser Gegenstand) kann hier nicht nochmal untergebracht werden.</STR>
+<STR id="20013">Du kannst nicht starten, weil Du zu viel Gewicht hast.</STR>
+<STR id="20014">Du kannst die bezahlte Ausrüstung (oder den bezahlten Gegenstand) nicht im Shop verkaufen.</STR>
+<STR id="20015">Du kannst diese Ausrüstung (oder diesen Gegenstand) nicht benutzen, weil er nicht zu Deinem Geschlecht passt.</STR>
+<STR id="20016">Du kannst Deine Spielfigur nicht mit diesem Gegenstand ausrüsten, weil Du nicht das nötige Level dazu erreicht hast. Willst Du diese Ausrüstung (oder diesen Gegenstand) immer noch kaufen?</STR>
+<STR id="20017">Du kannst diese Ausrüstung (oder diesen Gegenstand) nicht im Lager deponieren.</STR>
+<STR id="20018">Du darfst nur einen bezahlten Gegenstand im Lager deponieren.</STR>
+<STR id="20019">Der Gegenstand wurde aus Deiner Ausrüstung entfernt, weil Du im Level gesunken bist.</STR>
+<STR id="20020">Du kannst diesen Gegenstand nicht in Deine Ausrüstung aufnehmen.</STR>
+<STR id="20021"></STR>
+
+<!-- Stage -->
+<STR id="30000">Du kannst diesen Raum nicht betreten.</STR>
+<STR id="30001">Dieser Raum ist voll.</STR>
+<STR id="30002">Passwort nicht korrekt!</STR>
+<STR id="30003">Du kannst mit Deinem derzeitigen Level nicht eintreten.</STR>
+<STR id="30004">Du kannst nicht an einem laufenden Spiel teilnehmen.</STR>
+<STR id="30005">Du darfst hier nicht rein.</STR>
+<STR id="30006">Dieses Spiel existiert nicht.</STR>
+<STR id="30007">Dieses Spiel existiert bereits.</STR>
+<STR id="30008">Du kannst den Raum nicht erzeugen.</STR>
+<STR id="30009">Es gibt keinen Raum, den Du betreten könntest.</STR>
+
+<!-- Channel -->
+<STR id="30020">Du kannst den Channel nicht betreten. </STR>
+<STR id="30021">Maximale Benutzerzahl erreicht.</STR>
+<STR id="30022">Du kannst auf Deinem derzeitigen Level nicht eintreten.</STR>
+<STR id="30023">Wenn sich eine Deiner Spielfiguren auf Level 21 oder höher befindet, kannst Du nicht mehr den Anfänger-Channel betreten.</STR>
+
+<!-- Primium Ticket -->
+
+<STR id="30026">Wähle bitte zuerst eine Spielfigur.</STR>
+
+<!-- Clan -->
+<STR id="30030">Kann keinen Clan kreieren.</STR>
+<STR id="30031">Der Clan kann nicht geschlossen werden.</STR>
+<STR id="30032">Dieser Clan-Name wird schon benutzt.</STR>
+<STR id="30033">Du hast nicht genügend Mitglieder, um den Clan zu gründen.</STR>
+<STR id="30034">Dieser Benutzer gehört bereits zu einem anderen Clan.</STR>
+<STR id="30035">Das von Dir zum Clan-Beitritt aufgeforderte Mitglied befindet sich nicht in der Lobby.</STR>
+<STR id="30036">Der Clan-Name ist nicht korrekt.</STR>
+<STR id="30037">Das ist nicht der Clan-Chef.</STR>
+<STR id="30038">Du bist nicht berechtigt, diese Aktion durchzuführen.</STR>
+<STR id="30039">DieserBenutzer gehört bereits zu einem anderen Clan.</STR>
+<STR id="30040">Deine Bitte, dem Clan beitreten zu dürfen, wurde abgewiesen.</STR>
+<STR id="30041">Dieser Benutzer ist schon Mitglied eines anderen Clans.</STR>
+<STR id="30042">Die Einladung konnte nicht geschickt werden. Der Spieler befindet sich gerade in einem Spiel.</STR>
+<STR id="30043">Du bist dem Clan nicht beigetreten.</STR>
+<STR id="30044">Du kannst nicht aus dem Clan austreten.</STR>
+<STR id="30045">Ein weiteres Clan-Mitglied kann nicht hinzugenommen werden.</STR>
+<STR id="30046">Dein(e) Freund(in) ist nicht online.</STR>
+<STR id="30047">Nicht im selben Clan.</STR>
+<STR id="30048">Du kannst Deine Berechtigungen nicht ändern.</STR>
+<STR id="30049">Das Clan-Mitglied ist nicht verfügbar.</STR>
+<STR id="30050">Nicht ausreichend Bounty (1.000 BP) zur Clan-Gründung vorhanden.</STR>
+<STR id="30051">Nur Benutzer, die mindestens das zehnte Level erreicht haben, können einen Clan gründen.</STR>
+<STR id="30052">Der Clan wird am '%s' geschlossen werden.</STR>
+
+<!-- Ladder -->
+<STR id="30070">Du kannst nicht zum Clan War auffordern.</STR>
+<STR id="30071">Wann erscheint diese Meldung?</STR>
+<STR id="30072">Wann erscheint diese Meldung?</STR>
+<STR id="30073">Wann erscheint diese Meldung?</STR>
+
+<!-- Clan Battle -->
+<STR id="30080">Du bist nicht im selben Clan.</STR>
+<STR id="30081">Momentan sind keine Clan-Mitglieder anwesend.</STR>
+<STR id="30082">Eines der ausgewählten Clan-Mitglieder ist momentan nicht für einen Clan War verfügbar.</STR>
+
+<!-- Client -->
+<STR id="30103">Diese Funktion wird noch nicht unterstützt.</STR>
+<STR id="30104">Benutze bitte keine vulgären oder unangebrachten Ausdrücke.</STR>
+<STR id="30105">Spamme bitte nicht den Channel oder Chatraum voll.</STR>
+<STR id="30106">Du darfst für eine Minute nicht am Chat teilnehmen.</STR>
+
+<!-- Server Message -->
+<STR id="90000">Kein Zugriff auf den Server.</STR>
+<STR id="90002">Vom Server getrennt.</STR>
+
+<!-- Clan Message -->
+<STR id="100000">Du bist dem Clan beigetreten.</STR>
+<STR id="100001">Der Clan wurde gegründet.</STR>
+
+<!-- Follow -->
+<STR id="110000">Du kannst nicht eintreten.</STR>
+
+<!-- Vote -->
+<STR id="120000">Du kannst keine Abstimmung beantragen.</STR>
+
+<!-- Disconnect message -->
+<STR id="130001">Ein Hackversuch wurde bemerkt. Die Verbindung zum Game-Server wird unterbrochen.</STR>
+<STR id="130002">Dieser Account wurde wegen eines Hackversuchs gesperrt. Die Sperre wird für etwa eine Stunde bestehen.</STR>
+<STR id="130003">Eine Verbindung wird wegen des Benutzer-Status verweigert. Die Verbindung zum Gameserver wird in Kürze unterbrochen werden.</STR>
+<STR id="130004">Ungültige Datei entdeckt.</STR>
+<STR id="130005">Ein Missbrauch des Spiels wurde festgestellt: Dein Account wird für eine Stunde gesperrt.</STR>
+<STR id="130006">Account blocked in 1 hour.</STR>
+<STR id="130007">Your characters have been removed due to inactivity.</STR>
+
+<!-- DuelTournament message -->
+<STR id="140000">Dies ist nicht der Duel Tournament Kanal.</STR>
+<STR id="140001">Du hast dich schon beim Turnier angemeldet.</STR>
+<STR id="140002">Deine Anfrage wurde abgelehnt. Bitte versuceh es später nochmal. Sollte das Problem weiterhin bestehen, dann kontaktiere ijji.com</STR>
+<STR id="140003">Die Turnier Anmeldungszeit is leider abgelaufen.</STR>
+<STR id="140004">Der Abschnitt kann nicht kreiert werden.</STR>
+<STR id="140005">Kann den Abschnitt nicht finden.</STR>
+<STR id="140006">Da ist ein Fehler in der Einstellung dieses Abschnittes.</STR>
+<STR id="140007">Kann diesen Abschnitt nicht starten.</STR>
+<STR id="140008">Die Kommunikation mit DB ist instabil.</STR>
+<STR id="140009">Das Duel Tournament hat jetzt begonnen. Es wird vom %d:00 bis %d:59 andauern.</STR>
+
+<!-- Administartor message -->
+<STR id="150000">The character cannot be found.</STR>
+<STR id="150001">There is no response from DB. Please try again.</STR>
+
+<!-- Server -->
+<STR id="200000">Du kannst die Abstimmung nicht beginnen.</STR>
+<STR id="200001">Du kannst diese Funktion nicht in einem Ladder Game benutzen.</STR>
+<STR id="200002">Die Abstimmung hat bereits begonnen.</STR>
+<STR id="200003">Die Abstimmung ist gescheitert.</STR>
+<STR id="200004">Noch 10 Sekunden.</STR>
+<STR id="200005">Noch 30 Sekunden.</STR>
+<STR id="200006">Noch 60 Sekunden.</STR>
+<STR id="200007">Zu viele Spieler, um dieses Spiel zu starten.</STR>
+<STR id="200008">%s' ist nicht bereit.</STR>
+
+</XML>

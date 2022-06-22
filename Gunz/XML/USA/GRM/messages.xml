@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="windows-1252" ?>
+<XML>
+
+<!-- Client Error Message -->
+<MSG id="500">Meldungen</MSG>
+<MSG id="501">Log Dich zuerst auf der GunZ-Homepage unter ijji.com ein und klicke auf Play Live, um GunZ zu starten.</MSG>
+
+<!-- Client Interface -->
+<MSG id="1000">Du musst 1 Minute warten, bevor Du Dich wieder meldest.</MSG>
+<MSG id="1001">Chat-Details werden Dir mitgeteilt.</MSG>
+<MSG id="1002">Kehre bitte zur Hauptlobby zurück, um Clan-Mitglieder zu rekrutieren.</MSG>
+<MSG id="1003">Gib mindestens $1 Buchstaben ein.</MSG>
+<MSG id="1004">Fehler in der Befehlssyntax.</MSG>
+<MSG id="1005">Fehler in der Befehlssyntax.</MSG>
+<MSG id="1006">Kann nur in der Lobby durchgeführt werden.</MSG>
+<MSG id="1007">Kann nur im Wartezimmer durchgeführt werden.</MSG>
+<MSG id="1008">Kann nur während des Spiels durchgeführt werden.</MSG>
+<MSG id="1009">Die Bitte wurde abgeschlagen.</MSG>
+<MSG id="1010">Dieser Befehl kann nicht benutzt werden.</MSG>
+<MSG id="1011">Der Screenshot wurde unter &quot;My Documents$1&quot; gespeichert.</MSG>
+<MSG id="1012">Der Screenshot konnte nicht gespeichert werden.</MSG>
+<MSG id="1013">Aufnahme gestartet.</MSG>
+<MSG id="1014">Die Aufnahme wurde unter &quot;My Documents$1&quot; gespeichert.</MSG>
+<MSG id="1015">Die Aufnahme konnte nicht gespeichert werden.</MSG>
+<MSG id="1016">Abstimmung über Rauswurf von '%s' hat begonnen.</MSG>
+<MSG id="1017">Willst Du an der Abstimmung teilnehmen? Drücke 'Y' für ja und 'N' für nein.</MSG>
+<MSG id="1018">Wähle den Spieler, der raus soll!</MSG>
+<MSG id="1019">[ESC] Abbrechen</MSG>
+<MSG id="1020">Wahl wurde akzeptiert</MSG>
+<MSG id="1021">Wahl wurde nicht akzeptiert</MSG>
+<MSG id="1022">Die Abstimmungsoption ist nicht verfügbar.</MSG>
+<MSG id="1023">Die Abstimmung über '$1' hat begonnen.</MSG>
+<MSG id="1024">Suche nach dem gegnerischen Team $1</MSG>
+<MSG id="1025">Der Benutzer hat den Raum verlassen.</MSG>
+
+<!-- Clan -->
+<MSG id="1105">$1 versucht '$3' für einen Clan mit $2 zu gewinnen. Möchtest Du mitmachen? </MSG>
+<MSG id="1106">$1 hat es abgelehnt, dem Clan beizutreten.</MSG>
+<MSG id="1107">Clan gegründet.</MSG>
+<MSG id="1108">Dieser Clan ist aufgelöst. Er wird in 48 Stunden nicht mehr existieren.</MSG>
+<MSG id="1109">Nur der Clan-Chef kann dieses Kommando ausführen.</MSG>
+<MSG id="1110">Nur ein Clan-Chef oder Clan-Administrator kann dieses Kommando ausführen.</MSG>
+<MSG id="1111">Du bist schon einem Clan beigetreten.</MSG>
+<MSG id="1112">Du bist kein Mitglied eines Clans.</MSG>
+<MSG id="1113">Möchtest Du dem Clan beitreten? </MSG>
+<MSG id="1114">Deine Mitgliedschaft wurde abgelehnt.</MSG>
+<MSG id="1115">Ein neues Mitglied ist dem Clan beigetreten.</MSG>
+<MSG id="1116">Du hast den Clan verlassen.</MSG>
+<MSG id="1117">Clan-Chefs können den Clan nicht verlassen.</MSG>
+<MSG id="1118">Eine Löschung kann nicht erfolgen, solange du Clan-Mitglied bist. Du musst zuerst den Clan verlassen.</MSG>
+<MSG id="1119">Die Berechtigungen wurden geändert.</MSG>
+<MSG id="1120">Das ausgewählte Mitglied wurde aus dem Clan entfernt.</MSG>
+<MSG id="1121">Du musst $1 Mitglieder rekrutieren, um einen Clan zu gründen. </MSG>
+<MSG id="1122">Bist Du Dir sicher, dass Du den Clan auflösen willst?</MSG>
+<MSG id="1123">Bist Du Dir sicher, dass Du den Clan verlassen willst?</MSG>
+<MSG id="1124">Der Clan-Name lautet anders.</MSG>
+<MSG id="1125">Clan-Mitglied '$1' hat sich eingeloggt.</MSG>
+
+<!-- Etc -->
+<MSG id="1200">Du kannst eine Spielfigur mit einem bezahlten Gegenstand nicht löschen. Entferne den Gegenstand und versuche es dann nochmal.</MSG>
+<MSG id="1201">Spielfigur wurde gelöscht.</MSG>
+<MSG id="1202">Du wirst in $1 Sekunde(n) zu den vorherigen Auflösungseinstellungen zurückkehren.</MSG>
+<MSG id="1203">Du kannst die Schwierigkeit der Quest anhand der Opfergegenstände festlegen, die Du auf die zwei Altäre in der Bildschirmmitte legst.</MSG>
+
+<!-- Robby UI -->
+<MSG id="1301">Clan-Chef: $1, $2 zugegriffen.</MSG>
+<MSG id="1302">%d wartet.</MSG>
+<MSG id="1303">Du bist dem Clan nicht beigetreten.</MSG>
+<MSG id="1304">Wähle den kostenlosen Channel, um keinen Levelbeschränkungen zu unterliegen.</MSG>
+<MSG id="1305">Du wirst mit allen Benutzern kämpfen, unabhängig vom Channel im League-Game.</MSG>
+<MSG id="1306">$1 ist in den Chatraum eingeladen.</MSG>
+<MSG id="1307">$1 hat Dich in den Chatraum '$2' eingeladen.</MSG>
+<MSG id="1308">$2' hat den Chatraum '$1' betreten.</MSG>
+<MSG id="1309">$2' hat den Chatraum '$1' verlassen.</MSG>
+<MSG id="1310">Wird in den Chatraum '$1' verlegt.</MSG>
+<!-- <MSG id="1311">.</MSG> -->
+<MSG id="1312">Chatraum($1) $2 : $3</MSG>
+<MSG id="1313">Jemand bittet, den Chatraum zu öffnen …</MSG>
+<MSG id="1314">Jemand bittet, den Chatraum betreten zu dürfen …</MSG>
+<MSG id="1315">Den Chatraum verlassen.</MSG>
+<MSG id="1316">Einen Chatraum wählen.</MSG>
+<MSG id="1317">Du hast Channel '$1' betreten.</MSG>
+<MSG id="1318">$1 Punkte sind Pflicht um deinen Rank zu erhöhen.</MSG>
+<MSG id="1319">Sieg/Niederlage letzte Woche</MSG>
+<MSG id="1320">Turnierpunkte letzte Woche</MSG>
+<MSG id="1321">Siege letzte Woche</MSG>
+<MSG id="1322">Rank letzte Woche</MSG>
+<MSG id="1323">Aktuelle Sieg /Niederlage</MSG>
+<MSG id="1324">Akruelle Turnierpunkte</MSG>
+<MSG id="1325">Aktuelle Siege</MSG>
+<MSG id="1326">Rank von Gestern</MSG>
+<MSG id="1327">Rank Klasse der letzten Woche ($1 Klasse)</MSG>
+<MSG id="1328">Rank von Gestern</MSG>
+<MSG id="1329">Top Rank liste</MSG>
+
+<!-- Invite -->
+<MSG id="1400">Auf Antwort warten.</MSG>
+<MSG id="1401">Warte bitte, bis der Spieler zustimmt.</MSG>
+<MSG id="1402">$1 hat Dich zu einem Clan War eingeladen. Nimmst Du seine Einladung an?</MSG>
+<MSG id="1403">$1 hat Deine Bitte abgelehnt.</MSG>
+<MSG id="1404">$1 hat die Bitte abgelehnt.</MSG>
+<MSG id="1405">Es wurde abgelehnt.</MSG>
+<MSG id="1406">Wähle die richtige Anzahl von Leuten.</MSG>
+
+<MSG id="1420">$1 haben Dich zu einem Clan War eingeladen. Nimmst Du die Einladung an?</MSG>
+
+<!-- Clan Battle -->
+<MSG id="1510">$1' Clan hat '$2' Clan $3 Mal in Folge besiegt und ist sehr zuversichtlich.</MSG>
+<MSG id="1511">$1' Clan hat '$2' Clan $3 Mal in Folge besiegt.</MSG>
+<MSG id="1512">$1' Clan hat '$2' Clan $3 Mal in Folge mit Leichtigkeit besiegt.</MSG>
+<MSG id="1513">$1' Clan hat '$2' Clan $3 Mal in Folge erfolgreich geschlagen.</MSG>
+<MSG id="1514">$1' Clan hat '$2' Clan $3 Mal in Folge besiegt.</MSG>
+<MSG id="1515">$1' Clan hat '$2' Clan besiegt und damit dessen Siegesserie unterbrochen.</MSG>
+
+<!-- Dual -->
+<MSG id="1520">$1' hat $4 Duel Matches in Folge im $3 Raum des '$2' Channels gewonnen.</MSG>
+<MSG id="1521">$2' hat die Siegesserie von '$1' nach $3 Duel Matches beendet.</MSG>
+
+<!-- Loading Message -->
+<MSG id="1600">Dash'</MSG>
+<MSG id="1601">Mit "Dash" kannst Du Dich schneller bewegen.</MSG>
+<MSG id="1602">Du kannst "Dash" in der Luft benutzen. (Nahkampfwaffe erforderlich).</MSG>
+<MSG id="1603">'Perfekte Verteidigung'</MSG>
+<MSG id="1604">Während der Verteidigung kannst Du Kugeln und Nahkampfattacken voll abwehren.</MSG>
+<MSG id="1605">Lower-Attacken können nicht abgewehrt werden.</MSG>
+<MSG id="1606">'Spezialattacke'</MSG>
+<MSG id="1607">Mit einem Langschwert ausgerüstet, wirft sie Dein Ziel hoch in die Luft.</MSG>
+<MSG id="1608">Mit einem Dolch ausgerüstet, stößt sie Dein Ziel und hält es mit seiner Stoßkraft auf.</MSG>
+<MSG id="1609">Break Fall'</MSG>
+<MSG id="1610">Ein erfolgreiches Break-Fall-Manöver reduziert die zusätzliche Beschädigung, </MSG>
+<MSG id="1611">die Du erleiden könntest, wenn Du Dich am Boden nicht bewegen kannst.</MSG>
+<MSG id="1612">Tumbling'</MSG>
+<MSG id="1613">Mit Tumbling kannst Du eine Attacke vermeiden.</MSG>
+<MSG id="1614">Beim Tumbling kannst Du auch eine Waffe abfeuern.</MSG>
+<MSG id="1615"> Wall Hang'</MSG>
+<MSG id="1616">Klicke die rechte Maustaste, während Du neben einer Wand springst.</MSG>
+<MSG id="1617">Diese Aktion kann nur mit einer Nahkampfwaffe durchgeführt werden.</MSG>
+<MSG id="1618">Wall Jump'</MSG>
+<MSG id="1619">Drücke die Jump-Taste, wenn Du nahe einer Wand bist,</MSG>
+<MSG id="1620">um den Wandsprung durchzuführen. </MSG>
+<MSG id="1621">Wall Running'</MSG>
+<MSG id="1622">Drücke und halte die Jump-Taste, wenn Deine Spielfigur schräg zur Wand steht während Du </MSG>
+<MSG id="1623">Dich vorwärts bewegst. Damit kannst Du automatisch auf der Wand laufen.</MSG>
+<MSG id="1624">An der Wand entlangklettern</MSG>
+<MSG id="1625">Du kannst eine Wand entlangklettern.</MSG>
+<MSG id="1626">Das funktioniert nur, wenn Du Dich sehr nahe an einer Wand befindest.</MSG>
+
+<!-- Character Infomation -->
+<MSG id="1700">[Information zu den Spielfiguren]=============</MSG>
+<MSG id="1701">Name</MSG>
+<MSG id="1702">Clan</MSG>
+<MSG id="1703">Level</MSG>
+<MSG id="1704">Siege in Prozent</MSG>
+<MSG id="1705">Gewonnen</MSG>
+<MSG id="1706">Verloren</MSG>
+<MSG id="1707">Verbindungsdauer</MSG>
+<MSG id="1708">Tag(e)</MSG>
+<MSG id="1709">Stunde(n)</MSG>
+<MSG id="1710">Min.</MSG>
+<MSG id="1711">Sek.</MSG>
+<MSG id="1712">EXP</MSG>
+<MSG id="1713">Bounty</MSG>
+<MSG id="1714">HP</MSG>
+<MSG id="1715">AP</MSG>
+<MSG id="1716">WT</MSG>
+<MSG id="1717">Lv.</MSG>
+<MSG id="1718">Ranking</MSG>
+<MSG id="1719">Kill</MSG>
+<MSG id="1720">Tod</MSG>
+<MSG id="1721">Gewonnen</MSG>
+<MSG id="1722">Betrag</MSG>
+
+<!-- Game Playing Message -->
+<MSG id="2000">$1 ist dem Spiel beigetreten.</MSG>
+<MSG id="2001">$1 hat das Spiel verlassen.</MSG>
+<MSG id="2002">$1 hat ein höheres Level erreicht.</MSG>
+<MSG id="2003">$1 ist auf ein niedrigeres Level gesunken.</MSG>
+<MSG id="2004">Clan War $1 ($2 gegen $3)</MSG>
+<MSG id="2005">In Vergessenheit geraten. </MSG>
+<MSG id="2006">Du hast Selbstmord begangen. </MSG>
+<MSG id="2007">Du hast Selbstmord begangen. </MSG>
+<MSG id="2008">$1 hat Selbstmord begangen.</MSG>
+<MSG id="2009">Du hast $1 besiegt.</MSG>
+<MSG id="2010">$1 hat Dich besiegt.</MSG>
+<MSG id="2011">$1 hat $2 besiegt.</MSG>
+<MSG id="2012">Drücke die Feuertaste, um zu spielen!</MSG>
+<MSG id="2013">Warte noch $1 Sekunde(n)!</MSG>
+<MSG id="2014">Du wirst das Spiel in $1 Sekunde(n) verlassen</MSG>
+
+<!-- Game Etc. -->
+<MSG id="2015">Flüsternd ($1) : $2</MSG>
+<MSG id="2016">Der Gegenstand wurde entfernt.</MSG>
+<MSG id="2017">Dieser Gegenstand kann nicht entfernt werden.</MSG>
+<MSG id="2018">Du hast den Gegenstand gekauft.</MSG>
+<MSG id="2019">Du kannst diesen Gegenstand nicht kaufen.</MSG>
+<MSG id="2020">Dein Gegenstand wurde verkauft.</MSG>
+<MSG id="2021">Keine Spielfigur vorhanden. Erstelle erst eine Spielfigur.</MSG>
+<MSG id="2022">Du kannst diesen Gegenstand nicht verkaufen.</MSG>
+<MSG id="2023">Du wirst in $1 Sekunde(n) in die nächste Runde vorrücken.</MSG>
+<MSG id="2024">Quest Team erhielt  ein(e/en) $1.</MSG>
+<MSG id="2025">$2 $1 erhalten.</MSG>
+<MSG id="2026">Das Portal wurde geöffnet.</MSG>
+<MSG id="2027">Auto Team Balance</MSG>
+<MSG id="2028">Falsche Kombination von Gegenständen.</MSG>
+
+<!-- Game DuelTournament -->
+<MSG id="2029">Erste Match Runde $1</MSG>
+<MSG id="2030">Halbfinale Match Runde $1</MSG>
+<MSG id="2031">Finale Match</MSG>
+<MSG id="2032">Klasse $1</MSG>
+<MSG id="2033">Du musst noch einige Runden spielen. Wenn du jetzt das Spiel beendest verlierst du Turnierpunkte. Willst du immer noch das Spiel verlassen?</MSG>
+<MSG id="2034">$1 hat durch effektive Schaden Zufügung entscheidend gewonnen.</MSG>
+
+<!-- Relay Map -->
+<MSG id="2040">Geordnet</MSG>
+<MSG id="2041">Zufällig</MSG>
+<MSG id="2042">1 Mal</MSG>
+<MSG id="2043">2 Mal</MSG>
+<MSG id="2044">3 Mal</MSG>
+<MSG id="2045">4 Mal</MSG>
+<MSG id="2046">5 Mal</MSG>
+<MSG id="2047">Klicke bitte auf „OK“.</MSG>
+<MSG id="2048">Du musst mindestens eine Karte auswählen.</MSG>
+<MSG id="2049">Du kannst bis zu 20 Karten auswählen.</MSG>
+
+<!-- 플레이 보너스 보상 -->
+<MSG id="2060">[$1] $2 erhalten $3!</MSG>
+<MSG id="2061">Verbleibende Bonuschancen: $1</MSG>
+<MSG id="2062">[$1] Es ist keine Bonuschance mehr übrig.</MSG>
+<MSG id="2063">Bonuschance wurde wieder aufgeladen: $1</MSG>
+
+<!-- Administrator -->
+<MSG id="3000">Administrator: $1</MSG>
+
+<!-- Shop Equipment UI -->
+<MSG id="4100">Bist Du Dir sicher, dass Du den gewählten Gegenstand kaufen willst?</MSG>	<!-- 원래 STR:UI_SHOP_04 -->
+<MSG id="4101">Bist Du Dir sicher, dass Du den gewählten Gegenstand verkaufen willst?</MSG>	<!-- 원래 STR:UI_SHOP_08 -->
+<MSG id="4102">Gegenstand verkaufen</MSG>													<!-- 원래 UI_SHOP_14 -->
+<MSG id="4103">Gib bitte die Menge der zu verkaufenden Gegenstände an.</MSG>				<!-- 원래 UI_SHOP_15 -->
+<MSG id="4104">Anzahl</MSG>																	<!-- 원래 UI_SHOP_16 -->
+<MSG id="4105">Verkaufen (&amp;S)</MSG>														<!-- 원래 UI_SHOP_07 -->
+<MSG id="4106">Gegenstand kaufen</MSG>														<!-- 원래 UI_SHOP_20 -->
+<MSG id="4107">Trage die gewünschte Anzahl ein, die gekauft werden soll.</MSG>				<!-- 원래 UI_SHOP_21 -->
+<MSG id="4108">Anzahl</MSG>																	<!-- 원래 UI_SHOP_22 -->
+<MSG id="4109">Kaufen (&amp;B)</MSG>														<!-- 원래 UI_SHOP_03 -->
+<MSG id="4110">Gegenstand/Gegenstände ins Lager senden</MSG>								<!-- 원래 UI_EQUIPMENT_11 -->
+<MSG id="4111">Gib die gewünschte Anzahl (an Gegenständen) an, die gesendet werden sollen.</MSG><!-- 원래 UI_EQUIPMENT_12 -->
+<MSG id="4112">Anzahl an Gegenständen, die gesendet werden sollen</MSG>						<!-- 원래 UI_EQUIPMENT_13 -->
+<MSG id="4113">Senden (&amp;s)</MSG>														<!-- 원래 UI_EQUIPMENT_14 -->
+<MSG id="4114">Gegenstand aus dem Lager holen</MSG>											<!-- 원래 UI_EQUIPMENT_16 -->
+<MSG id="4115">Gib die gewünschte Anzahl für die Ausrüstung an.</MSG>						<!-- 원래 UI_EQUIPMENT_17 -->
+<MSG id="4116">Anzahl für die Ausrüstung</MSG>												<!-- 원래 UI_EQUIPMENT_18 -->
+<MSG id="4117">Ausrüsten </MSG>																<!-- 원래 UI_EQUIPMENT_19 -->
+<MSG id="4118">Bist Du Dir sicher, dass Du diesen Gegenstand in Deinen Rucksack stecken willst?</MSG><!-- 원래 UI_EQUIPMENT_05 -->
+<MSG id="4190">Der Gegenstand wird mit jedem Einsatz aufgebraucht.</MSG>
+<MSG id="4191">Möchtest Du diesen kostenpflichtigen Gegenstand wirklich für Spendenzwecke verkaufen?</MSG>
+
+<!-- Menu -->
+<MSG id="8000">Keine</MSG>
+<MSG id="8001">Eine(n) Freund(in) hinzufügen</MSG>
+<MSG id="8002">Eine(n) Freund(in) löschen</MSG>
+<MSG id="8003">Standort überprüfen</MSG>
+<MSG id="8004">Einholen</MSG>
+<MSG id="8005">Flüstern</MSG>
+<MSG id="8006">Rauswerfen</MSG>
+<MSG id="8007">Rekrutieren</MSG>
+<MSG id="8008">Einen neuen Clan-Chef bestimmen</MSG>
+<MSG id="8009">In den Rang eines Clan-Administrators versetzen.</MSG>
+<MSG id="8010">In den Rang eines Clan-Mitglieds versetzen.</MSG>
+<MSG id="8011">Aus dem Clan hinauswerfen</MSG>
+<MSG id="8012">Den Clan verlassen</MSG>
+<MSG id="8013">Zum Lager wechseln</MSG>
+<MSG id="8014">OK</MSG>
+<MSG id="8015">Abbrechen</MSG>
+<MSG id="8016">Ja</MSG>
+<MSG id="8017">Nein</MSG>
+<MSG id="8018">Mitteilung</MSG>
+
+<!-- Character Wording -->
+<MSG id="9000"></MSG>
+<MSG id="9001">Clan-Chef</MSG>
+<MSG id="9002">Clan-Administrator</MSG>
+<MSG id="9003">Clan-Mitglied</MSG>
+<MSG id="9004">Administrator</MSG>
+<MSG id="9005">Entwickler</MSG>
+<MSG id="9006">Befehle</MSG>
+<MSG id="9007">Hilfe</MSG>
+<MSG id="9008">Benutzung</MSG>
+<MSG id="9100">Männlich</MSG>
+<MSG id="9101">Weiblich </MSG>
+<MSG id="9102">Männlich</MSG>
+<MSG id="9103">Weiblich </MSG>
+<MSG id="9200">Lobby</MSG>
+<MSG id="9201">Spiel</MSG>
+<MSG id="9202">Shop</MSG>
+<MSG id="9203">Ausrüstung</MSG>
+<MSG id="9204">Geld</MSG>
+
+<!-- Game Wording -->
+<MSG id="9302">Für Herren</MSG>
+<MSG id="9349">Für Damen</MSG>
+<MSG id="9303">Erforderliches Level</MSG>
+<MSG id="9304">Gewicht</MSG>
+<MSG id="9305">Attribut: Feuer</MSG>
+<MSG id="9306">Attribut: Eis</MSG>
+<MSG id="9307">Attribut: Gift</MSG>
+<MSG id="9308">Attribut: Blitz</MSG>
+<MSG id="9309">Dauer</MSG>
+<MSG id="9310">Magazin</MSG>
+<MSG id="9311">Beschädigung</MSG>
+<MSG id="9312">Verzögerung</MSG>
+<MSG id="9313">Max. Gew.</MSG>
+<MSG id="9314">Geschwindigkeit</MSG>
+<MSG id="9315">Jump [X]</MSG>
+<MSG id="9316">Dash [X]</MSG>
+<MSG id="9317">Wand entlangklettern [X]</MSG>
+<MSG id="9318">Beschädigung</MSG>
+<MSG id="9319">Quest</MSG>
+<MSG id="9320">Gegenstand</MSG>
+<MSG id="9321">Opfer</MSG>
+<MSG id="9322">Spieler</MSG>
+<MSG id="9323">Blau</MSG>
+<MSG id="9324">Rot</MSG>
+<MSG id="9325">Menge</MSG>
+<MSG id="9326">Das gegnerische Team suchen</MSG>
+<MSG id="9327">Anzahl der Gegenstände</MSG>
+<MSG id="9328">Anzahl der NPC</MSG>
+<MSG id="9329">Verlauf</MSG>
+<MSG id="9330">Verbleibende Zeit</MSG>
+<MSG id="9331">V</MSG>
+<MSG id="9332">Bewertung</MSG>
+<MSG id="9333">Rang</MSG>
+<MSG id="9334">Normal</MSG>
+<MSG id="9335">Legendär</MSG>
+<MSG id="9336">Boss</MSG>
+<MSG id="9337">Elite</MSG>
+<MSG id="9338">Veteran</MSG>
+<MSG id="9339">Sehr stark</MSG>
+<MSG id="9340">Stark</MSG>
+<MSG id="9341">Durchschnittlich</MSG>
+<MSG id="9342">Schwach</MSG>
+<MSG id="9343">Sehr schwach</MSG>
+<MSG id="9344">Unendlich</MSG>
+<MSG id="9345">Keine</MSG>
+<MSG id="9346">Level-Unterschied</MSG>
+<MSG id="9347">Erlaubt</MSG>
+<MSG id="9348">Verboten</MSG>
+
+<!-- Game Wording Addition -->
+<MSG id="9363">Getötete Ziele</MSG>
+<MSG id="9364">Runde</MSG>
+<MSG id="9365">Typ</MSG>
+<MSG id="9366">Exp</MSG>
+<MSG id="9367">Kill</MSG>
+<MSG id="9368">Tod</MSG>
+<MSG id="9369">Ping</MSG>
+<MSG id="9370">&lt; Kopf&gt;</MSG>
+<MSG id="9371">&lt; Brust&gt;</MSG>
+<MSG id="9372">&lt; Hände&gt;</MSG>
+<MSG id="9373">&lt; Beine&gt;</MSG>
+<MSG id="9374">&lt; Füße&gt;</MSG>
+<MSG id="9375">&lt; Linker Finger&gt;</MSG>
+<MSG id="9376">&lt; Rechter Finger&gt;</MSG>
+<MSG id="9377">&lt; Nahkampf&gt;</MSG>
+<MSG id="9378">&lt; Hauptbewaffnung&gt;</MSG>
+<MSG id="9379">&lt; Nebenbewaffnung&gt;</MSG>
+<MSG id="9380">&lt; Gegenstand 1&gt;</MSG>
+<MSG id="9381">&lt; Gegenstand 2&gt;</MSG>
+<MSG id="9382">&lt; Community Item 1 &gt;</MSG>
+<MSG id="9383">&lt; Community Item 2 &gt;</MSG>
+<MSG id="9384">&lt; LongBuff Item 1 &gt;</MSG>
+<MSG id="9385">&lt; LongBuff Item 2 &gt;</MSG>
+<MSG id="9386">&lt; Avatar &gt;</MSG>
+
+<!-- Etc. -->
+<MSG id="9400">verbleibend.</MSG>
+<MSG id="9401">Du bist Spiel '$1' beigetreten.</MSG>
+<MSG id="9402">$1 ($2 / $3 $4)' sind dem Spiel beigetreten.</MSG>
+<MSG id="9500">AN</MSG>
+<MSG id="9501">AUS</MSG>
+<MSG id="9601">Ein Hackversuch wurde entdeckt.</MSG>
+<MSG id="9701">Du hast den Gegenstand '$1' erhalten</MSG>
+<MSG id="9801">Die gewählte Sprache wird nach einem Neustart des Spiels übernommen. Möchtest Du jetzt neu starten?</MSG>
+
+<!-- Match Type -->
+<MSG id="9900">Deathmatch</MSG>
+<MSG id="9901">Team Deathmatch</MSG>
+<MSG id="9902">Gladiator</MSG>
+<MSG id="9903">Team Gladiator</MSG>
+<MSG id="9904">Assassination</MSG>
+<MSG id="9905">Training</MSG>
+<MSG id="9906">Classic</MSG>
+<MSG id="9907">Team Classic</MSG>
+<MSG id="9908">Survival</MSG>
+<MSG id="9909">Quest</MSG>
+<MSG id="9910">Deathmatch +Berserker</MSG>
+<MSG id="9911">Team Deathmatch +Extream</MSG>
+<MSG id="9912">The Duel match</MSG>
+<MSG id="9913">Duel Tournament</MSG>
+
+<!-- Warning -->
+<MSG id="20000">Ein Hackversuch wurde entdeckt. Laut der Vereinbarung, der alle Mitglieder zugestimmt haben, überwacht das GunZ-Team User, die hacken und sammelt Informationen über sie. Vergiss nicht, dass jegliche Verantwortung bei illegalen zivil- und strafrechtlich relevanten Tätigkeiten auf den Schultern des Users liegt, der eine solche ungesetzliche Tat begeht.</MSG>
+<MSG id="20001">Die folgenden Gegenstände sind verfallen:</MSG>
+<MSG id="20002">Indem Du einen Gegenstand ziehst oder ein Icon doppelklickst, kannst Du einen Gegenstand anlegen oder entfernen. Du kannst keine(n) Bounty-Ausrüstung (-Gegenstand) ins Lager schicken.</MSG>
+<MSG id="20003">WARNUNG: GunZ unterstützt nicht $1. Möglicherweise kannst Du bestimmte Schriftsätze nicht sehen oder mit dem Spiel nicht fortfahren. Möchtest Du trotzdem weitermachen?</MSG>
+<MSG id="20004">Für eine korrekte Ausführung benötigt GunZ DirectX 9.0c. Möchtest Du  DirectX 9.0 jetzt installieren?</MSG>
+<MSG id="20005">**Das ist noch nicht entschieden**</MSG>
+<MSG id="20006">Drücke bitte 'JA', wenn Du diese Spielfigur löschen möchtest.</MSG>
+<MSG id='20007'>Your chat has been blocked by the administrator.</MSG>
+
+<!-- System Wording -->
+<MSG id="100100">Suche nach einem gegnerischen Team $1</MSG>
+<MSG id="100200">Die Abstimmung über '$1' hat begonnen.</MSG>
+<MSG id="100300">Du darfst das Wort '$1' nicht benutzen.</MSG>
+
+<MSG id="200000">Debug Server</MSG>
+<MSG id="200001">Match Server</MSG>
+<MSG id="200002">Clan Server</MSG>
+<MSG id="200003">Quest Server</MSG>
+<MSG id="200004">Event Server</MSG>
+<MSG id="200005">Normal Server</MSG>
+</XML>
+

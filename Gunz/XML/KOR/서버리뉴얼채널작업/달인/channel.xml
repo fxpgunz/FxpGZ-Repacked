@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XML id="channel">
+	<DEFAULTCHANNELNAME name="STR:CHANNEL_DEFAULT_NAME"/>
+	<DEFAULTRULENAME name="set1"/>
+
+	<CHANNEL name="STR:CHANNEL_CHAMPION_NAME_1" maxplayers="200" rule="champion" levelmin='50' />
+	<CHANNEL name="STR:CHANNEL_CHAMPION_NAME_2" maxplayers="200" rule="champion" levelmin='50' />
+	<CHANNEL name="STR:CHANNEL_CHAMPION_NAME_3" maxplayers="200" rule="champion" levelmin='50' />
+	<CHANNEL name="STR:CHANNEL_CHAMPION_NAME_4" maxplayers="200" rule="champion" levelmin='50' />
+	<CHANNEL name="STR:CHANNEL_CHAMPION_NAME_5" maxplayers="200" rule="champion" levelmin='50' />
+	<CHANNEL name="STR:CHANNEL_CHAMPION_NAME_6" maxplayers="200" rule="champion" levelmin='50' />
+	<CHANNEL name="STR:CHANNEL_CHAMPION_NAME_7" maxplayers="200" rule="champion" levelmin='50' />
+	<CHANNEL name="STR:CHANNEL_CHAMPION_NAME_8" maxplayers="200" rule="champion" levelmin='50' />
+
+</XML>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="windows-1252" ?>
+<XML>
+
+<!-- Category
+	default = 0 
+	0 - &#xC77C;&#xBC18;
+	1 - &#xAC1C;&#xC778;&#xC804;
+	2 - &#xD300;&#xC804;
+	3 - &#xD074;&#xB79C;&#xC804;
+	4 - &#xC655;&#xCD08;&#xBCF4;
+	5 - &#xCD08;&#xBCF4;
+	6 - &#xC911;&#xC218;
+	7 - &#xACe0;&#xC218;
+
+	MSG&#xD0DC;&#xADF8;&#xC758; id&#xB294; &#xD2B9;&#xC815;&#xD55C; &#xC870;&#xAC74;&#xC5D0;&#xB9CC; &#xBC1C;&#xB3D9;&#xB420; &#xACBD;&#xC6B0;&#xB97C; &#xC704;&#xD574;&#xC11C; &#xB9CC;&#xB4e4;&#xC5B4;&#xB193;&#xC74C;.
+-->
+
+<!-- &#xC77C;&#xBC18; -->
+<TIPS category="0">
+	<!-- STATIC TIPS -->
+	<MSG>Si tienes alguna pregunta sobre GunZ, puedes usar la función Ayuda al usuario, que se encuentra en la página principal de GunZ</MSG>
+	<MSG>Puedes ver una reproducción haciendo doble clic en los archivos de reproducción, situados en .../My Documents/Gunz/Replay</MSG>
+	<MSG>Pulsa la tecla F11 para empezar a grabar un archivo de reproducción. Vuelve a pulsar F11 para interrumpir la grabación</MSG>
+	<MSG>Puedes ver un archivo de repetición seleccionando "Repetir" en el vestíbulo principal</MSG>
+	<MSG>Las capturas de pantalla se guardan en .../My Documents/Gunz/Screenshots</MSG>
+	<MSG>¡Únete a un clan ahora para poder vivir una Clan War!</MSG>
+	<MSG>Pulsa la tecla F12 para hacer una captura de pantalla.</MSG>
+	<MSG>Háblales a tus amigos de GunZ. Juntos, podréis formar un Clan.</MSG>
+	<MSG>Todos los artículos premium se pueden compartir a través del "Depósito" con cualquier personaje de la misma cuenta</MSG>
+	<MSG>¿Utilizas un router? Intenta hacer una redirección de puertos para experimentar un juego en red optimizado.</MSG>
+	<MSG>Puedes regalarle un artículo a tu amigo usando la función regalo que hay en la página web.</MSG>
+	<MSG>¿Va lento GunZ en tu computadora? Usa la función de optimización que hay en el menú Opciones.</MSG>
+	<MSG>Puedes usar la función "Jugar ahora" para incorporarte rápidamente a una partida.</MSG>
+	<MSG>Nunca le des tu contraseña a nadie. El administrador nunca te pedirá tu contraseña.</MSG>
+	<MSG>Los artículos premium comprados en la tienda de artículos aparecerán en tu "Depósito".</MSG>
+	<MSG>Los artículos de bounty no se pueden compartir con otros personajes a través de tu "Depósito".</MSG>
+	<MSG>Usa el modo entrenamiento para practicar tus habilidades sin perder puntos de experience.</MSG>
+	<MSG>Usa el comando de chat '/r' para responder rápidamente a un susurro.</MSG>
+	<MSG>Si tienes un personaje de level 21, no puedes entrar en los canales Iniciación o Principiantes con ningún otro personaje.</MSG>
+
+
+	<!-- GM Message -->
+	<MSG>Cualquier identidad que ofenda a otros sufrirá restricciones.</MSG>
+	<MSG>Cualquiera que ofenda a otros dentro de un juego estará sujeto a un castigo impuesto por el equipo administrador.</MSG>
+
+	<!-- &#xC0C8;&#xB85C; &#xCD94;&#xAC00; -->
+	<MSG>¡Si te defiendes con éxito contra un ataque cuerpo a cuerpo, tendrás la posibilidad de realizar un Ataque a gran escala enseguida!</MSG>
+	<MSG>Pulsa la tecla Ctrl+cualquier número cuando te encuentres en modo observador para asignarle un número a un jugador.</MSG>
+
+	<!-- &#xD074;&#xB79C;&#xC804; &#xC804;&#xC6A9; -->
+	<MSG>¿Has jugado a la emocionante Clan War? ¡Pruébalo ya!</MSG>
+	<MSG>En una Clan War recibirás un 50% más de Exp. No se pierde Exp. como resultado de la diferencia de nivel.</MSG>
+</TIPS>    
+
+<!-- &#xC655;&#xCD08;&#xBCF4; -->
+<TIPS category="4">
+	<MSG id="1">Para obtener una latencia estable, selecciona un servidor que refleje con precisión tu situación geográfica</MSG>
+</TIPS>
+
+<!-- 듀얼토너먼트 -->
+<TIPS category="8">
+	<MSG id="1"></MSG>
+</TIPS>
+</XML>
+

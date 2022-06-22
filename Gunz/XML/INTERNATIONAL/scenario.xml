@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XML id="scenario">
+
+<!--
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+ 정규 시나리오 : Mansion
+         
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+-->
+<STANDARD_SCENARIO
+	QL="0"
+	title="Quest Mansion QL0"
+	DC="1"
+	mapset="Mansion"
+	XP="200"
+	BP="25">
+
+	<!--  Hall1 맵 부터 시작 -->
+	<MAP dice="1" key_sector="101">
+		<NPCSET_ARRAY>G01/G02/G03</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="2" key_sector="102">
+		<NPCSET_ARRAY>G01/G02/G03</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="3" key_sector="103">
+		<NPCSET_ARRAY>G01/G02/G03</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="4" key_sector="105">
+		<NPCSET_ARRAY>G01/G02/G03</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="5" key_sector="107">
+		<NPCSET_ARRAY>G01/G02/G03</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="6" key_sector="109">
+		<NPCSET_ARRAY>G01/G02/G03</NPCSET_ARRAY>
+	</MAP>
+</STANDARD_SCENARIO>
+
+<STANDARD_SCENARIO
+	QL="1"
+	title="Quest Mansion QL1"
+	DC="1"
+	mapset="Mansion"
+	XP="500"
+	BP="50">
+
+	<!--  Hall1 맵 부터 시작 -->
+	<MAP dice="1" key_sector="101">
+		<NPCSET_ARRAY>G11/G12/G13/G14</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="2" key_sector="102">
+		<NPCSET_ARRAY>G11/G12/G13/G14</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="3" key_sector="103">
+		<NPCSET_ARRAY>G11/G12/G13/G14</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="4" key_sector="105">
+		<NPCSET_ARRAY>G11/G12/G13/G14</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="5" key_sector="107">
+		<NPCSET_ARRAY>G11/G12/G13/G14</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="6" key_sector="109">
+		<NPCSET_ARRAY>G11/G12/G13/G14</NPCSET_ARRAY>
+	</MAP>
+</STANDARD_SCENARIO>
+
+<STANDARD_SCENARIO
+	QL="2"
+	title="Quest Mansion QL2"
+	DC="1"
+	mapset="Mansion"
+	XP="1600"
+	BP="120">
+
+	<!--  Hall1 맵 부터 시작 -->
+	<MAP dice="1" key_sector="101">
+		<NPCSET_ARRAY>G21/G22/G23/G24/G25</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="2" key_sector="102">
+		<NPCSET_ARRAY>G21/G22/G23/G24/G25</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="3" key_sector="103">
+		<NPCSET_ARRAY>G21/G22/G23/G24/G25</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="4" key_sector="105">
+		<NPCSET_ARRAY>G21/G22/G23/G24/G25</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="5" key_sector="107">
+		<NPCSET_ARRAY>G21/G22/G23/G24/G25</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="6" key_sector="109">
+		<NPCSET_ARRAY>G21/G22/G23/G24/G25</NPCSET_ARRAY>
+	</MAP>
+</STANDARD_SCENARIO>
+
+<STANDARD_SCENARIO
+	QL="3"
+	title="Quest Mansion QL3"
+	DC="1"
+	mapset="Mansion"
+	XP="3200"
+	BP="250">
+	
+	<!--  Hall1 맵 부터 시작 -->
+	<MAP dice="1" key_sector="101">
+		<NPCSET_ARRAY>G31/G32/G33/G34/G35</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="2" key_sector="102">
+		<NPCSET_ARRAY>G31/G32/G33/G34/G35</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="3" key_sector="103">
+		<NPCSET_ARRAY>G31/G32/G33/G34/G35</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="4" key_sector="105">
+		<NPCSET_ARRAY>G31/G32/G33/G34/G35</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="5" key_sector="107">
+		<NPCSET_ARRAY>G31/G32/G33/G34/G35</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="6" key_sector="109">
+		<NPCSET_ARRAY>G31/G32/G33/G34/G35</NPCSET_ARRAY>
+	</MAP>
+</STANDARD_SCENARIO>
+
+<STANDARD_SCENARIO
+	QL="4"
+	title="Quest Mansion QL4"
+	DC="1"
+	mapset="Mansion"
+	XP="6400"
+	BP="500">
+	
+	<!--  Hall1 맵 부터 시작 -->
+	<MAP dice="1" key_sector="101">
+		<NPCSET_ARRAY>G41/G42/G43/G44/G45</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="2" key_sector="102">
+		<NPCSET_ARRAY>G41/G42/G43/G44/G45</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="3" key_sector="103">
+		<NPCSET_ARRAY>G41/G42/G43/G44/G45</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="4" key_sector="105">
+		<NPCSET_ARRAY>G41/G42/G43/G44/G45</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="5" key_sector="107">
+		<NPCSET_ARRAY>G41/G42/G43/G44/G45</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="6" key_sector="109">
+		<NPCSET_ARRAY>G41/G42/G43/G44/G45</NPCSET_ARRAY>
+	</MAP>
+</STANDARD_SCENARIO>
+
+<STANDARD_SCENARIO
+	QL="5"
+	title="Quest Mansion QL5"
+	DC="1"
+	mapset="Mansion"
+	XP="12800"
+	BP="1200">
+	
+	<!--  Hall1 맵 부터 시작 -->
+	<MAP dice="1" key_sector="101">
+		<NPCSET_ARRAY>G51/G52/G53/G54/G55</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="2" key_sector="102">
+		<NPCSET_ARRAY>G51/G52/G53/G54/G55</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="3" key_sector="103">
+		<NPCSET_ARRAY>G51/G52/G53/G54/G55</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="4" key_sector="105">
+		<NPCSET_ARRAY>G51/G52/G53/G54/G55</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="5" key_sector="107">
+		<NPCSET_ARRAY>G51/G52/G53/G54/G55</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="6" key_sector="109">
+		<NPCSET_ARRAY>G51/G52/G53/G54/G55</NPCSET_ARRAY>
+	</MAP>
+</STANDARD_SCENARIO>
+
+</XML>

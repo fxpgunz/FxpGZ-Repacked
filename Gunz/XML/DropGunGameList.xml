@@ -1,0 +1,1554 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XML>
+	<DROPGUNGAME id="0"> 
+	<!-- MAP MANSION -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="-5423.1645508" y="-1336.1931152" z="704.1063843"/>
+		<WORLDITEM itemid="51" x="4799.7851563" y="-790.5439453" z="601.9998169"/>
+		<WORLDITEM itemid="51" x="0.0000000" y="1284.8856201" z="279.5906677"/>
+		<WORLDITEM itemid="51" x="4799.7851563" y="-790.5439453" z="601.9998169"/>
+		<WORLDITEM itemid="51" x="0.0000000" y="-1798.4650879" z="-714.6474609"/>
+		<WORLDITEM itemid="51" x="-0.0000091" y="-2298.1274414" z="741.9470215"/>
+		<WORLDITEM itemid="51" x="-5423.1645508" y="-1336.1931152" z="704.1063843"/>
+		<WORLDITEM itemid="51" x="2881.0000000" y="-3011.4650879" z="165.6474609"/>
+		<WORLDITEM itemid="51" x="-2930.0000091" y="-2983.1274414" z="165.0470215"/>
+		<WORLDITEM itemid="51" x="-6.7145508" y="-823.5931152" z="794.0063843"/>
+	
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="32"> 
+	<!-- MAP PRISON -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="123.9" y="-6599.2" z="-733.4"/>
+		<WORLDITEM itemid="51" x="3759.1" y="4195.0" z="-261.8"/>
+		<WORLDITEM itemid="51" x="3135.3920898" y="-1719.1718750" z="-663.4040527"/>
+		<WORLDITEM itemid="51" x="3018.2729492" y="-2577.8046875" z="-101.5480347"/>
+		<WORLDITEM itemid="51" x="0.0000000" y="0.0000185" z="165.4286194"/>
+		<WORLDITEM itemid="51" x="3451.6127930" y="4002.9538574" z="-256.9829102"/>
+		<WORLDITEM itemid="51" x="2889.8708496" y="-3429.0600586" z="-663.4041748"/>
+		<WORLDITEM itemid="51" x="3135.3920898" y="-1719.1718750" z="-663.4040527"/>
+		<WORLDITEM itemid="51" x="0.0000000" y="-0.0000319" z="165.4286051"/>
+
+	
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="31"> 
+	<!-- MAP Ruin -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="123.9" y="-6599.2" z="-733.4"/>
+		<WORLDITEM itemid="51" x="3759.1" y="4195.0" z="-261.8"/>
+		<WORLDITEM itemid="51" x="3135.3920898" y="-1719.1718750" z="-663.4040527"/>
+		<WORLDITEM itemid="51" x="3018.2729492" y="-2577.8046875" z="-101.5480347"/>
+		<WORLDITEM itemid="51" x="0.0000000" y="0.0000185" z="165.4286194"/>
+		<WORLDITEM itemid="51" x="3451.6127930" y="4002.9538574" z="-256.9829102"/>
+		<WORLDITEM itemid="51" x="2889.8708496" y="-3429.0600586" z="-663.4041748"/>
+		<WORLDITEM itemid="51" x="3135.3920898" y="-1719.1718750" z="-663.4040527"/>
+		<WORLDITEM itemid="51" x="0.0000000" y="-0.0000319" z="165.4286051"/>
+
+	
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="34"> 
+	<!-- MAP STATION -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="-7648.9" y="1371.2" z="165.0"/>
+		<WORLDITEM itemid="51" x="7555.6" y="-1286.3" z="165.0"/>
+		<WORLDITEM itemid="51" x="-0.3217850" y="1422.3381348" z="680.9749146"/>
+		<WORLDITEM itemid="51" x="-5522.2685547" y="0.0000000" z="518.6928711"/>		
+		<WORLDITEM itemid="51" x="5017.8784180" y="-0.0000222" z="508.4477844"/>
+		<WORLDITEM itemid="51" x="-0.3217850" y="-1413.4533691" z="680.9745483"/>
+		<WORLDITEM itemid="51" x="-0.3217850" y="-1413.4533691" z="680.9747925"/>	
+		<WORLDITEM itemid="51" x="-0.3217850" y="1422.3381348" z="680.9749146"/>
+
+	
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="33"> 
+	<!-- MAP PRISON II -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="-264.0" y="-6518.8" z="-751.4"/>
+		<WORLDITEM itemid="51" x="2990.0" y="2849.7" z="-253.7"/>
+		<WORLDITEM itemid="51" x="1867.5767822" y="-6487.0117188" z="-649.8615723"/>
+		<WORLDITEM itemid="51" x="2993.0312500" y="4084.5275879" z="-246.7167664"/>
+		<WORLDITEM itemid="51" x="0.0000000" y="-0.0000015" z="3.2833252"/>
+		<WORLDITEM itemid="51" x="102.1681519" y="-6487.0117188" z="-649.8615723"/>
+		<WORLDITEM itemid="51" x="-1130.6702881" y="-4191.2607422" z="3.2832642"/>
+		<WORLDITEM itemid="51" x="-1376.5926514" y="4180.6269531" z="3.2832642"/>
+
+	
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="4"> 
+	<!-- MAP Battle Arena -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="5146.3" y="-37.2" z="-1039.7"/>
+		<WORLDITEM itemid="51" x="-5116.3" y="-1.4" z="-1039.7"/>
+		<WORLDITEM itemid="51" x="-1056.1359863" y="1328.4733887" z="-1031.9265137"/>
+		<WORLDITEM itemid="51" x="-2750.8081055" y="-2379.3818359" z="-1031.9265137"/>
+		<WORLDITEM itemid="51" x="-0.0000008" y="0.0000000" z="399.9749756"/>
+		<WORLDITEM itemid="51" x="2737.6391602" y="-2379.3818359" z="-1031.9265137"/>
+		<WORLDITEM itemid="51" x="0.0000000" y="0.0000000" z="399.9749756"/>
+
+	
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="36"> 
+	<!-- MAP Town -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="-4045.3" y="-5284.7" z="-729.7"/>
+		<WORLDITEM itemid="51" x="4850.8" y="3640.8" z="-729.7"/>
+		<WORLDITEM itemid="51" x="-107.7636871" y="46.9901848" z="165.0000000"/>
+		<WORLDITEM itemid="51" x="-3941.0378418" y="-1781.7968750" z="521.0701294"/>
+		<WORLDITEM itemid="51" x="3217.4130859" y="2769.1140137" z="-710.6282959"/>
+		<WORLDITEM itemid="51" x="-980.7435913" y="-2492.3833008" z="-374.6056824"/>
+		<WORLDITEM itemid="51" x="-668.5640869" y="35.8902969" z="165.0000000"/>
+		<WORLDITEM itemid="51" x="2135.9755859" y="-3046.4060059" z="-710.6286621"/>
+	
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="13"> 
+	<!-- MAP DUNGEON -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="830.9" y="-5720.1" z="31.1"/>
+		<WORLDITEM itemid="51" x="486.0" y="7693.9" z="1249.6"/>
+		<WORLDITEM itemid="51" x="830.9" y="-5720.1" z="31.1"/>
+		<WORLDITEM itemid="51" x="-2924.6311035" y="0.0111899" z="-283.1813049"/>
+		<WORLDITEM itemid="51" x="-3900.5422363" y="1170.2413330" z="532.7059326"/>
+		<WORLDITEM itemid="51" x="-3900.5422363" y="0.0111847" z="9.8839264"/>
+		<WORLDITEM itemid="51" x="-3950.5422363" y="1.0111847" z="10.8839264"/>
+	
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="24"> 
+	<!-- MAP Island -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="-4172.9" y="-3576.1" z="180.7"/>
+		<WORLDITEM itemid="51" x="5281.5" y="-4140.2" z="352.7"/>
+		<WORLDITEM itemid="51" x="-3486.4790039" y="170.6912842" z="208.0000000"/>
+		<WORLDITEM itemid="51" x="1944.9753418" y="6114.9101563" z="-579.7717285"/>
+		<WORLDITEM itemid="51" x="-1938.0274658" y="3829.9345703" z="-579.7717285"/>
+		<WORLDITEM itemid="51" x="3818.3544922" y="-4134.8798828" z="1079.7453613"/>
+		<WORLDITEM itemid="51" x="0.0075624" y="4919.8657227" z="500.0267334"/>
+		<WORLDITEM itemid="51" x="1169.0272217" y="-3369.6643066" z="384.6375122"/>
+	
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="18"> 
+	<!-- MAP Garden -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="2137.2" y="-823.9" z="-600.0"/>
+		<WORLDITEM itemid="51" x="-2202.1" y="-3314.7" z="50.0"/>
+		<WORLDITEM itemid="51" x="-2202.7917480" y="-0.0000020" z="50.0000000"/>
+		<WORLDITEM itemid="51" x="-2202.7917480" y="-2948.7885742" z="50.0000000"/>
+		<WORLDITEM itemid="51" x="0.0000000" y="-2635.2846680" z="-200.2736816"/>
+		<WORLDITEM itemid="51" x="0.0000000" y="2500.0000000" z="75.0000000"/>
+		<WORLDITEM itemid="51" x="0.0000000" y="-2635.2846680" z="-200.2736816"/>
+		<WORLDITEM itemid="51" x="0.0000000" y="300.0000305" z="-800.0000000"/>
+		<WORLDITEM itemid="51" x="0.0000861" y="-820.0000000" z="-600.0000000"/>
+
+	
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="6"> 
+	<!-- MAP Castle -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="4809.3" y="3694.2" z="-845.0"/>
+		<WORLDITEM itemid="51" x="-5180.7" y="4487.6" z="-850.0"/>
+		<WORLDITEM itemid="51" x="0.0000000" y="-4224.5385742" z="-605.0000000"/>
+		<WORLDITEM itemid="51" x="4354.0830078" y="-18.8507614" z="-545.0000000"/>
+		<WORLDITEM itemid="51" x="-4770.0000000" y="1630.0000000" z="-695.0000000"/>
+		<WORLDITEM itemid="51" x="-5060.0000000" y="3045.0000000" z="-845.0000000"/>
+		<WORLDITEM itemid="51" x="-3755.7094727" y="-763.2302246" z="-532.7045898"/>
+		<WORLDITEM itemid="51" x="3500.0000000" y="-1635.6525879" z="-495.0000000"/>
+
+	
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="15"> 
+	<!-- MAP Factory -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="2831.5" y="-2077.2" z="887.5"/>
+		<WORLDITEM itemid="51" x="-2585.3" y="2748.8" z="768.6"/>
+		<WORLDITEM itemid="51" x="1211.5681152" y="2840.9711914" z="360.0000000"/>
+		<WORLDITEM itemid="51" x="-73.1597900" y="-1686.1795654" z="285.0000000"/>
+		<WORLDITEM itemid="51" x="1184.4531250" y="-616.0078735" z="905.0000000"/>
+		<WORLDITEM itemid="51" x="0.0000000" y="-0.0000131" z="305.0000000"/>
+		<WORLDITEM itemid="51" x="2192.2102051" y="-1672.6177979" z="305.0000000"/>
+		<WORLDITEM itemid="51" x="416.7194519" y="-297.8787842" z="1205.0000000"/>
+		<WORLDITEM itemid="51" x="-2072.6379395" y="1654.4375000" z="305.0000000"/>
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="30"> 
+	<!-- MAP Port -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="-411.2" y="-2643.3" z="-450.0"/>
+		<WORLDITEM itemid="51" x="-663.9" y="5753.9" z="-150.0"/>
+		<WORLDITEM itemid="51" x="-1200.0000000" y="-2800.0000000" z="-445.0000000"/>
+		<WORLDITEM itemid="51" x="1800.0000000" y="-2500.0000000" z="5.0000000"/>
+		<WORLDITEM itemid="51" x="-3200.0000000" y="-2100.0000000" z="5.0000000"/>
+		<WORLDITEM itemid="51" x="1300.0000000" y="2400.0000000" z="5.0000000"/>
+		<WORLDITEM itemid="51" x="-900.0000000" y="3400.0000000" z="5.0000000"/>
+		<WORLDITEM itemid="51" x="2700.0000000" y="-2500.0000000" z="5.0000000"/>
+		<WORLDITEM itemid="51" x="1700.0000000" y="900.0000000" z="5.0000000"/>
+		<WORLDITEM itemid="51" x="-1800.0000000" y="0.0000000" z="455.0000000"/>
+
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="26"> 
+	<!-- MAP Lost Shrine -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="-4001.7" y="-5428.6" z="165.0"/>
+		<WORLDITEM itemid="51" x="4007.6" y="5393.8" z="165.0"/>
+		<WORLDITEM itemid="51" x="-2400.0000000" y="-3000.0000000" z="5.0000000"/>
+		<WORLDITEM itemid="51" x="2300.0000000" y="-0.0000132" z="310.0000000"/>
+		<WORLDITEM itemid="51" x="0.0000000" y="0.0000109" z="-240.0000000"/>
+		<WORLDITEM itemid="51" x="-1200.0000000" y="3000.0000000" z="5.0000000"/>
+		<WORLDITEM itemid="51" x="-4000.0000000" y="0.0000000" z="-245.0000000"/>
+		<WORLDITEM itemid="51" x="1200.0000000" y="-3000.0000000" z="5.0000000"/>
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="35"> 
+	<!-- MAP Stairway -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="366.7" y="-2415.3" z="-629.0"/>
+		<WORLDITEM itemid="51" x="3734.7490234" y="299.9999695" z="150.0000000"/>
+		<WORLDITEM itemid="51" x="3050.0000000" y="-1200.0000000" z="1815.0000000"/>
+		<WORLDITEM itemid="51" x="-2800.0000000" y="2250.0000000" z="1715.0000000"/>
+		<WORLDITEM itemid="51" x="1560.0000000" y="1655.0000000" z="1590.0000000"/>
+		<WORLDITEM itemid="51" x="192.4004974" y="-2150.0000000" z="150.0000000"/>
+		<WORLDITEM itemid="51" x="-250.0000000" y="1800.0000000" z="820.0000000"/>
+		<WORLDITEM itemid="51" x="-4100.0000000" y="1450.0000000" z="-1309.9998779"/>
+		<WORLDITEM itemid="51" x="-2500.0000000" y="-1050.0000000" z="1590.0000000"/>
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="42"> 
+	<!-- MAP Snow_Town -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="-4224.0" y="-4789.3" z="-307.7"/>
+		<WORLDITEM itemid="51" x="4881.7" y="3742.2" z="-429.7"/>
+		<WORLDITEM itemid="51" x="-3369.9816895" y="107.6977539" z="300.0000000"/>
+		<WORLDITEM itemid="51" x="3217.4130859" y="2769.1140137" z="-410.6282959"/>
+		<WORLDITEM itemid="51" x="-990.2953491" y="35.8316956" z="833.0192871"/>
+		<WORLDITEM itemid="51" x="-2266.8906250" y="-4075.9592285" z="-410.6286621"/>
+		<WORLDITEM itemid="51" x="1932.0458984" y="-3046.4060059" z="-410.6286621"/>
+		<WORLDITEM itemid="51" x="2135.0583496" y="-1580.5131836" z="-173.7171021"/>
+		<WORLDITEM itemid="51" x="-668.5640869" y="35.8902855" z="300.0000000"/>
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="16"> 
+	<!-- MAP Hall -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="-49.7" y="1737.3" z="0.2"/>
+		<WORLDITEM itemid="51" x="-22.3" y="514.2" z="0.2"/>
+		<WORLDITEM itemid="51" x="2.8" y="-411.0077539" z="0.2000000"/>
+		<WORLDITEM itemid="51" x="-7.7130859" y="-1490.0140137" z="0.2082959"/>
+		<WORLDITEM itemid="51" x="-982.2953491" y="-1635.8316956" z="50.5192871"/>
+		<WORLDITEM itemid="51" x="-980.8906250" y="31.9592285" z="50.5286621"/>
+		<WORLDITEM itemid="51" x="934.5458984" y="1767.8060059" z="50.7286621"/>
+		<WORLDITEM itemid="51" x="987.5583496" y="181.8131836" z="50.7171021"/>
+		<WORLDITEM itemid="51" x="1277.5640869" y="-1965.8902855" z="50.8000000"/>
+		<WORLDITEM itemid="51" x="-1024.5640869" y="1655.8902855" z="50.3000000"/>
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="9"> 
+	<!-- MAP Catacomb -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="-4.2" y="-2432.0" z="142.2"/>
+		<WORLDITEM itemid="51" x="17.4" y="62.8" z="165.0"/>
+		<WORLDITEM itemid="51" x="6.0816895" y="2476.5977539" z="142.2000000"/>
+		<WORLDITEM itemid="51" x="-6.2" y="-2438.0" z="148.2"/>
+		<WORLDITEM itemid="51" x="22.4" y="67.8" z="170.0"/>
+		<WORLDITEM itemid="51" x="11.0816895" y="2481.5977539" z="147.2000000"/>
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="25"> 
+	<!-- MAP Jail -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="123.9" y="-6599.2" z="-733.4"/>
+		<WORLDITEM itemid="51" x="3759.1" y="4195.0" z="-261.8"/>
+		<WORLDITEM itemid="51" x="3135.3920898" y="-1719.1718750" z="-663.4040527"/>
+		<WORLDITEM itemid="51" x="3018.2729492" y="-2577.8046875" z="-101.5480347"/>
+		<WORLDITEM itemid="51" x="0.0000000" y="0.0000185" z="165.4286194"/>
+		<WORLDITEM itemid="51" x="3451.6127930" y="4002.9538574" z="-256.9829102"/>
+		<WORLDITEM itemid="51" x="2889.8708496" y="-3429.0600586" z="-663.4041748"/>
+		<WORLDITEM itemid="51" x="3135.3920898" y="-1719.1718750" z="-663.4040527"/>
+		<WORLDITEM itemid="51" x="0.0000000" y="-0.0000319" z="165.4286051"/>
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="37"> 
+	<!-- MAP Shower Room -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="123.9" y="-6599.2" z="-733.4"/>
+		<WORLDITEM itemid="51" x="3759.1" y="4195.0" z="-261.8"/>
+		<WORLDITEM itemid="51" x="3135.3920898" y="-1719.1718750" z="-663.4040527"/>
+		<WORLDITEM itemid="51" x="3018.2729492" y="-2577.8046875" z="-101.5480347"/>
+		<WORLDITEM itemid="51" x="0.0000000" y="0.0000185" z="165.4286194"/>
+		<WORLDITEM itemid="51" x="3451.6127930" y="4002.9538574" z="-256.9829102"/>
+		<WORLDITEM itemid="51" x="2889.8708496" y="-3429.0600586" z="-663.4041748"/>
+		<WORLDITEM itemid="51" x="3135.3920898" y="-1719.1718750" z="-663.4040527"/>
+		<WORLDITEM itemid="51" x="0.0000000" y="-0.0000319" z="165.4286051"/>
+
+	
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="21"> 
+	<!-- MAP High_Haven -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="5040.8" y="17.8" z="150.0"/>
+		<WORLDITEM itemid="51" x="-5061.1" y="1.8" z="150.0"/>
+		<WORLDITEM itemid="51" x="-2217.4497070" y="775.2012939" z="-795.6045532"/>
+		<WORLDITEM itemid="51" x="264.2125854" y="30.3530216" z="-795.6044922"/>
+		<WORLDITEM itemid="51" x="0.0000000" y="0.0000000" z="5.0000000"/>
+		<WORLDITEM itemid="51" x="800.0000000" y="-550.0000000" z="-267.5876465"/>
+		<WORLDITEM itemid="51" x="-3000.0000000" y="0.0000087" z="-795.6045532"/>
+		<WORLDITEM itemid="51" x="3000.0000000" y="0.0000087" z="-795.6045532"/>
+		<WORLDITEM itemid="51" x="-800.0000000" y="550.0000000" z="-267.5875854"/>
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="7"> 
+	<!-- MAP Citadel -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="-7270.7" y="-921.7" z="500.0"/>
+		<WORLDITEM itemid="51" x="7066.3" y="-1830.2" z="500.0"/>
+		<WORLDITEM itemid="51" x="4061.5344238" y="-1768.9020996" z="505.0000000"/>
+		<WORLDITEM itemid="51" x="0.0000000" y="-1790.1684570" z="5.0000000"/>
+		<WORLDITEM itemid="51" x="3292.8273926" y="-1195.6289063" z="505.0000000"/>
+		<WORLDITEM itemid="51" x="-4045.7302246" y="-1825.9589844" z="505.0000000"/>
+		<WORLDITEM itemid="51" x="-3285.2551270" y="-1195.6289063" z="505.0000000"/>
+		<WORLDITEM itemid="51" x="0.0000000" y="-4323.5732422" z="505.0000000"/>
+		<WORLDITEM itemid="51" x="4788.0644531" y="-1801.2540283" z="505.0000000"/>
+		<WORLDITEM itemid="51" x="-4786.4462891" y="-1801.2540283" z="505.0000000"/>
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="22"> 
+	<!-- MAP Relay Map -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="-7270.7" y="-921.7" z="500.0"/>
+		<WORLDITEM itemid="51" x="7066.3" y="-1830.2" z="500.0"/>
+		<WORLDITEM itemid="51" x="4061.5344238" y="-1768.9020996" z="505.0000000"/>
+		<WORLDITEM itemid="51" x="0.0000000" y="-1790.1684570" z="5.0000000"/>
+		<WORLDITEM itemid="51" x="3292.8273926" y="-1195.6289063" z="505.0000000"/>
+		<WORLDITEM itemid="51" x="-4045.7302246" y="-1825.9589844" z="505.0000000"/>
+		<WORLDITEM itemid="51" x="-3285.2551270" y="-1195.6289063" z="505.0000000"/>
+		<WORLDITEM itemid="51" x="0.0000000" y="-4323.5732422" z="505.0000000"/>
+		<WORLDITEM itemid="51" x="4788.0644531" y="-1801.2540283" z="505.0000000"/>
+		<WORLDITEM itemid="51" x="-4786.4462891" y="-1801.2540283" z="505.0000000"/>
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="20"> 
+	<!-- MAP Hallowen Town -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="-4224.0" y="-4789.3" z="-307.7"/>
+		<WORLDITEM itemid="51" x="4881.7" y="3742.2" z="-429.7"/>
+		<WORLDITEM itemid="51" x="-3369.9816895" y="107.6977539" z="300.0000000"/>
+		<WORLDITEM itemid="51" x="3217.4130859" y="2769.1140137" z="-410.6282959"/>
+		<WORLDITEM itemid="51" x="-990.2953491" y="35.8316956" z="833.0192871"/>
+		<WORLDITEM itemid="51" x="-2266.8906250" y="-4075.9592285" z="-410.6286621"/>
+		<WORLDITEM itemid="51" x="1932.0458984" y="-3046.4060059" z="-410.6286621"/>
+		<WORLDITEM itemid="51" x="2135.0583496" y="-1580.5131836" z="-173.7171021"/>
+		<WORLDITEM itemid="51" x="-668.5640869" y="35.8902855" z="300.0000000"/>
+
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="43"> 
+	<!-- MAP WeaponShop -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="2889.2" y="-1169.6" z="165.0"/>
+		<WORLDITEM itemid="51" x="-2906.1" y="1135.8" z="165.0"/>
+		<WORLDITEM itemid="51" x="0.0000000" y="-2261.5703125" z="5.0000000"/>
+		<WORLDITEM itemid="51" x="1250.0000000" y="-1730.0000000" z="5.0000000"/>
+		<WORLDITEM itemid="51" x="0.0000000" y="-0.0000263" z="605.0000000"/>
+		<WORLDITEM itemid="51" x="-1250.0000000" y="1730.0000000" z="5.0000000"/>
+		<WORLDITEM itemid="51" x="389.8489990" y="-1031.4425049" z="5.0000000"/>
+		<WORLDITEM itemid="51" x="2234.0886230" y="-2247.4970703" z="5.0000000"/>
+		<WORLDITEM itemid="51" x="0.0000000" y="0.0000000" z="605.0000000"/>
+		<WORLDITEM itemid="51" x="-2234.0891113" y="2247.4970703" z="5.0000000"/>
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="1"> 
+	<!-- MAP AirDuel -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="-3948.0000000" y="1424.0000000" z="592.0000000"/>
+		<WORLDITEM itemid="51" x="1390.0000000" y="1162.0000000" z="592.0000000"/>
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="2"> 
+	<!-- MAP Arena -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="105.1" y="-10.8000000" z="165.0000000"/>
+		<WORLDITEM itemid="51" x="-1241.7000000" y="4.6000000" z="165.0000000"/>
+		<WORLDITEM itemid="51" x="-34.8000000" y="-1501.0000000" z="577.9000000"/>
+		<WORLDITEM itemid="51" x="-14.5000000" y="1501.0000000" z="-1091.0000000"/>
+		<WORLDITEM itemid="51" x="1501.7000000" y="11.6000000" z="165.0000000"/>
+		<WORLDITEM itemid="51" x="-84.9000000" y="1501.0000000" z="165.0000000"/>
+		<WORLDITEM itemid="51" x="-246.5000000" y="-43.0000000" z="165.0000000"/>
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="3"> 
+	<!-- MAP Atack-Defense -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="4264.0000000" y="1232.0000000" z="640.0000000"/>
+		<WORLDITEM itemid="51" x="-600.0000000" y="1216.0000000" z="640.0000000"/>
+		<WORLDITEM itemid="51" x="1503.1000000" y="-427.8000000" z="-480.0000000"/>
+		<WORLDITEM itemid="51" x="2212.2000000" y="-423.4000000" z="-480.0000000"/>
+		<WORLDITEM itemid="51" x="1852.2000000" y="-1763.3000000" z="-480.0000000"/>
+		<WORLDITEM itemid="51" x="785.9000000"  y="1867.3000000" z="32.0000000"/>
+		<WORLDITEM itemid="51" x="2967.4000000" y="1890.3000000" z="32.0000000"/>
+		<WORLDITEM itemid="51" x="2199.9000000" y="-461.3000000" z="32.0000000"/>
+		<WORLDITEM itemid="51" x="1512.5000000" y="-461.0000000" z="32.0000000"/>
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="5"> 
+	<!-- MAP BlitzKrieg -->
+		<!-- World Items Magic Box Spawn Possitons -->
+			<WORLDITEM itemid="51" x="-7800.0" y="-600.0" z="800.0"/>
+			<WORLDITEM itemid="51" x="-782.1359863" y="1202.6733887" z="747.1265137"/>
+			<WORLDITEM itemid="51" x="-163.4081055" y="73.9818359" z="165.0265137"/>
+			<WORLDITEM itemid="51" x="-151.0000008" y="-765.0000000" z="779.8749756"/>
+			<WORLDITEM itemid="51" x="-163.4081055" y="73.9818359" z="165.0265137"/>
+			<WORLDITEM itemid="51" x="-48.4081055"  y="3889.6818359" z="165.0265137"/>
+			<WORLDITEM itemid="51" x="10.2000008"   y="-3697.0000000" z="165.0749756"/>
+			<WORLDITEM itemid="51" x="-4068.0000008" y="2389.0000000" z="165.0049756"/>
+			<WORLDITEM itemid="51" x="-6390.5081055" y="3149.3818359" z="165.0265137"/>
+			<WORLDITEM itemid="51" x="6712.2000008"  y="110.9000000"   z="165.0749756"/>
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="8"> 
+	<!-- MAP Colliseum -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="99.9" y="-0.6000000" z="-10.1000000"/>
+		<WORLDITEM itemid="51" x="-1732.9000000" y="-15.2000000" z="10.6000000"/>
+		<WORLDITEM itemid="51" x="214.8000000" y="1662.9000000" z="12.4000000"/>
+		<WORLDITEM itemid="51" x="1829.9000000" y="137.6000000" z="688.9000000"/>
+		<WORLDITEM itemid="51" x="1259.6000000" y="-856.4000000" z="758.4000000"/>
+		<WORLDITEM itemid="51" x="-1309.6000000" y="-1074.6000000" z="698.4000000"/>
+		<WORLDITEM itemid="51" x="-81.2000000" y="-2340.3000000" z="12.1000000"/>
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="10"> 
+	<!-- MAP DBZ -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="-224.0" y="2400.5000000" z="-128.0000000"/>
+		<WORLDITEM itemid="51" x="224.0851563" y="2400.5439453" z="-128.9998169"/>
+		<WORLDITEM itemid="51" x="-25.6000000" y="-1450.2000000" z="165.0000000"/>
+		<WORLDITEM itemid="51" x="-1479.6000000" y="-1502.7000000" z="165.0000000"/>
+		<WORLDITEM itemid="51" x="-1481.6000000" y="942.0000000" z="165.0000000"/>
+		<WORLDITEM itemid="51" x="1494.2000000" y="983.5000000" z="165.0000000"/>
+		<WORLDITEM itemid="51" x="412.9000000" y="-282.5000000" z="165.0000000"/>
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="11"> 
+	<!-- MAP Dojo -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="-2797.0" y="4671.1000000" z="592.0000000"/>
+		<WORLDITEM itemid="51" x="-1469.0851563" y="4493.5439453" z="592.9998169"/>
+		<WORLDITEM itemid="51" x="-106.9000000" y="4559.3000000" z="592.0000000"/>
+		<WORLDITEM itemid="51" x="-44.9000000" y="2552.7000000" z="496.0000000"/>
+		<WORLDITEM itemid="51" x="-265.6000000" y="241.2000000" z="65.0000000"/>
+		<WORLDITEM itemid="51" x="-1204.2000000" y="563.5000000" z="386.4000000"/>
+		<WORLDITEM itemid="51" x="-2774.4000000" y="235.7000000" z="65.0000000"/>
+		<WORLDITEM itemid="51" x="-2112.4000000" y="251.2000000" z="592.0000000"/>
+		<WORLDITEM itemid="51" x="-1526.2000000" y="2564.6000000" z="72.3000000"/>
+		<WORLDITEM itemid="51" x="-2906.5000000" y="2523.3000000" z="64.0000000"/>
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="12"> 
+	<!-- MAP Dragon Way -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="-94.8" y="10069.9000000" z="155.7000000"/>
+		<WORLDITEM itemid="51" x="360.4851563" y="8661.9439453" z="155.7998169"/>
+		<WORLDITEM itemid="51" x="-1128.0000000" y="6899.2000000" z="155.7000000"/>
+		<WORLDITEM itemid="51" x="1371.7000000" y="6202.2000000" z="155.7000000"/>
+		<WORLDITEM itemid="51" x="-181.9000000" y="4653.5000000" z="1192.0000000"/>
+		<WORLDITEM itemid="51" x="1448.1000000" y="-749.0000000" z="1034.8000000"/>
+		<WORLDITEM itemid="51" x="-1218.3000000" y="-3850.5000000" z="1427.6000000"/>
+		<WORLDITEM itemid="51" x="-91.6000000" y="-18237.3000000" z="3325.8000000"/>
+		<WORLDITEM itemid="51" x="-12974.4000000" y="-23917.3000000" z="7654.8000000"/>
+		<WORLDITEM itemid="51" x="-13835.2000000" y="-44808.9000000" z="8959.3000000"/>
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="14"> 
+	<!-- MAP EventRoom -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="-655.8" y="1455.5000000" z="11960.0000000"/>
+		<WORLDITEM itemid="51" x="-936.1051563" y="-4218.3039453" z="9360.9198169"/>
+		<WORLDITEM itemid="51" x="-194.7000000" y="-1310.8000000" z="7321.4000000"/>
+		<WORLDITEM itemid="51" x="-986.5000000" y="1753.5000000" z="7936.0000000"/>
+		<WORLDITEM itemid="51" x="-128.6000000" y="5482.5000000" z="9016.0000000"/>
+		<WORLDITEM itemid="51" x="-2260.0000000" y="5757.3000000" z="8880.1000000"/>
+		<WORLDITEM itemid="51" x="-6279.2000000" y="4212.8000000" z="8880.0000000"/>
+		<WORLDITEM itemid="51" x="-3605.1000000" y="915.1000000" z="8880.0000000"/>
+		<WORLDITEM itemid="51" x="-804.2000000" y="870.5000000" z="10112.0000000"/>
+		<WORLDITEM itemid="51" x="-962.7000000" y="-3261.6000000" z="7248.0000000"/>
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="17"> 
+	<!-- MAP Fortress -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="2326.8" y="-959.5000000" z="64.0000000"/>
+		<WORLDITEM itemid="51" x="-1758.1051563" y="-532.3039453" z="528.0198169"/>
+		<WORLDITEM itemid="51" x="-1291.3000000" y="-415.0000000" z="-432.0000000"/>
+		<WORLDITEM itemid="51" x="-684.6000000" y="762.5000000" z="992.0000000"/>
+		<WORLDITEM itemid="51" x="-226.2000000" y="2457.7000000" z="992.0000000"/>
+		<WORLDITEM itemid="51" x="-49.4000000" y="2555.8000000" z="213.1000000"/>
+		<WORLDITEM itemid="51" x="2319.2000000" y="2708.3000000" z="64.0000000"/>
+		<WORLDITEM itemid="51" x="-222.4000000" y="464.7000000" z="88.0000000"/>
+		<WORLDITEM itemid="51" x="1741.8000000" y="-438.2000000" z="620.4000000"/>
+		<WORLDITEM itemid="51" x="-1953.3000000" y="-653.7000000" z="2064.4000000"/>
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="19"> 
+	<!-- MAP GoldEXP -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="-1612.1" y="925.8000000" z="1552.0000000"/>
+		<WORLDITEM itemid="51" x="198.1051563" y="1773.3039453" z="1416.0198169"/>
+		<WORLDITEM itemid="51" x="834.2000000" y="-208.9000000" z="1552.0000000"/>
+		<WORLDITEM itemid="51" x="-3571.0000000" y="3752.1000000" z="1864.8000000"/>
+		<WORLDITEM itemid="51" x="-3166.2000000" y="2859.7000000" z="1360.0000000"/>
+		<WORLDITEM itemid="51" x="1233.7000000" y="-572.3000000" z="8.0000000"/>
+		<WORLDITEM itemid="51" x="603.0000000" y="2165.8000000" z="136.6000000"/>
+		<WORLDITEM itemid="51" x="-1105.4000000" y="510.0000000" z="8.0000000"/>
+		<WORLDITEM itemid="51" x="-3557.8000000" y="3233.9000000" z="256.0000000"/>
+		<WORLDITEM itemid="51" x="821.9000000" y="3229.4000000" z="256.4000000"/>
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="23"> 
+	<!-- MAP High School -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="-2466.9" y="2770.1000000" z="165.0000000"/>
+		<WORLDITEM itemid="51" x="-609.5051563" y="-1675.7039453" z="165.0008169"/>
+		<WORLDITEM itemid="51" x="-1074.5000000" y="282.4000000" z="165.0000000"/>
+		<WORLDITEM itemid="51" x="-1673.3000000" y="-2848.5000000" z="165.0000000"/>
+		<WORLDITEM itemid="51" x="1395.0000000" y="-3153.6000000" z="383.0000000"/>
+		<WORLDITEM itemid="51" x="-1643.7000000" y="-2946.1000000" z="165.0000000"/>
+		<WORLDITEM itemid="51" x="-1705.3000000" y="287.8000000" z="8.0000000"/>
+		<WORLDITEM itemid="51" x="-832.0000000" y="-215.8000000" z="124.0000000"/>
+		<WORLDITEM itemid="51" x="2553.4000000" y="-5240.7000000" z="165.0000000"/>
+		<WORLDITEM itemid="51" x="-1621.0000000" y="-2138.9000000" z="165.4000000"/>
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="27"> 
+	<!-- MAP Mine -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="384.9" y="387.8000000" z="7976.0000000"/>
+		<WORLDITEM itemid="51" x="444.7051563" y="-441.6039453" z="7976.0008169"/>
+		<WORLDITEM itemid="51" x="-410.2000000" y="-416.5000000" z="7976.0000000"/>
+		<WORLDITEM itemid="51" x="-432.7000000" y="438.2000000" z="7976.0000000"/>
+		<WORLDITEM itemid="51" x="164.6000000" y="-27.9000000" z="7760.0000000"/>
+		<WORLDITEM itemid="51" x="6.3000000" y="-469.1000000" z="7312.0000000"/>
+		<WORLDITEM itemid="51" x="347.5000000" y="-34.8000000" z="3584.0000000"/>
+		<WORLDITEM itemid="51" x="-11.5000000" y="-1.8000000" z="-8.0000000"/>
+		<WORLDITEM itemid="51" x="469.0000000" y="461.4000000" z="-8.0000000"/>
+		<WORLDITEM itemid="51" x="-461.0000000" y="-469.6000000" z="-8.4000000"/>
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="28"> 
+	<!-- MAP Multi DTR -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="5464.5" y="-2797.8000000" z="1176.0000000"/>
+		<WORLDITEM itemid="51" x="5442.7051563" y="-1795.6039453" z="1176.0008169"/>
+		<WORLDITEM itemid="51" x="5215.2000000" y="-2392.5000000" z="656.0000000"/>
+		<WORLDITEM itemid="51" x="2755.8000000" y="-2351.2000000" z="656.0000000"/>
+		<WORLDITEM itemid="51" x="-911.9000000" y="-1747.9000000" z="1176.0000000"/>
+		<WORLDITEM itemid="51" x="-2680.3000000" y="-1673.1000000" z="656.0000000"/>
+		<WORLDITEM itemid="51" x="-4904.9000000" y="-2435.8000000" z="480.0000000"/>
+		<WORLDITEM itemid="51" x="1384.3000000" y="-4318.8000000" z="656.0000000"/>
+		<WORLDITEM itemid="51" x="-4856.9000000" y="-1331.7000000" z="-552.0000000"/>
+		<WORLDITEM itemid="51" x="-4802.0000000" y="79.6000000" z="-200.0000000"/>
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="29"> 
+	<!-- MAP Nagrad Underground -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="4168.5" y="-1494.8000000" z="-1336.0000000"/>
+		<WORLDITEM itemid="51" x="4208.7051563" y="-2097.6039453" z="-1336.0008169"/>
+		<WORLDITEM itemid="51" x="2511.6000000" y="-1825.5000000" z="-1264.0000000"/>
+		<WORLDITEM itemid="51" x="3543.8000000" y="-1799.2000000" z="-1264.0000000"/>
+		<WORLDITEM itemid="51" x="-1763.9000000" y="-1803.9000000" z="-848.0000000"/>
+		<WORLDITEM itemid="51" x="-12679.3000000" y="-619.1000000" z="-792.0000000"/>
+		<WORLDITEM itemid="51" x="-12710.9000000" y="180.5000000" z="-792.0000000"/>
+		<WORLDITEM itemid="51" x="-10385.3000000" y="-1798.8000000" z="-792.0000000"/>
+		<WORLDITEM itemid="51" x="-5714.9000000" y="-2459.7000000" z="-848.0000000"/>
+		<WORLDITEM itemid="51" x="-5079.0000000" y="-1098.6000000" z="-744.0000000"/>
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="38"> 
+	<!-- MAP Skillmap -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="-82.0" y="-126.9000000" z="-8.0000000"/>
+		<WORLDITEM itemid="51" x="-50.9051563" y="-3965.7039453" z="-8.0008169"/>
+		<WORLDITEM itemid="51" x="-274.3000000" y="-2027.7000000" z="-8.0000000"/>
+		<WORLDITEM itemid="51" x="3487.4000000" y="-511.5000000" z="-8.0000000"/>
+		<WORLDITEM itemid="51" x="2226.2000000" y="-1984.3000000" z="-8.0000000"/>
+		<WORLDITEM itemid="51" x="3782.6000000" y="-3713.1000000" z="-8.0000000"/>
+		<WORLDITEM itemid="51" x="-1965.3000000" y="-2671.5000000" z="3056.0000000"/>
+		<WORLDITEM itemid="51" x="-1097.3000000" y="-2322.1000000" z="1344.0000000"/>
+		<WORLDITEM itemid="51" x="904.8000000" y="-3933.1000000" z="3576.0000000"/>
+		<WORLDITEM itemid="51" x="1308.3000000" y="-3928.4000000" z="3576.0000000"/>
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="39"> 
+	<!-- MAP StreetV2 -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="-4117.2" y="3071.2000000" z="88.0000000"/>
+		<WORLDITEM itemid="51" x="-4644.9051563" y="2796.3039453" z="64.0008169"/>
+		<WORLDITEM itemid="51" x="-4767.9000000" y="1937.7000000" z="64.0000000"/>
+		<WORLDITEM itemid="51" x="-4522.4000000" y="540.7000000" z="64.0000000"/>
+		<WORLDITEM itemid="51" x="-2115.9000000" y="124.2000000" z="88.0000000"/>
+		<WORLDITEM itemid="51" x="-55.2000000" y="1426.9000000" z="64.0000000"/>
+		<WORLDITEM itemid="51" x="1201.3000000" y="2061.3000000" z="64.0000000"/>
+		<WORLDITEM itemid="51" x="1749.4000000" y="849.1000000" z="64.0000000"/>
+		<WORLDITEM itemid="51" x="-1713.8000000" y="4440.9000000" z="88.0000000"/>
+		<WORLDITEM itemid="51" x="-2434.9000000" y="4491.5000000" z="96.0000000"/>
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="40"> 
+	<!-- MAP SUPERFLIP -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="-399.8" y="-1834.6000000" z="-1728.0000000"/>
+		<WORLDITEM itemid="51" x="-572.5051563" y="-2547.2039453" z="-1728.0008169"/>
+		<WORLDITEM itemid="51" x="-786.7000000" y="-4197.0000000" z="-1728.0000000"/>
+		<WORLDITEM itemid="51" x="67.5000000" y="-5776.5000000" z="-1728.0000000"/>
+		<WORLDITEM itemid="51" x="-827.5000000" y="-1479.3000000" z="-728.0000000"/>
+		<WORLDITEM itemid="51" x="-2169.9000000" y="-2669.3000000" z="-1728.0000000"/>
+		<WORLDITEM itemid="51" x="-4624.4000000" y="-2140.5000000" z="-1728.0000000"/>
+		<WORLDITEM itemid="51" x="-8450.4000000" y="-3075.1000000" z="-1480.0000000"/>
+		<WORLDITEM itemid="51" x="-823.4000000" y="4375.8000000" z="-1728.0000000"/>
+		<WORLDITEM itemid="51" x="3121.4000000" y="4293.1000000" z="-1728.0000000"/>
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="41"> 
+	<!-- MAP Tower_Stairway -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="-399.8" y="-1834.6000000" z="-1728.0000000"/>
+		<WORLDITEM itemid="51" x="-572.5051563" y="-2547.2039453" z="-1728.0008169"/>
+		<WORLDITEM itemid="51" x="-786.7000000" y="-4197.0000000" z="-1728.0000000"/>
+		<WORLDITEM itemid="51" x="67.5000000" y="-5776.5000000" z="-1728.0000000"/>
+		<WORLDITEM itemid="51" x="-827.5000000" y="-1479.3000000" z="-728.0000000"/>
+		<WORLDITEM itemid="51" x="-2169.9000000" y="-2669.3000000" z="-1728.0000000"/>
+		<WORLDITEM itemid="51" x="-4624.4000000" y="-2140.5000000" z="-1728.0000000"/>
+		<WORLDITEM itemid="51" x="-8450.4000000" y="-3075.1000000" z="-1480.0000000"/>
+		<WORLDITEM itemid="51" x="-823.4000000" y="4375.8000000" z="-1728.0000000"/>
+		<WORLDITEM itemid="51" x="3121.4000000" y="4293.1000000" z="-1728.0000000"/>
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="43"> 
+	<!-- MAP SUPERFLIP -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="-253.4" y="192.7000000" z="17384.0000000"/>
+		<WORLDITEM itemid="51" x="-238.3051563" y="-1068.4039453" z="17384.0008169"/>
+		<WORLDITEM itemid="51" x="-226.0000000" y="227.3000000" z="15896.0000000"/>
+		<WORLDITEM itemid="51" x="1141.5000000" y="-1131.5000000" z="14904.0000000"/>
+		<WORLDITEM itemid="51" x="-240.6000000" y="163.0000000" z="13912.0000000"/>
+		<WORLDITEM itemid="51" x="1180.2000000" y="-1102.7000000" z="12920.0000000"/>
+		<WORLDITEM itemid="51" x="1111.2000000" y="295.7000000" z="10440.0000000"/>
+		<WORLDITEM itemid="51" x="89.2000000" y="-174.3000000" z="165.0000000"/>
+		<WORLDITEM itemid="51" x="569.9000000" y="-1152.8000000" z="165.0000000"/>
+		<WORLDITEM itemid="51" x="1143.4000000" y="299.1000000" z="17837.0000000"/>
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="44"> 
+	<!-- MAP weaponShop_ACT -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="1348.7" y="2601.6000000" z="648.0000000"/>
+		<WORLDITEM itemid="51" x="-685.3051563" y="246.7039453" z="320.0008169"/>
+		<WORLDITEM itemid="51" x="414.2000000" y="267.3000000" z="648.0000000"/>
+		<WORLDITEM itemid="51" x="2931.5000000" y="2008.2000000" z="840.0000000"/>
+		<WORLDITEM itemid="51" x="2633.9000000" y="4435.2000000" z="968.0000000"/>
+		<WORLDITEM itemid="51" x="2587.000000" y="2971.7000000" z="1280.0000000"/>
+		<WORLDITEM itemid="51" x="1362.4000000" y="2869.7000000" z="165.0000000"/>
+		<WORLDITEM itemid="51" x="2045.7000000" y="1806.8000000" z="165.0000000"/>
+		<WORLDITEM itemid="51" x="-350.7000000" y="537.7000000" z="165.0000000"/>
+		<WORLDITEM itemid="51" x="2815.4000000" y="3467.1000000" z="165.0000000"/>
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+
+	<DROPGUNGAME id="45"> 
+	<!-- MAP wonderland -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="-6153.7" y="-248.6000000" z="165.2000000"/>
+		<WORLDITEM itemid="51" x="5594.9051563" y="-279.9039453" z="165.2008169"/>
+		<WORLDITEM itemid="51" x="-3964.1000000" y="-288.5000000" z="165.0000000"/>
+		<WORLDITEM itemid="51" x="-4116.5000000" y="941.9000000" z="165.0000000"/>
+		<WORLDITEM itemid="51" x="-2582.1000000" y="-212.6000000" z="165.1000000"/>
+		<WORLDITEM itemid="51" x="2306.400000" y="-122.4000000" z="165.6000000"/>
+		<WORLDITEM itemid="51" x="3582.4000000" y="-1203.7000000" z="165.0000000"/>
+		<WORLDITEM itemid="51" x="3805.2000000" y="-312.3000000" z="16.6000000"/>
+		<WORLDITEM itemid="51" x="-350.7000000" y="537.7000000" z="165.0000000"/>
+		<WORLDITEM itemid="51" x="-132.4000000" y="-342.1000000" z="165.0000000"/>
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="46"> 
+	<!-- MAP [NEW]Tenchu -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="-640.00000000" y="896.00000000" z="0.00000000"/>
+		<WORLDITEM itemid="51" x="-1536.00000000" y="384.00000000" z="0.00000000"/>
+		<WORLDITEM itemid="51" x="-6464.00000000" y="4256.00000000" z="0.00000000"/>
+		<WORLDITEM itemid="51" x="-70.00000000" y="8.00000000" z="2898.00000000"/>
+		<WORLDITEM itemid="51" x="-8640.00000000" y="1536.00000000" z="1088.00000000"/>
+		<WORLDITEM itemid="51" x="-5536.00000000" y="8096.00000000" z="1664.00000000"/>
+		<WORLDITEM itemid="51" x="-992.00000000" y="7392.00000000" z="0.00000000"/>
+		<WORLDITEM itemid="51" x="-5888.00000000" y="5920.00000000" z="0.00000000"/>
+		<WORLDITEM itemid="51" x="-5792.00000000" y="5088.00000000" z="0.00000000"/>
+		<WORLDITEM itemid="51" x="-2816.00000000" y="-1696.00000000" z="0.00000000"/>
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="47"> 
+	<!-- MAP [NEW]Mieu Heu -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="-1960.00000000" y="-144.00000000" z="152.00000000"/>
+		<WORLDITEM itemid="51" x="1248.00000000" y="-80.00000000" z="152.00000000"/>
+		<WORLDITEM itemid="51" x="1128.00000000" y="312.00000000" z="152.00000000"/>
+		<WORLDITEM itemid="51" x="-456.00000000" y="1792.00000000" z="152.00000000"/>
+		<WORLDITEM itemid="51" x="952.00000000" y="1760.00000000" z="152.00000000"/>
+		<WORLDITEM itemid="51" x="1216.00000000" y="-800.00000000" z="152.00000000"/>
+		<WORLDITEM itemid="51" x="828.00000000" y="212.00000000" z="152.00000000"/>
+		<WORLDITEM itemid="51" x="-556.00000000" y="1292.00000000" z="152.00000000"/>
+		<WORLDITEM itemid="51" x="1252.00000000" y="1360.00000000" z="152.00000000"/>
+		<WORLDITEM itemid="51" x="1016.00000000" y="-750.00000000" z="152.00000000"/>
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="48"> 
+	<!-- MAP [NEW]Lost Temple -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="3448.00000000" y="-416.00000000" z="-320.00000000"/>
+		<WORLDITEM itemid="51" x="248.00000000" y="-408.00000000" z="-320.00000000"/>
+		<WORLDITEM itemid="51" x="600.00000000" y="424.00000000" z="-976.00000000"/>
+		<WORLDITEM itemid="51" x="2984.00000000" y="-1936.00000000" z="-976.00000000"/>
+		<WORLDITEM itemid="51" x="2992.00000000" y="400.00000000" z="-976.00000000"/>
+		<WORLDITEM itemid="51" x="616.00000000" y="-1952.00000000" z="-976.00000000"/>
+		<WORLDITEM itemid="51" x="600.00000000" y="424.00000000" z="-976.00000000"/>
+		<WORLDITEM itemid="51" x="916.00000000" y="-2852.00000000" z="-976.00000000"/>
+		<WORLDITEM itemid="51" x="900.00000000" y="1324.00000000" z="-976.00000000"/>
+		<WORLDITEM itemid="51" x="656.00000000" y="-1752.00000000" z="-976.00000000"/>
+
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="49"> 
+	<!-- MAP [NEW]Lost Dungeon -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="-759.4736938" y="86.8206787" z="296.5312195"/>
+		<WORLDITEM itemid="51" x="-4693.2973633" y="86.8206787" z="293.4606323"/>
+		<WORLDITEM itemid="51" x="-2656.4599609" y="6165.5737305" z="-270.7178345"/>
+		<WORLDITEM itemid="51" x="-2889.1093750" y="-1839.2125244" z="-17.3618088"/>
+		<WORLDITEM itemid="51" x="-859.4736938" y="136.8206787" z="296.5312195"/>
+		<WORLDITEM itemid="51" x="-4893.2973633" y="106.8206787" z="293.4606323"/>
+		<WORLDITEM itemid="51" x="-3055.4599609" y="3505.5737305" z="-270.7178345"/>
+		<WORLDITEM itemid="51" x="-1224.1093750" y="-1888.2125244" z="-17.3618088"/>
+		<WORLDITEM itemid="51" x="-3255.4599609" y="3555.5737305" z="-270.7178345"/>
+		<WORLDITEM itemid="51" x="-1424.1093750" y="-1808.2125244" z="-17.3618088"/>
+
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="50"> 
+	<!-- MAP [NEW]DBQ -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="-457.00000000" y="-972.00000000" z="64.00000000" />
+		<WORLDITEM itemid="51" x="336.00000000" y="-965.00000000" z="64.00000000" />
+		<WORLDITEM itemid="51" x="-332.00000000" y="249.00000000" z="-63.00000000" />
+		<WORLDITEM itemid="51" x="-242.00000000" y="-1696.00000000" z="63.90000000" />
+		<WORLDITEM itemid="51" x="920.50000000" y="-654.00000000" z="208.00000000" />
+		<WORLDITEM itemid="51" x="-271.30000000" y="499.60000000" z="208.30000000" />
+		<WORLDITEM itemid="51" x="-1384.00000000" y="-736.00000000" z="208.00000000" />
+		<WORLDITEM itemid="51" x="-215.00000000" y="-2141.00000000" z="384.00000000" />
+		<WORLDITEM itemid="51" x="1417.50000000" y="--2404.00000000" z="1088.00000000" />
+		<WORLDITEM itemid="51" x="-1891.00000000" y="-944.80000000" z="1088.00000000" />
+
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="51"> 
+	<!-- MAP [NEW]The Office -->
+		<!-- World Items Magic Box Spawn Possitons -->
+		<WORLDITEM itemid="51" x="210.32400000" y="-1311.18000000" z="-470.84400000" />
+		<WORLDITEM itemid="51" x="342.42400000" y="1992.10000000" z="910.57600000" />
+		<WORLDITEM itemid="51" x="2864.98000000" y="2136.26000000" z="846.47200000" />
+		<WORLDITEM itemid="51" x="3065.18000000" y="1559.69000000" z="285.96000000" />
+		<WORLDITEM itemid="51" x="-2628.51000000" y="1996.12000000" z="261.88800000" />
+		<WORLDITEM itemid="51" x="-2364.25000000" y="2124.25000000" z="-474.84800000" />
+		<WORLDITEM itemid="51" x="-624.51000000" y="-1285.15000000" z="-474.84800000" />
+		<WORLDITEM itemid="51" x="-1809.69000000" y="-1203.07000000" z="662.28800000" />
+		<WORLDITEM itemid="51" x="-2320.00000000" y="-856.00000000" z="-448.00000000" />
+		<WORLDITEM itemid="51" x="-2208.00000000" y="-864.00000000" z="-448.00000000" />
+
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="52"> 
+	<!-- MAP [NEW]Castle War -->
+		<WORLDITEM itemid="51" x="-1423.00000000" y="1142.00000000" z="336.00000000" />
+		<WORLDITEM itemid="51" x="-1199.00000000" y="2678.00000000" z="336.00000000" />
+		<WORLDITEM itemid="51" x="-955.00000000" y="3253.00000000" z="336.00000000" />
+		<WORLDITEM itemid="51" x="-1639.00000000" y="1176.00000000" z="-63.00000000" />
+		<WORLDITEM itemid="51" x="-3010.90000000" y="1812.50000000" z="-63.60000000" />
+		<WORLDITEM itemid="51" x="-2278.00000000" y="2975.00000000" z="-63.80000000" />
+		<WORLDITEM itemid="51" x="-2747.00000000" y="2989.20000000" z="-63.80000000" />
+		<WORLDITEM itemid="51" x="-2470.00000000" y="899.80000000" z="72.40000000" />
+		<WORLDITEM itemid="51" x="-3973.00000000" y="3253.50000000" z="336.80000000" />
+		<WORLDITEM itemid="51" x="-3768.90000000" y="1902.30000000" z="336.00000000" />
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="53"> 
+	<!-- MAP [NEW]Hartz Castle -->
+		<WORLDITEM itemid="51" x="856.00000000" y="-179.00000000" z="576.00000000" />
+		<WORLDITEM itemid="51" x="62.00000000" y="698.00000000" z="32.20000000" />
+		<WORLDITEM itemid="51" x="944.00000000" y="-873.00000000" z="32.00000000" />
+		<WORLDITEM itemid="51" x="741.00000000" y="-1119.00000000" z="992.00000000" />
+		<WORLDITEM itemid="51" x="761.00000000" y="20.00000000" z="1016.00000000" />
+		<WORLDITEM itemid="51" x="291.00000000" y="808.00000000" z="1440.00000000" />
+		<WORLDITEM itemid="51" x="-817.00000000" y="339.20000000" z="2136.90000000" />
+		<WORLDITEM itemid="51" x="-141.00000000" y="-102.00000000" z="2224.00000000" />
+		<WORLDITEM itemid="51" x="-104.00000000" y="-544.50000000" z="1016.80000000" />
+		<WORLDITEM itemid="51" x="-133.90000000" y="994.30000000" z="1016.90000000" />
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="54"> 
+	<!-- MAP [NEW]Allien Ship -->
+		<WORLDITEM itemid="51" x="-1544.00000000" y="-52.00000000" z="-1012.00000000" />
+		<WORLDITEM itemid="51" x="-600.00000000" y="-824.00000000" z="-200.00000000" />
+		<WORLDITEM itemid="51" x="-2140.00000000" y="-992.00000000" z="304.00000000" />
+		<WORLDITEM itemid="51" x="-922.00000000" y="-726.00000000" z="237.50000000" />
+		<WORLDITEM itemid="51" x="1556.00000000" y="208.00000000" z="1116.00000000" />
+		<WORLDITEM itemid="51" x="1724.00000000" y="996.00000000" z="304.00000000" />
+		<WORLDITEM itemid="51" x="-824.00000000" y="12.00000000" z="976.00000000" />
+		<WORLDITEM itemid="51" x="-952.00000000" y="-888.00000000" z="1088.00000000" />
+		<WORLDITEM itemid="51" x="-2136.00000000" y="408.00000000" z="-1792.00000000" />
+		<WORLDITEM itemid="51" x="-2256.00000000" y="624.00000000" z="-1792.00000000" />
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="55"> 
+	<!-- MAP [NEW]Den Co Vat -->
+		<WORLDITEM itemid="51" x="-256.00000000" y="216.00000000" z="128.00000000" />
+		<WORLDITEM itemid="51" x="168.00000000" y="4792.00000000" z="128.00000000" />
+		<WORLDITEM itemid="51" x="-1952.00000000" y="5080.00000000" z="128.00000000" />
+		<WORLDITEM itemid="51" x="8.00000000" y="2264.00000000" z="128.00000000" />
+		<WORLDITEM itemid="51" x="-1560.00000000" y="544.00000000" z="128.00000000" />
+		<WORLDITEM itemid="51" x="-3672.00000000" y="856.00000000" z="128.00000000" />
+		<WORLDITEM itemid="51" x="-3576.00000000" y="2256.00000000" z="128.00000000" />
+		<WORLDITEM itemid="51" x="-3264.00000000" y="5376.00000000" z="128.00000000" />
+		<WORLDITEM itemid="51" x="-4328.00000000" y="6272.00000000" z="128.00000000" />
+		<WORLDITEM itemid="51" x="520.00000000" y="6192.00000000" z="128.00000000" />
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="56"> 
+	<!-- MAP [NEW]Dungeon Acces I -->
+		<WORLDITEM itemid="51" x="260.00000000" y="327.00000000" z="240.00000000" />
+		<WORLDITEM itemid="51" x="1625.00000000" y="703.00000000" z="544.00000000" />
+		<WORLDITEM itemid="51" x="259.00000000" y="1139.90000000" z="240.70000000" />
+		<WORLDITEM itemid="51" x="1842.00000000" y="698.00000000" z="544.50000000" />
+		<WORLDITEM itemid="51" x="2477.00000000" y="694.900000000" z="1073.20000000" />
+		<WORLDITEM itemid="51" x="-1505.00000000" y="708.40000000" z="64.50000000" />
+		<WORLDITEM itemid="51" x="-4033.00000000" y="660.00000000" z="65.00000000" />
+		<WORLDITEM itemid="51" x="-5747.90000000" y="655.80000000" z="64.90000000" />
+		<WORLDITEM itemid="51" x="-7429.80000000" y="715.70000000" z="544.00000000" />
+		<WORLDITEM itemid="51" x="-6579.60000000" y="745.10000000" z="280.40000000" />
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+
+	<DROPGUNGAME id="57"> 
+	<!-- MAP [NEW]The Alley -->
+		<WORLDITEM itemid="51" x="-656.00000000" y="1992.00000000" z="1152.00000000" />
+		<WORLDITEM itemid="51" x="-1304.00000000" y="1784.00000000" z="1296.00000000" />
+		<WORLDITEM itemid="51" x="2472.00000000" y="528.00000000" z="1720.00000000" />
+		<WORLDITEM itemid="51" x="2528.00000000" y="3280.00000000" z="1792.00000000" />
+		<WORLDITEM itemid="51" x="-1304.00000000" y="1784.00000000" z="1776.00000000" />
+		<WORLDITEM itemid="51" x="1464.00000000" y="1096.00000000" z="1280.00000000" />
+		<WORLDITEM itemid="51" x="672.00000000" y="-24.00000000" z="2176.00000000" />
+		<WORLDITEM itemid="51" x="1264.00000000" y="3328.00000000" z="568.00000000" />
+		<WORLDITEM itemid="51" x="688.00000000" y="1096.00000000" z="1536.00000000" />
+		<WORLDITEM itemid="51" x="-1240.00000000" y="2320.00000000" z="2120.00000000" />
+
+		<!-- The Random Item sets -->
+		<ITEMSET melee="743010" primary="743030" secondary="743020" custom1="600005" custom2="30302"/>
+		<ITEMSET melee="743011" primary="743031" secondary="743021" custom1="30402" custom2="600105"/>
+		<ITEMSET melee="743012" primary="743032" secondary="743022" custom1="30203" custom2="600205"/>
+		<ITEMSET melee="743013" primary="743033" secondary="743023" custom1="30303" custom2="600305"/>
+		<ITEMSET melee="743014" primary="743034" secondary="743024" custom1="30403" custom2="600304"/>
+		<ITEMSET melee="743015" primary="743035" secondary="743025" custom1="30205" custom2="600204"/>
+		<ITEMSET melee="743016" primary="743036" secondary="743026" custom1="30305" custom2="600104"/>
+		<ITEMSET melee="743017" primary="743037" secondary="743027" custom1="30405" custom2="600004"/>
+		<ITEMSET melee="743018" primary="743038" secondary="743028" custom1="600305" custom2="30405"/>
+		<ITEMSET melee="743019" primary="743039" secondary="743029" custom1="30303" custom2="30402"/>
+	</DROPGUNGAME>
+</XML>
