@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XML>
+    <!-- -  category
+            default = 0 
+            0 - 일반
+            1 - 개인전
+
+            2 - 팀전
+
+            3 - 클랜전
+
+            4 - 왕초보
+
+            5 - 초보
+            6 - 중수
+            7 - 고수
+    -->
+    <!-- MSG태그의 id는 특정한 조건에만 발동될 경우를 위해서 만들어놓음. -->
+    
+<TIPS category="0">
+	<!-- SEASON TIPS -->
+    <!-- <MSG>U kunt Gunz op Ongamenet elke vrijdag ontmoeten ( 4:30 pm).</MSG> -->
+    <!-- <MSG>Elke donderdagavond om 10:30 in de periode van 09-30 december , is een GUNZ actie competitie on air.</MSG> -->
+	
+	<!-- STATIC TIPS -->
+    <MSG>Gunz is een actie spel dat je gratis kunt spelen , voor altijd.</MSG>
+    <MSG>Ga naar forum.daemonsring.com wanneer je een klacht heb.</MSG>
+    <MSG>Druk op F11 Om het spel op te nemen, Druk nogmaals op F11 om de opname te stoppen.</MSG>
+    <MSG>Dubbelklik het bestand dat wordt opgenomen om het op Windows te zien.</MSG>
+    <MSG>De route van het opslaan van een opname bestand of screenshot wordt getoond op het scherm op het moment van het opslaan.</MSG>
+<!--    <MSG>U kunt genieten van een Clan War op de Clan War server . Geniet van de interessante Clan War!</MSG> -->
+    <MSG>Druk op F12 om een screenshot te maken.</MSG>
+    <MSG>Type /rapport om de details van het chatten te melden. (Functie om de gebruiker met offensief gedrag te melden)</MSG>
+<!--    <MSG>Alle personages van dezelfde aankoop account kan de cash items delen.</MSG> -->
+    <MSG>Heeft u een gedeeld apparaat gebruiken? Probeer de port forwarding -functie . U kunt een geoptimaliseerd netwerk play ervaren.</MSG>
+<!--    <MSG>Met behulp van de huidige functie, kunt u uw vriend een item in de homepage te geven als cadeau.</MSG> -->
+    <MSG>Gunz is te traag ? Gebruik de optimalisaties van de optie menu.</MSG>
+    <MSG>"Speel nu!" : U hoeft niet te zoeken naar een lege kamer . U kunt eenvoudig deelnemen aan een spel.</MSG>
+    <MSG>De staff team zal nooit naar je wachtwoord vragen.</MSG>
+<!--    <MSG>U kunt het spel spelen door het maken van een clan met vrienden.</MSG> -->
+<!--    <MSG>De items gekocht bij de item shop op de homepage worden gestort in het " Central Bank".</MSG> -->
+    <MSG>Bounty items worden niet gedeeld met andere personages door de Centrale Bank.</MSG>
+    <MSG>In traing mode worden kills niet gerigstreerd.</MSG>
+    <MSG>Gebruik de command /r om terug te whisperen.</MSG>
+    <MSG>Als uw een karakter heeft at level 21 of hoger is kunt u het Beginner channel niet in.</MSG>
+    
+    
+    <!-- GM Message -->
+    <MSG>Elke ID die anderen kan beledigen kan worden beperkt.</MSG>
+    <MSG>Aiedereen die anderen beledigt in een spel kan worden onderworpen aan straf door de staff team.</MSG>
+
+    <!-- 새로 추가 -->
+    <MSG>Zodra jij jezelf verdedigt tegen de aanval van een slash van dichtbij, Heb je meteen de Massive Strike aanval!</MSG>
+    <MSG>Druk op CTRL+Nummer terwijl je een spel bekijkt om de relevante speler te bekijken. </MSG>
+ 
+    <!-- 클랜전 전용 -->
+<!--    <MSG>Heb je ooit clan war gespeelt? Probeer het nu!.</MSG> -->
+<!--    <MSG>In een clan war krijg je 1,5x XP.</MSG> -->
+</TIPS>    
+
+<!-- 왕초보 -->
+<TIPS category="4">
+	<MSG id="1">Druk op F1 tijdens dat de spel aan is om de beschrijving te zien.</MSG>
+</TIPS>
+
+<!-- Duel tournament -->
+<TIPS category="8">
+    <MSG id="1">Duel Tournament : Em caso que não finalize dentro do tempo limitado, ganhará o usuário que mais causou dano ao outro jogador.</MSG>
+</TIPS>
+
+<!-- Blitzkrieg -->
+<TIPS category="9">
+	<MSG id="1">Ataque relâmpago: Obter a honra destruindo aos inimigos, e poderá ganhar o privilégio pressionando a tecla F5.</MSG>
+	<MSG id="1">Ataque relâmpago: Se destrói os edifícios inimigos, você poderá obter a honra de toda a equipe.</MSG>
+	<MSG id="1">Ataque relâmpago: Cada certo tempo haverá caixa de armamento. Se a destrói, você poderá obter a honra para toda a equipe.</MSG>
+</TIPS>
+
+</XML>

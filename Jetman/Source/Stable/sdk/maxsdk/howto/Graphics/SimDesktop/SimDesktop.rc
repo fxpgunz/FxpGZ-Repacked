@@ -1,0 +1,121 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "#include ""veroverrides.h""\r\n"
+    "#include ""maxversion.r""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// JPG
+//
+
+IDR_JPG1                JPG                     "images\\01.jpg"
+IDR_JPG2                JPG                     "images\\02.jpg"
+IDR_JPG3                JPG                     "images\\03.jpg"
+IDR_JPG4                JPG                     "images\\04.jpg"
+IDR_JPG5                JPG                     "images\\05.jpg"
+IDR_JPG6                JPG                     "images\\06.jpg"
+IDR_JPG7                JPG                     "images\\07.jpg"
+IDR_JPG8                JPG                     "images\\08.jpg"
+IDR_JPG9                JPG                     "images\\09.jpg"
+IDR_JPG10               JPG                     "images\\10.jpg"
+IDR_JPG11               JPG                     "images\\11.jpg"
+IDR_JPG12               JPG                     "images\\12.jpg"
+IDR_JPG13               JPG                     "images\\13.jpg"
+IDR_JPG14               JPG                     "images\\14.jpg"
+IDR_JPG15               JPG                     "images\\15.jpg"
+IDR_JPG16               JPG                     "images\\16.jpg"
+IDR_JPG17               JPG                     "images\\17.jpg"
+IDR_JPG18               JPG                     "images\\18.jpg"
+IDR_JPG19               JPG                     "images\\19.jpg"
+IDR_JPG20               JPG                     "images\\20.jpg"
+IDR_JPG21               JPG                     "images\\21.jpg"
+IDR_JPG22               JPG                     "images\\22.jpg"
+IDR_JPG23               JPG                     "images\\23.jpg"
+IDR_JPG24               JPG                     "images\\24.jpg"
+IDR_JPG25               JPG                     "images\\25.jpg"
+IDR_JPG26               JPG                     "images\\26.jpg"
+IDR_JPG27               JPG                     "images\\27.jpg"
+IDR_JPG28               JPG                     "images\\28.jpg"
+IDR_JPG29               JPG                     "images\\29.jpg"
+IDR_JPG30               JPG                     "images\\30.jpg"
+IDR_JPG31               JPG                     "images\\31.jpg"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// SHADER
+//
+
+IDR_FX_ICON_DX9         SHADER                  "shaders\\FxIcon_dx9.fx"
+IDR_FX_ICON_DX11        SHADER                  "shaders\\FxIcon_dx11.fx"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_LIBDESCRIPTION      "Viewport Overlay Fragment (Autodesk)"
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+#include "veroverrides.h"
+#include "maxversion.r"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

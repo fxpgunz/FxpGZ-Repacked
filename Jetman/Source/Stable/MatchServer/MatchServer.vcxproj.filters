@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="MFCFramework">
+      <UniqueIdentifier>{1c798756-81df-4c3d-b5e8-8c28a11cb5e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server">
+      <UniqueIdentifier>{385ebc4d-1e8a-4eb4-b7d7-92ebc61ca010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\MBMatchAsync">
+      <UniqueIdentifier>{34e785f9-18fb-489a-ae58-2683e6e10654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\MBMatchAsync\AccountItem">
+      <UniqueIdentifier>{d39fb221-1fc9-4655-ae69-7f390700501b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\MBMatchServerOnCommand">
+      <UniqueIdentifier>{517fb622-235f-4fe3-9379-23f5d7a8bb81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Security">
+      <UniqueIdentifier>{f67079e2-92c2-4c8c-8c1d-a8d0a24fb975}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Security\Hack">
+      <UniqueIdentifier>{1226d5da-d379-4e34-9999-52c7a9703c56}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>MFCFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandLogView.cpp">
+      <Filter>MFCFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptionAttacher.cpp">
+      <Filter>MFCFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>MFCFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="MatchServer.cpp">
+      <Filter>MFCFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="MatchServerDoc.cpp">
+      <Filter>MFCFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="MatchServerView.cpp">
+      <Filter>MFCFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputView.cpp">
+      <Filter>MFCFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>MFCFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="TrayIcon.cpp">
+      <Filter>MFCFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="MBMatchServer.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="MBMatchServerConfigReloader.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="MBMatchAsyncDBJob_BuyBountyItem.cpp">
+      <Filter>Server\MBMatchAsync</Filter>
+    </ClCompile>
+    <ClCompile Include="MBMatchAsyncDBJob_Character.cpp">
+      <Filter>Server\MBMatchAsync</Filter>
+    </ClCompile>
+    <ClCompile Include="MBMatchAsyncDBJob_GambleItem.cpp">
+      <Filter>Server\MBMatchAsync</Filter>
+    </ClCompile>
+    <ClCompile Include="MBMatchAsyncDBJob_GambleQuestItem.cpp">
+      <Filter>Server\MBMatchAsync</Filter>
+    </ClCompile>
+    <ClCompile Include="MBMatchAsyncDBJob_GameOnLogin.cpp">
+      <Filter>Server\MBMatchAsync</Filter>
+    </ClCompile>
+    <ClCompile Include="MBMatchAsyncDBJob_NetmarbleLogin.cpp">
+      <Filter>Server\MBMatchAsync</Filter>
+    </ClCompile>
+    <ClCompile Include="MBMatchAsyncDBJob_NHNLogin.cpp">
+      <Filter>Server\MBMatchAsync</Filter>
+    </ClCompile>
+    <ClCompile Include="MBMatchAsyncDBJob_SellItem.cpp">
+      <Filter>Server\MBMatchAsync</Filter>
+    </ClCompile>
+    <ClCompile Include="MBMatchAsyncDBJob_TakeoffItem.cpp">
+      <Filter>Server\MBMatchAsync</Filter>
+    </ClCompile>
+    <ClCompile Include="MBMatchAsyncDBJob_UpdateCharLevel.cpp">
+      <Filter>Server\MBMatchAsync</Filter>
+    </ClCompile>
+    <ClCompile Include="MBMatchAsyncDBJob_UpdateCharPlayInfo.cpp">
+      <Filter>Server\MBMatchAsync</Filter>
+    </ClCompile>
+    <ClCompile Include="MBMatchAsyncDBJob_UpdateEquipItem.cpp">
+      <Filter>Server\MBMatchAsync</Filter>
+    </ClCompile>
+    <ClCompile Include="MBMatchAsyncJob_GetCpuInfo.cpp">
+      <Filter>Server\MBMatchAsync</Filter>
+    </ClCompile>
+    <ClCompile Include="OnProcessAsyncJob.cpp">
+      <Filter>Server\MBMatchAsync</Filter>
+    </ClCompile>
+    <ClCompile Include="MBMatchAsyncDBJob_BringAccountItem.cpp">
+      <Filter>Server\MBMatchAsync\AccountItem</Filter>
+    </ClCompile>
+    <ClCompile Include="MBMatchAsyncDBJob_BringAccountItemStackable.cpp">
+      <Filter>Server\MBMatchAsync\AccountItem</Filter>
+    </ClCompile>
+    <ClCompile Include="MBMatchAsyncDBJob_BringBackAccountItem.cpp">
+      <Filter>Server\MBMatchAsync\AccountItem</Filter>
+    </ClCompile>
+    <ClCompile Include="MBMatchAsyncDBJob_BringBackAccountItemStackable.cpp">
+      <Filter>Server\MBMatchAsync\AccountItem</Filter>
+    </ClCompile>
+    <ClCompile Include="MBMatchServer_AntiHack.cpp">
+      <Filter>Server\MBMatchServerOnCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="MBMatchServer_Item.cpp">
+      <Filter>Server\MBMatchServerOnCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="MBMatchServer_Login.cpp">
+      <Filter>Server\MBMatchServerOnCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="MBMatchServer_OnCommand.cpp">
+      <Filter>Server\MBMatchServerOnCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="MBMatchServer_ServerKeeper.cpp">
+      <Filter>Server\MBMatchServerOnCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="MBMatchServer_Stage.cpp">
+      <Filter>Server\MBMatchServerOnCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="MMatchServer_Schedule.cpp">
+      <Filter>Server\MBMatchServerOnCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="MBMatchSecurity.cpp">
+      <Filter>Security</Filter>
+    </ClCompile>
+    <ClCompile Include="MBMatchKillTracker.cpp">
+      <Filter>Security\Hack</Filter>
+    </ClCompile>
+    <ClCompile Include="MMonitor.cpp">
+      <Filter>MFCFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleBar.cpp">
+      <Filter>MFCFramework</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>MFCFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandLogView.h">
+      <Filter>MFCFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>MFCFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="MatchServer.h">
+      <Filter>MFCFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="MatchServerDoc.h">
+      <Filter>MFCFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="MatchServerView.h">
+      <Filter>MFCFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputView.h">
+      <Filter>MFCFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>MFCFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>MFCFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="TrayIcon.h">
+      <Filter>MFCFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="MBMatchServer.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="MBMatchServerConfigReloader.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="MBMatchAsyncDBJob_BuyBountyItem.h">
+      <Filter>Server\MBMatchAsync</Filter>
+    </ClInclude>
+    <ClInclude Include="MBMatchAsyncDBJob_GambleItem.h">
+      <Filter>Server\MBMatchAsync</Filter>
+    </ClInclude>
+    <ClInclude Include="MBMatchAsyncDBJob_GambleQuestItem.h">
+      <Filter>Server\MBMatchAsync</Filter>
+    </ClInclude>
+    <ClInclude Include="MBMatchAsyncDBJob_GameOnLogin.h">
+      <Filter>Server\MBMatchAsync</Filter>
+    </ClInclude>
+    <ClInclude Include="MBMatchAsyncDBJob_NetmarbleLogin.h">
+      <Filter>Server\MBMatchAsync</Filter>
+    </ClInclude>
+    <ClInclude Include="MBMatchAsyncDBJob_NHNLogin.h">
+      <Filter>Server\MBMatchAsync</Filter>
+    </ClInclude>
+    <ClInclude Include="MBMatchAsyncDBJob_SellItem.h">
+      <Filter>Server\MBMatchAsync</Filter>
+    </ClInclude>
+    <ClInclude Include="MBMatchAsyncDBJob_TakeoffItem.h">
+      <Filter>Server\MBMatchAsync</Filter>
+    </ClInclude>
+    <ClInclude Include="MBMatchAsyncDBJob_UpdateCharLevel.h">
+      <Filter>Server\MBMatchAsync</Filter>
+    </ClInclude>
+    <ClInclude Include="MBMatchAsyncDBJob_UpdateCharPlayInfo.h">
+      <Filter>Server\MBMatchAsync</Filter>
+    </ClInclude>
+    <ClInclude Include="MBMatchAsyncDBJob_UpdateEquipItem.h">
+      <Filter>Server\MBMatchAsync</Filter>
+    </ClInclude>
+    <ClInclude Include="MBMatchAsyncJob_GetCpuInfo.h">
+      <Filter>Server\MBMatchAsync</Filter>
+    </ClInclude>
+    <ClInclude Include="MBMatchAsyncDBJob_BringAccountItem.h">
+      <Filter>Server\MBMatchAsync\AccountItem</Filter>
+    </ClInclude>
+    <ClInclude Include="MBMatchAsyncDBJob_BringAccountItemStackable.h">
+      <Filter>Server\MBMatchAsync\AccountItem</Filter>
+    </ClInclude>
+    <ClInclude Include="MBMatchAsyncDBJob_BringBackAccountItem.h">
+      <Filter>Server\MBMatchAsync\AccountItem</Filter>
+    </ClInclude>
+    <ClInclude Include="MBMatchAsyncDBJob_BringBackAccountItemStackable.h">
+      <Filter>Server\MBMatchAsync\AccountItem</Filter>
+    </ClInclude>
+    <ClInclude Include="MBMatchSecurity.h">
+      <Filter>Security</Filter>
+    </ClInclude>
+    <ClInclude Include="MBMatchUserSecurityInfo.h">
+      <Filter>Security</Filter>
+    </ClInclude>
+    <ClInclude Include="MBMatchAttackerVictimPair.h">
+      <Filter>Security\Hack</Filter>
+    </ClInclude>
+    <ClInclude Include="MBMatchKillTracker.h">
+      <Filter>Security\Hack</Filter>
+    </ClInclude>
+    <ClInclude Include="VersionNo.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MatchServer.ico">
+      <Filter>MFCFramework</Filter>
+    </None>
+    <None Include="res\MatchServer.rc2">
+      <Filter>MFCFramework</Filter>
+    </None>
+    <None Include="res\MatchServerDoc.ico">
+      <Filter>MFCFramework</Filter>
+    </None>
+    <None Include="ReadMe.txt">
+      <Filter>MFCFramework</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>MFCFramework</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MatchServer.rc">
+      <Filter>MFCFramework</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

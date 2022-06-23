@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" ?>
+<XML xmlns="http://tempuri.org/zitem.xsd" id="zquestitem">
+
+<!-- Page -->
+	<ITEM id="200001" name="STR:QITEM_NAME_200001" level="0" type="page" desc="STR:QITEM_DESC_200001"
+		unique="0" price="0" secrifice="1" param="0" />
+	<ITEM id="200002" name="STR:QITEM_NAME_200002" level="0" type="page" desc="STR:QITEM_DESC_200002"
+		unique="0" price="0" secrifice="1" param="0" />
+	<ITEM id="200003" name="STR:QITEM_NAME_200003" level="0" type="page" desc="STR:QITEM_DESC_200003"
+		unique="0" price="0" secrifice="1" param="0" />
+	<ITEM id="200004" name="STR:QITEM_NAME_200004" level="0" type="page" desc="STR:QITEM_DESC_200004"
+		unique="0" price="0" secrifice="1" param="0" />
+
+
+<!-- Skull -->
+	<ITEM id="200005" name="STR:QITEM_NAME_200005" level="0" type="skull" desc="STR:QITEM_DESC_200005"
+		unique="0" price="0" secrifice="1" param="0" />
+	<ITEM id="200006" name="STR:QITEM_NAME_200006" level="0" type="skull" desc="STR:QITEM_DESC_200006"
+		unique="0" price="0" secrifice="1" param="0" />
+	<ITEM id="200007" name="STR:QITEM_NAME_200007" level="0" type="skull" desc="STR:QITEM_DESC_200007"
+		unique="0" price="0" secrifice="1" param="0" />
+	<ITEM id="200008" name="STR:QITEM_NAME_200008" level="0" type="skull" desc="STR:QITEM_DESC_200008"
+		unique="0" price="0" secrifice="1" param="0" />
+	<ITEM id="200009" name="STR:QITEM_NAME_200009" level="0" type="skull" desc="STR:QITEM_DESC_200009"
+		unique="0" price="0" secrifice="1" param="0" />
+	<ITEM id="200010" name="STR:QITEM_NAME_200010" level="0" type="skull" desc="STR:QITEM_DESC_200010"
+		unique="0" price="0" secrifice="1" param="0" />
+
+<!-- Fresh -->
+	<ITEM id="200011" name="STR:QITEM_NAME_200011" level="0" type="fresh" desc="STR:QITEM_DESC_200011"
+		unique="0" price="0" secrifice="1" param="0" />
+	<ITEM id="200012" name="STR:QITEM_NAME_200012" level="0" type="fresh" desc="STR:QITEM_DESC_200012"
+		unique="0" price="0" secrifice="1" param="0" />
+	<ITEM id="200013" name="STR:QITEM_NAME_200013" level="0" type="fresh" desc="STR:QITEM_DESC_200013"
+		unique="0" price="0" secrifice="1" param="0" />
+
+<!-- Ring -->
+	<ITEM id="200014" name="STR:QITEM_NAME_200014" level="0" type="ring" desc="STR:QITEM_DESC_200014"
+		unique="0" price="0" secrifice="1" param="0" />
+	<ITEM id="200015" name="STR:QITEM_NAME_200015" level="0" type="ring" desc="STR:QITEM_DESC_200015"
+		unique="0" price="0" secrifice="1" param="0" />
+	<ITEM id="200016" name="STR:QITEM_NAME_200016" level="0" type="ring" desc="STR:QITEM_DESC_200016"
+		unique="0" price="0" secrifice="1" param="0" />
+	<ITEM id="200017" name="STR:QITEM_NAME_200017" level="0" type="ring" desc="STR:QITEM_DESC_200017"
+		unique="0" price="0" secrifice="1" param="0" />
+
+<!-- Necklace -->
+	<ITEM id="200018" name="STR:QITEM_NAME_200018" level="0" type="necklace" desc="STR:QITEM_DESC_200018"
+		unique="1" price="0" secrifice="1" param="0" />
+
+<!-- Doll -->
+	<ITEM id="200019" name="STR:QITEM_NAME_200019" level="0" type="doll" desc="STR:QITEM_DESC_200019"
+		unique="0" price="0" secrifice="1" param="0" />
+	<ITEM id="200020" name="STR:QITEM_NAME_200020" level="0" type="doll" desc="STR:QITEM_DESC_200020"
+		unique="0" price="0" secrifice="1" param="0" />
+	<ITEM id="200021" name="STR:QITEM_NAME_200021" level="0" type="doll" desc="STR:QITEM_DESC_200021"
+		unique="0" price="0" secrifice="1" param="0" />
+	<ITEM id="200022" name="STR:QITEM_NAME_200022" level="0" type="doll" desc="STR:QITEM_DESC_200022"
+		unique="0" price="0" secrifice="1" param="0" />
+	<ITEM id="200023" name="STR:QITEM_NAME_200023" level="0" type="doll" desc="STR:QITEM_DESC_200023"
+		unique="0" price="0" secrifice="1" param="0" />
+	<ITEM id="200024" name="STR:QITEM_NAME_200024" level="0" type="doll" desc="STR:QITEM_DESC_200024"
+		unique="1" price="0" secrifice="1" param="0" />
+	<ITEM id="200025" name="STR:QITEM_NAME_200025" level="0" type="doll" desc="STR:QITEM_DESC_200025"
+		unique="0" price="0" secrifice="1" param="0" />
+	<ITEM id="200026" name="STR:QITEM_NAME_200026" level="0" type="doll" desc="STR:QITEM_DESC_200026"
+		unique="0" price="0" secrifice="1" param="0" />
+	<ITEM id="200027" name="STR:QITEM_NAME_200027" level="0" type="doll" desc="STR:QITEM_DESC_200027"
+		unique="0" price="0" secrifice="1" param="0" />
+<!-- Book -->
+	<ITEM id="200028" name="STR:QITEM_NAME_200028" level="0" type="book" desc="STR:QITEM_DESC_200028"
+		unique="0" price="0" secrifice="1" param="0" />
+	<ITEM id="200029" name="STR:QITEM_NAME_200029" level="0" type="book" desc="STR:QITEM_DESC_200029"
+		unique="0" price="0" secrifice="1" param="0" />
+	<ITEM id="200030" name="STR:QITEM_NAME_200030" level="0" type="book" desc="STR:QITEM_DESC_200030"
+		unique="0" price="0" secrifice="1" param="0" />
+
+<!-- Object -->
+	<ITEM id="200031" name="STR:QITEM_NAME_200031" level="0" type="object" desc="STR:QITEM_DESC_200031"
+		unique="0" price="0" secrifice="1" param="0" />
+	<ITEM id="200032" name="STR:QITEM_NAME_200032" level="0" type="object" desc="STR:QITEM_DESC_200032"
+		unique="0" price="0" secrifice="1" param="0" />
+	<ITEM id="200033" name="STR:QITEM_NAME_200033" level="0" type="object" desc="STR:QITEM_DESC_200033"
+		unique="0" price="0" secrifice="1" param="0" />
+	<ITEM id="200034" name="STR:QITEM_NAME_200034" level="0" type="object" desc="STR:QITEM_DESC_200034"
+		unique="0" price="0" secrifice="1" param="0" />
+	<ITEM id="200035" name="STR:QITEM_NAME_200035" level="0" type="object" desc="STR:QITEM_DESC_200035"
+		unique="0" price="0" secrifice="1" param="0" />
+	<ITEM id="200036" name="STR:QITEM_NAME_200036" level="0" type="object" desc="STR:QITEM_DESC_200036"
+		unique="0" price="0" secrifice="1" param="0" />
+	<ITEM id="200037" name="STR:QITEM_NAME_200037" level="0" type="object" desc="STR:QITEM_DESC_200037"
+		unique="0" price="0" secrifice="1" param="0" />
+
+<!-- Sword -->
+	<ITEM id="200038" name="STR:QITEM_NAME_200038" level="0" type="sword" desc="STR:QITEM_DESC_200038"
+		unique="0" price="0" secrifice="1" param="0" />
+	<ITEM id="200039" name="STR:QITEM_NAME_200039" level="0" type="sword" desc="STR:QITEM_DESC_200039"
+		unique="0" price="0" secrifice="1" param="0" />
+	<ITEM id="200040" name="STR:QITEM_NAME_200040" level="0" type="sword" desc="STR:QITEM_DESC_200040"
+		unique="0" price="0" secrifice="1" param="0" />
+	<ITEM id="200041" name="STR:QITEM_NAME_200041" level="0" type="sword" desc="STR:QITEM_DESC_200041"
+		unique="0" price="0" secrifice="1" param="0" />
+	<ITEM id="200042" name="STR:QITEM_NAME_200042" level="0" type="sword" desc="STR:QITEM_DESC_200042"
+		unique="0" price="0" secrifice="1" param="0" />
+	<ITEM id="200043" name="STR:QITEM_NAME_200043" level="0" type="sword" desc="STR:QITEM_DESC_200043"
+		unique="0" price="0" secrifice="1" param="0" />
+	<ITEM id="200044" name="STR:QITEM_NAME_200044" level="0" type="sword" desc="STR:QITEM_DESC_200044"
+		unique="0" price="0" secrifice="1" param="0" />
+	<ITEM id="200099" name="BOO" level="0" type="sword" desc="boo" 
+		unique="0" price="0" secrifice="1" param="0"/>
+<!-- Monster bible -->
+	<ITEM id="210001" name="STR:QITEM_NAME_210001" level="0" type="monbible" desc="STR:QITEM_DESC_210001"
+		unique="0" price="0" secrifice="0" param="0" />
+<!-- \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/   QUEST BOSS DROPS   \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/ -->
+	<!-- RUIN QUEST
+		RUIN BOSS
+		01.) 9217 - Scrap Metal Rifle 
+		02.) 8003 - Raytheon Waste Sniper
+		03.) 9205 - Ground Zero Scrap Pistol
+		04.) 9212 - Raytheon Waste SMG
+		05.) 9728 - Armadillo Spear
+		
+		VULCAN BOSS (ChemZ)
+		01.) 7460 - Vulcan Massacre Helmet (m)
+		02.) 7461 - Vulcan Massacre Helmet (f)
+		03.) 9193 - Vulcan Manslaughter Katana
+		04.) 9192 - Touch Of Ruin Dagger 
+		-->
+
+	<!-- SNOWMAN QUEST
+		EVIL SANTA
+		01.) 7226 - Candy Cane Meds (was 226)
+		02.) 9062 - Frozen Katana
+		03.) 7462 - Evil Santa Hat (m)
+		04.) 7463 - Evil Santa Chest (m)
+		05.) 7464 - Evil Santa Gloves (m)
+		06.) 7465 - Evil Santa Pants (m)
+		07.) 7466 - Evil Santa Boots (m)
+		08.) 7467 - Evil Santa Hat (f)
+		09.) 7468 - Evil Santa Chest (f)
+		10.) 7469 - Evil Santa Gloves (f)
+		11.) 7470 - Evil Santa Pants (f)
+		12.) 7471 - Evil Santa Boots (f) 
+		
+		MRS CLAWS
+		1.) 9450 - Ice Lung Speed Dagger
+		2.) 9415 - Aqua Kod
+		-->		
+		
+	<!-- FALLEN WARRIOR QUEST
+		FALLEN COMMANDER
+		01.) 7237 - Chainsaw Katana  (was 37)
+		02.) 9225 - Terrorist Threat
+		03.) 7450 - Fallen Helmet (m)
+		04.) 7451 - Fallen Chest (m)
+		05.) 7452 - Fallen Gloves (m)
+		06.) 7453 - Fallen Pants (m)
+		07.) 7454 - Fallen Boots (m)
+		08.) 7455 - Fallen Helmet (f)
+		09.) 7456 - Fallen Chest (f)
+		10.) 7457 - Fallen Gloves (f)
+		11.) 7458 - Fallen Pants (f)
+		12.) 7459 - Fallen Boots (f)
+		
+		FALLEN WARRIOR
+		1.) 9199 - Golden Axe
+		2.) 9058 - Lust Sword
+		3.) 9213 - Scrap Metal Rocket Launcher
+		-->
+
+	<!-- PACMAN QUEST
+		EVIL PACMAN
+		1.) 72322 - Pacman Hat (m)  (was 322)
+		2.) 72323 - Pacman Hat (f)  (was 21015)
+		3.) 9247 - Pacman Shirt (m)
+		4.) 9314 - Pacman Shirt (f)
+		3.) Cherry Meds
+		4.) Pacman Ghost Grenades
+		5.) 7540 - Thunder Katana
+		-->
+		
+</XML>

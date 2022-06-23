@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+What each variable in the element indicates:
+
+id = unique value assigned to each achievement.
+type = same as gametype as defined in the source.
+title/desc/requirement = self explanatory.
+
+0 through 19 are reserved for gamemodes, anything after that can be specifically for achievements such as leveling up, time based achievements, etc....
+-->
+
+<XML id="achievements">
+	<ACHIEVEMENT id="0" type="0" title="1 Kill" desc="Get 1 kill in a deathmatch" requirement="1"/>
+	<ACHIEVEMENT id="1" type="0" title="10 Kills" desc="Get 10 kills in a deathmatch" requirement ="10"/>
+</XML>

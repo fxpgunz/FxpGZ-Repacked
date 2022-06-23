@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XML id="channel">
+	<DEFAULTCHANNELNAME name="STR:CHANNEL_DEFAULT_NAME"/>
+	<DEFAULTRULENAME name="novice"/>
+
+	<CHANNEL name="STR:CHANNEL_NOVICE_NAME" maxplayers="200" rule="novice"/>
+	
+	<CHANNEL name="STR:CHANNEL_NEWBIE2_NAME" maxplayers="200" rule="newbie" levelmin='1' levelmax='10'/>
+	<CHANNEL name="STR:CHANNEL_ROOKIE_NAME" maxplayers="200" rule="rookie" levelmin='11' levelmax='20'/>
+	<CHANNEL name="STR:CHANNEL_MASTERY_NAME_1" maxplayers="200" rule="mastery" levelmin='21' levelmax='34' />
+	<CHANNEL name="STR:CHANNEL_MASTERY_NAME_2" maxplayers="200" rule="mastery" levelmin='21' />
+	<CHANNEL name="STR:CHANNEL_ELITE_NAME1" maxplayers="200" rule="elite" levelmin='35'/>
+	<CHANNEL name="STR:CHANNEL_ELITE_NAME2" maxplayers="200" rule="elite" levelmin='35'/>
+	<CHANNEL name="STR:CHANNEL_CHAMPION_NAME" maxplayers="200" rule="champion" levelmin='50' />
+	
+	<CHANNEL name="STR:CHANNEL_DUELTOURNAMENT_NAME_1" maxplayers="200" rule="dueltournament" IsDuelTournament="true"/>
+	<CHANNEL name="STR:CHANNEL_DUELTOURNAMENT_NAME_2" maxplayers="200" rule="dueltournament" IsDuelTournament="true"/>
+	<CHANNEL name="STR:CHANNEL_DUELTOURNAMENT_NAME_3" maxplayers="200" rule="dueltournament" IsDuelTournament="true"/>
+	<CHANNEL name="STR:CHANNEL_DUELTOURNAMENT_NAME_4" maxplayers="200" rule="dueltournament" IsDuelTournament="true"/>
+	<CHANNEL name="STR:CHANNEL_DUELTOURNAMENT_NAME_5" maxplayers="200" rule="dueltournament" IsDuelTournament="true"/>
+	<CHANNEL name="STR:CHANNEL_DUELTOURNAMENT_NAME_6" maxplayers="200" rule="dueltournament" IsDuelTournament="true"/>
+	<CHANNEL name="STR:CHANNEL_DUELTOURNAMENT_NAME_7" maxplayers="200" rule="dueltournament" IsDuelTournament="true"/>
+	<CHANNEL name="STR:CHANNEL_DUELTOURNAMENT_NAME_8" maxplayers="200" rule="dueltournament" IsDuelTournament="true"/>
+	
+	<!-- old list, need to delete
+	<CHANNEL name="STR:CHANNEL_NOVICE_NAME_1" maxplayers="200" rule="novice"/>
+	<CHANNEL name="STR:CHANNEL_NOVICE_NAME_2" maxplayers="200" rule="novice"/>
+	<CHANNEL name="STR:CHANNEL_NOVICE_NAME_3" maxplayers="200" rule="novice"/>
+	<CHANNEL name="STR:CHANNEL_NOVICE_NAME_4" maxplayers="200" rule="novice"/>
+	<CHANNEL name="STR:CHANNEL_NOVICE_NAME_5" maxplayers="200" rule="novice"/>
+
+	<CHANNEL name="STR:CHANNEL_NEWBIE_NAME_1" maxplayers="200" rule="newbie" levelmin='1' levelmax='5'/>
+	<CHANNEL name="STR:CHANNEL_NEWBIE_NAME_2" maxplayers="200" rule="newbie" levelmin='1' levelmax='5'/>
+
+	<CHANNEL name="STR:CHANNEL_NEWBIE2_NAME_1" maxplayers="200" rule="newbie" levelmin='6' levelmax='10'/>
+	<CHANNEL name="STR:CHANNEL_NEWBIE2_NAME_2" maxplayers="200" rule="newbie" levelmin='6' levelmax='10'/>
+
+	<CHANNEL name="STR:CHANNEL_ROOKIE_NAME_1" maxplayers="200" rule="rookie" levelmin='11' levelmax='20'/>
+	<CHANNEL name="STR:CHANNEL_ROOKIE_NAME_2" maxplayers="200" rule="rookie" levelmin='11' levelmax='20'/>
+
+	<CHANNEL name="STR:CHANNEL_MASTERY_NAME_1" maxplayers="200" rule="mastery" levelmin='21' levelmax='34' />
+	<CHANNEL name="STR:CHANNEL_MASTERY_NAME_2" maxplayers="200" rule="mastery" levelmin='21' levelmax='34' />
+	<CHANNEL name="STR:CHANNEL_MASTERY_NAME_3" maxplayers="200" rule="mastery" levelmin='21' />
+	<CHANNEL name="STR:CHANNEL_MASTERY_NAME_4" maxplayers="200" rule="mastery" levelmin='21' />
+
+	<CHANNEL name="STR:CHANNEL_ELITE_NAME_1" maxplayers="200" rule="elite" levelmin='35' levelmax='49' />
+	<CHANNEL name="STR:CHANNEL_ELITE_NAME_2" maxplayers="200" rule="elite" levelmin='35' />
+
+	<CHANNEL name="STR:CHANNEL_CHAMPION_NAME_1" maxplayers="200" rule="champion" levelmin='50' />
+	<CHANNEL name="STR:CHANNEL_CHAMPION_NAME_2" maxplayers="200" rule="champion" levelmin='50' />
+	-->
+</XML>

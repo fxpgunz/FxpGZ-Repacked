@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="CustomBackground.cpp" />
+    <ClCompile Include="CustomBackgroundMain.cpp" />
+    <ClCompile Include="CustomBackgroundUtils.cpp" />
+    <ClCompile Include="CResource.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CGdiBitmap.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsUtils.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>dllMain</Filter>
+    </ClInclude>
+    <ClInclude Include="veroverrides.h">
+      <Filter>dllMain</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomBackground.h" />
+    <ClInclude Include="CustomBackgroundMain.h" />
+    <ClInclude Include="CustomBackgroundUtils.h" />
+    <ClInclude Include="CResource.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CGdiBitmap.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsUtils.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="dllMain">
+      <UniqueIdentifier>{6a297766-80d8-4432-803d-01624401551b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{092390e3-de5d-4028-a131-c7fa10c9143d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{ec253a3a-62b0-4c20-a1f2-425d320f6ee4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CustomBackground.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CustomBackground.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="shaders\dx9_Draw.fx">
+      <Filter>shaders</Filter>
+    </Text>
+    <Text Include="shaders\dx11_Draw.fx">
+      <Filter>shaders</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

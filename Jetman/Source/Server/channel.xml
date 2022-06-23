@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XML id="channel">
+	<DEFAULTCHANNELNAME name="STR:CHANNEL_DEFAULT_NAME"/>
+	<DEFAULTRULENAME name="elite"/>
+
+	<CHANNEL name="DRGunZ" maxplayers="500" rule="elite"/>
+	<CHANNEL name="DRGunZ Newbies (Lv. 1 - 50)" maxplayers="500" rule="elite" levelmin="1" levelmax="50"/>
+	<CHANNEL name="DRGunZ Pros (Lv.50 - 99)" maxplayers="500" rule="elite" levelmin="50" levelmax="99"/>
+	<CHANNEL name="DRGunZ Event Channel" maxplayers="500" rule="event" levelmin="1" levelmax="99"/>
+	
+	<CHANNEL name="STR:CHANNEL_DUELTOURNAMENT_NAME_1" maxplayers="250" rule="dueltournament" IsDuelTournament="true"/>
+</XML>

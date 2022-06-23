@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Hybrid|x64">
+      <Configuration>Hybrid</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>Bloom</ProjectName>
+    <ProjectGuid>{53B580C4-89E7-4376-A3B9-A5D90B01DFFF}</ProjectGuid>
+    <RootNamespace>Bloom</RootNamespace>
+    <MaxSDK>../../../../maxsdk</MaxSDK>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <Import Project="$(MaxSDK)\ProjectSettings\PropertySheets\3dsmax.general.project.settings.props" />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(MaxSDK)\ProjectSettings\PropertySheets\3dsmax.cpp.props" />
+  </ImportGroup>
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir>$(MaxBuildStdplugs)</OutDir>
+    <TargetName>Bloom</TargetName>
+    <TargetExt>.dlu</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <AdditionalIncludeDirectories>$(MaxSdkInc);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(MaxSdkInc);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>gdiplus.lib;comctl32.lib;paramblk2.lib;maxutil.lib;core.lib;assetmanagement.lib;geom.lib;bmm.lib;DataBridge.lib;GraphicsUtility.lib;FragmentGraph.lib;GraphicsDriver.lib;ViewSystem.lib;MaxGraphicsObjects.lib;mesh.lib;Optimesh.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(MaxSdkLib);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>.\Bloom.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>_SECURE_SCL=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Hybrid|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>_SECURE_SCL=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Bloom.cpp" />
+    <ClCompile Include="BloomMain.cpp" />
+    <ClCompile Include="BloomUtils.cpp" />
+    <ClCompile Include="CResource.cpp" />
+    <ClCompile Include="TargetCache.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Bloom.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Bloom.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bloom.h" />
+    <ClInclude Include="BloomMain.h" />
+    <ClInclude Include="BloomUtils.h" />
+    <ClInclude Include="CResource.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="TargetCache.h" />
+    <ClInclude Include="veroverrides.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="shaders\dx9_GaussianBlurH.fx">
+      <FileType>Document</FileType>
+    </Text>
+    <Text Include="shaders\dx9_GaussianBlurV.fx">
+      <FileType>Document</FileType>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="shaders\dx9_Draw.fx">
+      <FileType>Document</FileType>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="shaders\dx9_FilterDraw.fx">
+      <FileType>Document</FileType>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="shaders\dx9_AddDraw.fx">
+      <FileType>Document</FileType>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="shaders\dx11_AddDraw.fx">
+      <FileType>Document</FileType>
+    </Text>
+    <Text Include="shaders\dx11_Draw.fx">
+      <FileType>Document</FileType>
+    </Text>
+    <Text Include="shaders\dx11_FilterDraw.fx">
+      <FileType>Document</FileType>
+    </Text>
+    <Text Include="shaders\dx11_GaussianBlurH.fx">
+      <FileType>Document</FileType>
+    </Text>
+    <Text Include="shaders\dx11_GaussianBlurV.fx">
+      <FileType>Document</FileType>
+    </Text>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

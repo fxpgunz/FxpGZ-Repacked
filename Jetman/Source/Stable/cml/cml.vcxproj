@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8D451493-65C2-49C3-ADAE-ACB17E6B0650}</ProjectGuid>
+    <SccProjectName />
+    <SccAuxPath />
+    <SccLocalPath />
+    <SccProvider />
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>Lib\</OutDir>
+    <IntDir>Debug\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>Lib\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>Include;../RealSpace/Include;../../sdk/crypto;Include/GZip;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>lib\zlib.lib;comsuppd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>Lib\cmld.lib</OutputFile>
+      <AdditionalLibraryDirectories>Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Lib>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0412</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>Include;../RealSpace/Include;../../sdk/crypto;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>lib\zlib64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>Lib\cml64d.lib</OutputFile>
+      <AdditionalLibraryDirectories>Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+    </Lib>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0412</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>Include;../RealSpace/Include;../../sdk/crypto;../sdk/lua/include/x86;Include/GZip;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MinimalRebuild>false</MinimalRebuild>
+      <EnableEnhancedInstructionSet>NoExtensions</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <Optimization>Full</Optimization>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>lib\zlib.lib;..\sdk\lua\lib\x86\lua53.lib;comsupp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>Lib\cml.lib</OutputFile>
+      <AdditionalLibraryDirectories>Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Lib>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0412</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>Include;../RealSpace/Include;../../sdk/crypto;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;_LIB;_PUBLISH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MinimalRebuild>false</MinimalRebuild>
+      <EnableEnhancedInstructionSet>NoExtensions</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <Optimization>Full</Optimization>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>lib\zlib64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>Lib\cml64.lib</OutputFile>
+      <AdditionalLibraryDirectories>Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0412</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\MMath.h" />
+    <ClInclude Include="Include\MMatrix.h" />
+    <ClInclude Include="Include\MPlane.h" />
+    <ClInclude Include="Include\MQuat.h" />
+    <ClInclude Include="Include\MVector3.h" />
+    <ClInclude Include="Include\MXml.h" />
+    <ClInclude Include="Include\MZip.h" />
+    <ClInclude Include="Include\rapidxml.hpp" />
+    <ClInclude Include="Include\rapidxml_print.hpp" />
+    <ClInclude Include="Include\rapidxml_utils.hpp" />
+    <ClInclude Include="Include\seed.h" />
+    <ClInclude Include="Include\HMAC_SHA1.h" />
+    <ClInclude Include="Include\MMD5.h" />
+    <ClInclude Include="Include\SHA1.h" />
+    <ClInclude Include="Include\CfgFile.h" />
+    <ClInclude Include="Include\CMError.h" />
+    <ClInclude Include="Include\CMErrorDef.h" />
+    <ClInclude Include="Include\CMLexicalAnalyzer.h" />
+    <ClInclude Include="Include\CMList.h" />
+    <ClInclude Include="Include\CMPtrList.h" />
+    <ClInclude Include="Include\CommonLog.h" />
+    <ClInclude Include="Include\FileInfo.h" />
+    <ClInclude Include="Include\Hash.h" />
+    <ClInclude Include="Include\LibPak.h" />
+    <ClInclude Include="Include\MArchive.h" />
+    <ClInclude Include="Include\MAsyncHttp.h" />
+    <ClInclude Include="Include\MBlobArray.h" />
+    <ClInclude Include="Include\MCheckSum.h" />
+    <ClInclude Include="Include\MChunkReWriter.h" />
+    <ClInclude Include="Include\MCrashDump.h" />
+    <ClInclude Include="Include\MCRC32.h" />
+    <ClInclude Include="Include\MCrypt.h" />
+    <ClInclude Include="Include\MCsvParser.h" />
+    <ClInclude Include="Include\MDataChecker.h" />
+    <ClInclude Include="Include\MDebug.h" />
+    <ClInclude Include="Include\MemPool.h" />
+    <ClInclude Include="Include\MFolderNotifier.h" />
+    <ClInclude Include="Include\MHttpSpooler.h" />
+    <ClInclude Include="Include\MInet.h" />
+    <ClInclude Include="Include\MInetUtil.h" />
+    <ClInclude Include="Include\MLex.h" />
+    <ClInclude Include="Include\MListSTL.h" />
+    <ClInclude Include="Include\MLocale.h" />
+    <ClInclude Include="Include\MMemoryProxy.h" />
+    <ClInclude Include="Include\MPageArray.h" />
+    <ClInclude Include="Include\MPdb.h" />
+    <ClInclude Include="Include\MProcessController.h" />
+    <ClInclude Include="Include\MProfiler.h" />
+    <ClInclude Include="Include\MRegistry.h" />
+    <ClInclude Include="Include\MRsaEncrypt.h" />
+    <ClInclude Include="Include\MRTTI.h" />
+    <ClInclude Include="Include\MSmartRefresh.h" />
+    <ClInclude Include="Include\MStateMachine.h" />
+    <ClInclude Include="Include\MStrEx.h" />
+    <ClInclude Include="Include\MSync.h" />
+    <ClInclude Include="Include\MThread.h" />
+    <ClInclude Include="Include\MTraceMemory.h" />
+    <ClInclude Include="Include\MTrafficLog.h" />
+    <ClInclude Include="Include\MTypes.h" />
+    <ClInclude Include="Include\MUtil.h" />
+    <ClInclude Include="Include\MWindowFinder.h" />
+    <ClInclude Include="Include\MZFileSystem.h" />
+    <ClInclude Include="Include\sha2.h" />
+    <ClInclude Include="Include\stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\MMatrix.cpp" />
+    <ClCompile Include="Source\MVector3.cpp" />
+    <ClCompile Include="source\MXml.cpp" />
+    <ClCompile Include="source\MZip.cpp" />
+    <ClCompile Include="source\seed.cpp" />
+    <ClCompile Include="source\HMAC_SHA1.cpp" />
+    <ClCompile Include="source\MMD5.cpp" />
+    <ClCompile Include="source\SHA1.cpp" />
+    <ClCompile Include="Source\CfgFile.cpp" />
+    <ClCompile Include="Source\CMError.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="Source\CMLexicalAnalyzer.cpp" />
+    <ClCompile Include="Source\CommonLog.cpp" />
+    <ClCompile Include="Source\FileInfo.cpp" />
+    <ClCompile Include="Source\hash.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="Source\LibPak.cpp" />
+    <ClCompile Include="Source\MArchive.cpp" />
+    <ClCompile Include="source\MAsyncHttp.cpp" />
+    <ClCompile Include="Source\MBlobArray.cpp" />
+    <ClCompile Include="Source\MCheckSum.cpp" />
+    <ClCompile Include="Source\MChunkReWriter.cpp" />
+    <ClCompile Include="Source\MCrashDump.cpp" />
+    <ClCompile Include="source\MCRC32.cpp" />
+    <ClCompile Include="source\MCrypt.cpp" />
+    <ClCompile Include="source\MCsvParser.cpp" />
+    <ClCompile Include="source\MDataChecker.cpp" />
+    <ClCompile Include="Source\MDebug.cpp" />
+    <ClCompile Include="Source\MemPool.cpp" />
+    <ClCompile Include="source\MFolderNotifier.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="source\MHttpSpooler.cpp" />
+    <ClCompile Include="Source\MInet.cpp" />
+    <ClCompile Include="source\MInetUtil.cpp" />
+    <ClCompile Include="source\MLex.cpp" />
+    <ClCompile Include="source\MLocale.cpp" />
+    <ClCompile Include="source\MMemoryProxy.cpp" />
+    <ClCompile Include="source\MPageArray.cpp" />
+    <ClCompile Include="Source\MPdb.cpp" />
+    <ClCompile Include="source\MProcessController.cpp" />
+    <ClCompile Include="Source\MProfiler.cpp" />
+    <ClCompile Include="Source\MRegistry.cpp" />
+    <ClCompile Include="source\MRsaEncrypt.cpp" />
+    <ClCompile Include="source\MSmartRefresh.cpp" />
+    <ClCompile Include="Source\MStateMachine.cpp" />
+    <ClCompile Include="Source\MStrEx.cpp" />
+    <ClCompile Include="source\MSync.cpp" />
+    <ClCompile Include="source\MThread.cpp" />
+    <ClCompile Include="source\MTraceMemory.cpp" />
+    <ClCompile Include="Source\MUtil.cpp" />
+    <ClCompile Include="Source\MZFileSystem.cpp" />
+    <ClCompile Include="source\sha2.cpp" />
+    <ClCompile Include="source\stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="msxml.dll" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

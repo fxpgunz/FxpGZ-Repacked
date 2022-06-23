@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- 시간은 초단위로 사용합니다. -->
+<XML id="spymaplist">
+	
+	<!-- id : map.xml에 기입되어 있는 맵 아이디, name : 맵이름 
+		 minPlayer : 최소인원, maxPlayer : 최대인원 
+		 limitTime : 제한시간, spyOpenTime : 스파이 위치 공개 시간 -->
+		 
+	<SPY_MAP id="24" name="Weaponshop" minPlayers="4" maxPlayers="5" limitTime="50" spyOpenTime="10"/>
+	<SPY_MAP id="11" name="Factory" minPlayers="4" maxPlayers="5" limitTime="50" spyOpenTime="10"/>
+	<SPY_MAP id="20" name="High_Heaven" minPlayers="5" maxPlayers="6" limitTime="90" spyOpenTime="18"/>
+	<SPY_MAP id="13" name="Lost Shrine" minPlayers="5" maxPlayers="6" limitTime="75" spyOpenTime="15"/>
+	<SPY_MAP id="2" name="Station" minPlayers="6" maxPlayers="7" limitTime="105" spyOpenTime="21"/>
+	<SPY_MAP id="8" name="Island" minPlayers="6" maxPlayers="7" limitTime="120" spyOpenTime="24"/>
+	<SPY_MAP id="21" name="Citadel" minPlayers="7" maxPlayers="8" limitTime="120" spyOpenTime="24"/>
+	<SPY_MAP id="5" name="Town" minPlayers="7" maxPlayers="8" limitTime="120" spyOpenTime="24"/>
+	<SPY_MAP id="12" name="Port" minPlayers="8" maxPlayers="9" limitTime="135" spyOpenTime="27"/>
+	<SPY_MAP id="0" name="Mansion" minPlayers="8" maxPlayers="9" limitTime="135" spyOpenTime="27"/>
+	<SPY_MAP id="9" name="Garden" minPlayers="8" maxPlayers="9" limitTime="105" spyOpenTime="21"/>
+	<SPY_MAP id="6" name="Dungeon" minPlayers="9" maxPlayers="10" limitTime="135" spyOpenTime="27"/>
+	<SPY_MAP id="1" name="Prison" minPlayers="10" maxPlayers="11" limitTime="135" spyOpenTime="27"/>
+	<SPY_MAP id="10" name="Castle" minPlayers="10" maxPlayers="11" limitTime="135" spyOpenTime="27"/>
+	<SPY_MAP id="7" name="Ruin" minPlayers="11" maxPlayers="12" limitTime="150" spyOpenTime="30"/>
+	<SPY_MAP id="4" name="Battle Arena" minPlayers="11" maxPlayers="12" limitTime="135" spyOpenTime="27"/>
+	<SPY_MAP id="14" name="Stairway" minPlayers="11" maxPlayers="12" limitTime="135" spyOpenTime="27"/>
+			
+</XML>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML id="SkillMap">
+	<MAP id="28" name="SkillMapV1"/>
+	<MAP id="29" name="SkillMapV2"/>
+	<MAP id="30" name="SkillMapV3"/>
+	<MAP id="31" name="SkillMapV4"/>
+	<MAP id="32" name="SuperFlip"/>
+</XML>

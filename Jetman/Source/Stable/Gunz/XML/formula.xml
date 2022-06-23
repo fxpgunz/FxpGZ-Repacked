@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<XML id="formula">
+
+<FORMULA_TABLE id="NeedExpLM">
+	<LM lower="1" upper="20">1</LM>
+	<LM lower="21" upper="30">1.1</LM>
+	<LM lower="31" upper="40">1.2</LM>
+	<LM lower="41" upper="45">1.4</LM>
+	<LM lower="46" upper="50">1.6</LM>
+	<LM lower="51" upper="55">1.8</LM>
+	<LM lower="56" upper="60">2</LM>
+	<LM lower="61" upper="65">4</LM>
+	<LM lower="66" upper="70">8</LM>
+	<LM lower="71" upper="75">12</LM>
+	<LM lower="76" upper="80">16</LM>
+	<LM lower="81" upper="85">20</LM>
+	<LM lower="86" upper="90">20</LM>
+	<LM lower="91" upper="95">40</LM>
+	<LM lower="96" upper="99">40</LM>
+	<LM lower="100" upper="110">40</LM>
+	<LM lower="111" upper="120">40</LM>
+</FORMULA_TABLE>
+
+<FORMULA_TABLE id="GettingExpLM">
+	<LM lower="1" upper="20">25</LM>
+	<LM lower="21" upper="30">25</LM>
+	<LM lower="31" upper="40">25</LM>
+	<LM lower="41" upper="45">25</LM>
+	<LM lower="46" upper="50">25</LM>
+	<LM lower="51" upper="55">25</LM>
+	<LM lower="56" upper="60">25</LM>
+	<LM lower="61" upper="65">25</LM>
+	<LM lower="66" upper="70">25</LM>
+	<LM lower="71" upper="75">25</LM>
+	<LM lower="76" upper="80">25</LM>
+	<LM lower="81" upper="85">25</LM>
+	<LM lower="86" upper="90">25</LM>
+	<LM lower="91" upper="95">25</LM>
+	<LM lower="96" upper="99">25</LM>
+	<LM lower="100" upper="110">25</LM>
+	<LM lower="111" upper="120">25</LM>
+</FORMULA_TABLE>
+
+<FORMULA_TABLE id="GettingBountyLM">
+	<LM lower="1" upper="20">10</LM>
+	<LM lower="21" upper="30">10</LM>
+	<LM lower="31" upper="40">10</LM>
+	<LM lower="41" upper="45">10</LM>
+	<LM lower="46" upper="50">10</LM>
+	<LM lower="51" upper="55">10</LM>
+	<LM lower="56" upper="60">10</LM>
+	<LM lower="61" upper="65">10</LM>
+	<LM lower="66" upper="70">10</LM>
+	<LM lower="71" upper="75">10</LM>
+	<LM lower="76" upper="80">10</LM>
+	<LM lower="81" upper="85">10</LM>
+	<LM lower="86" upper="90">10</LM>
+	<LM lower="91" upper="95">10</LM>
+	<LM lower="96" upper="99">10</LM>
+	<LM lower="100" upper="110">10</LM>
+	<LM lower="111" upper="120">10</LM>
+</FORMULA_TABLE>
+
+</XML>

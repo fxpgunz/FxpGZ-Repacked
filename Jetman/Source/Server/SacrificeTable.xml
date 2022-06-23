@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XML xmlns="http://tempuri.org/zitem.xsd" id="sacrificeTable">
+	<ITEM map="" ql="1" default_item_id="0" special_item_id1="0" special_item_id2="0" significant_npc="" sdc="1" ScenarioID="0" />
+	<ITEM map="" ql="1" default_item_id="0" special_item_id1="200008" special_item_id2="0" significant_npc="goblin chief" sdc="1" ScenarioID="0" />
+	
+	<ITEM map="" ql="2" default_item_id="200001"	special_item_id1="0" special_item_id2="0" significant_npc="" sdc="1" ScenarioID="0" />
+	<ITEM map="" ql="2" default_item_id="0"	special_item_id1="200024" special_item_id2="0" significant_npc="palmpoa commander" sdc="1" ScenarioID="0" />
+	<ITEM map="" ql="2" default_item_id="0"	special_item_id1="200018" special_item_id2="0" significant_npc="goblin king" sdc="1" ScenarioID="0" />
+	<ITEM map="" ql="2" default_item_id="0"	special_item_id1="200022" special_item_id2="0" significant_npc="palmpow" sdc="1" ScenarioID="0" />
+	
+	<ITEM map="" ql="3" default_item_id="200002"	special_item_id1="0" special_item_id2="0" significant_npc="" sdc="1" ScenarioID="0" />
+	<ITEM map="" ql="3" default_item_id="0"	special_item_id1="200025" special_item_id2="200027" significant_npc="cursed palmow" sdc="1" ScenarioID="0" />
+	
+	<ITEM map="" ql="4" default_item_id="200003"	special_item_id1="0" special_item_id2="0" significant_npc="" sdc="1" ScenarioID="0" />
+	
+	<ITEM map="" ql="5" default_item_id="200004"	special_item_id1="0" special_item_id2="0" significant_npc="" sdc="1" ScenarioID="0" />
+	<!-- Vulkan Spectre-->
+	<ITEM map="" ql="5" default_item_id="0" special_item_id1="200041" special_item_id2="200036" significant_npc="" sdc="2" ScenarioID="0"/>
+	<!-- Vulkan Massacre-->
+	<ITEM map="" ql="4" default_item_id="0" special_item_id1="200040" special_item_id2="200036" significant_npc="" sdc="2" ScenarioID="0"/>
+	<!-- Ghost Of Ruin Future-->
+	<ITEM map="" ql="5" default_item_id="0" special_item_id1="200004" special_item_id2="200036" significant_npc="" sdc="2" ScenarioID="0"/>
+	<!-- Ghost Of Ruin Present-->
+	<ITEM map="" ql="4" default_item_id="0" special_item_id1="200003" special_item_id2="200036" significant_npc="" sdc="2" ScenarioID="0"/>
+	<!-- Ghost Of Ruin Past-->
+	<ITEM map="" ql="3" default_item_id="0" special_item_id1="200002" special_item_id2="200036" significant_npc="" sdc="2" ScenarioID="0"/>
+	<!-- Massacre of Ruin-->
+	<ITEM map="" ql="2" default_item_id="0" special_item_id1="200001" special_item_id2="200036" significant_npc="" sdc="2" ScenarioID="0"/>
+	<!-- Coffin Feeder-->
+	<ITEM map="" ql="5" default_item_id="0" special_item_id1="200034" special_item_id2="200032" significant_npc="" sdc="2" ScenarioID="0"/>
+	<!-- ForceFed Broken Glass-->
+	<ITEM map="" ql="4" default_item_id="0" special_item_id1="200034" special_item_id2="200031" significant_npc="" sdc="2" ScenarioID="0"/>
+	<!--HammerSmashedFace-->
+	<ITEM map="" ql="5" default_item_id="0" special_item_id1="200034" special_item_id2="200004" significant_npc="" sdc="2" ScenarioID="0"/>
+	<!--HammerSmashedFaceQL4-->
+	<ITEM map="" ql="4" default_item_id="0" special_item_id1="200034" special_item_id2="200003" significant_npc="" sdc="2" ScenarioID="0"/>
+	<!--HammerSmashedFaceQL3-->
+	<ITEM map="" ql="3" default_item_id="0" special_item_id1="200034" special_item_id2="200002" significant_npc="" sdc="2" ScenarioID="0"/>
+	<!-- Cyanide Assassin-->
+	<ITEM map="" ql="2" default_item_id="0" special_item_id1="200034" special_item_id2="200001" significant_npc="" sdc="2" ScenarioID="0"/>
+	<!-- You  have been Naughty-->
+	<ITEM map="" ql="5" default_item_id="0" special_item_id1="200035" special_item_id2="200043" significant_npc="" sdc="2" ScenarioID="0"/>
+	<!-- Ice Ghost-->
+	<ITEM map="" ql="4" default_item_id="0" special_item_id1="200035" special_item_id2="200025" significant_npc="" sdc="2" ScenarioID="0"/>
+	<!-- MRS Claws Rawr-->
+	<ITEM map="" ql="3" default_item_id="0" special_item_id1="200035" special_item_id2="200035" significant_npc="" sdc="2" ScenarioID="0"/>
+	<!-- Frostys Revenge-->
+	<ITEM map="" ql="2" default_item_id="0" special_item_id1="200035" special_item_id2="200004" significant_npc="" sdc="2" ScenarioID="0"/>
+	<!-- Ice Cave-->
+	<ITEM map="" ql="1" default_item_id="0" special_item_id1="200035" special_item_id2="200001" significant_npc="" sdc="1" ScenarioID="0"/>
+	<!-- Ice Cave LV1 -->
+	<ITEM map="" ql="1" default_item_id="0" special_item_id1="200035" special_item_id2="200002" significant_npc="" sdc="2" ScenarioID="0"/>
+	<!-- Ice Cave LV2 -->
+	<ITEM map="" ql="2" default_item_id="0" special_item_id1="200035" special_item_id2="200003" significant_npc="" sdc="3" ScenarioID="0"/>
+	<!-- EVil Pacman-->
+	<ITEM map="" ql="5" default_item_id="0" special_item_id1="200025" special_item_id2="200024" significant_npc="" sdc="4" ScenarioID="0"/>
+	<!--Sound of Fury-->
+	<ITEM map="" ql="2" default_item_id="0" special_item_id1="200038" special_item_id2="200002" significant_npc="" sdc="2" ScenarioID="0"/>
+	<!-- Queue The Thunder-->
+	<ITEM map="" ql="1" default_item_id="0" special_item_id1="200038" special_item_id2="200001" significant_npc="" sdc="2" ScenarioID="0"/>
+	<!-- BOO-->
+	<ITEM map="" ql="2" default_item_id="200099" special_item_id1="" special_item_id2="" significant_npc="" sdc="1" ScenarioID="0"/>
+
+</XML>

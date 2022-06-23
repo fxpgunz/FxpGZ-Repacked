@@ -1,6 +1,18 @@
 {
   "version": "0.2.0",
   "configurations": [
+    
+    {
+      "name": "(Windows) Launch",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "enter program name, for example ${workspaceFolder}/a.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "console": "externalTerminal"
+    },
     {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
@@ -8,8 +20,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "c:/Users/fxp/Desktop/FxpGZ-Repacked",
-      "program": "c:/Users/fxp/Desktop/FxpGZ-Repacked/build/Debug/outDebug",
+      "cwd": "c:/Users/fxp/Desktop/FxpGZ-Repacked/Gunz",
+      "program": "c:/Users/fxp/Desktop/FxpGZ-Repacked/Gunz/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

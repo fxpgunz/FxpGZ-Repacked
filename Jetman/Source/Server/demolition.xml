@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML>
+	<!-- Mansion-->
+	<MAP id="0" name="Mansion" redPos="4799.7851563 -790.5439453 601.9998169" bluePos="-5423.1645508 -1336.1931152 704.1063843"/>
+	<!-- Town-->
+	<MAP id="5" name="Town" redPos="4850.8 3640.8 -729.7" bluePos="-4045.3 -5284.7 -729.7"/>
+</XML>

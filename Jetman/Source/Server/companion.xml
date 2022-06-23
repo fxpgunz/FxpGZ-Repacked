@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+TODO: determine what meshpicking does
+-->
+
+<XML id="Companion">
+
+	<COMPANION 
+		name="neko"
+		model="neko"
+		max_hp="80"
+		max_ap="60"
+		colradius="40"
+		colheight="40"
+		shadow="false"
+		meshpicking="false"
+	/>
+			   
+			   
+</XML>

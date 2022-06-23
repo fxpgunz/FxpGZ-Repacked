@@ -1,0 +1,6 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="MenuDemo/Icons">
+    <file>maxMenuDemo_Dark.rcc</file>
+    <file>maxMenuDemo_Light.rcc</file>
+</qresource>
+</RCC>

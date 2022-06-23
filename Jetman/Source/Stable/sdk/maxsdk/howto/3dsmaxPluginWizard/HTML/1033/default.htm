@@ -1,0 +1,398 @@
+<HTML DIR="ltr">
+	<HEAD>
+		<TITLE>3ds max Plugin Wizard</TITLE>
+		<META NAME="vs_targetSchema" CONTENT="http://schemas.microsoft.com/intellisense/ie5">
+		<STYLE TYPE="text/css">@import url(); 
+		</STYLE>
+		<LINK ID="LINKURL" REL="stylesheet" HREF="../../1033/styles.css">
+		<!--  -->
+		<!-- The SYMBOL tag is used to set the default values for the user-defined symbols.-->
+		<!--  -->
+		<SYMBOL NAME='WIZARD_DIALOG_TITLE' TYPE="text" VALUE='3dsmax Plugin Wizard'></SYMBOL>
+		<SYMBOL NAME='SOURCE_FILTER' TYPE="text" VALUE='txt'></SYMBOL>
+		<SYMBOL NAME='APP_TYPE_SUMMARY' TYPE="text" VALUE='//TODO: Application summary'></SYMBOL>
+		<!-- These are 3ds max Wizard specific symbols -->
+		<SYMBOL NAME='PLUGTYPE_LISTBOX' TYPE="select-one" VALUE=''></SYMBOL>
+	</HEAD>
+	<BODY BGCOLOR="buttonface" TOPMARGIN="0" LEFTMARGIN="0" RIGHTMARGIN="0" BOTTOMMARGIN="0" ONLOAD="InitDocument(document);" ONKEYDOWN="OnKey();" ONKEYPRESS="OnPress();">
+		<table class="ONE" height="100%" width="100%" border="0" cellpadding="0" cellspacing="0">
+			<colgroup>
+				<col width="178" />
+				<col />
+			</colgroup>
+			<!--OPEN OF INTRODUCTORY INFORMATION TABLE//-->
+			<tr valign="top" id="WelcomeRow" >
+				<td height="79" width="100%" colspan="2">
+					<table class="two" cellpadding="12">
+						<colgroup>
+							<col />
+							<col width="71" />
+						</colgroup>
+						<tr>
+							<td align="left" valign="top">
+								<h4 class="HEAD" id="HEAD">Welcome to the 3ds max Plugin Wizard.</h4>
+								<p class="SUBHEAD" id="SUBHEAD">Please select a plugin type below and click Plugin Details to proceed.</p>
+							</td>
+							<td align="right">
+								<img src="../../Images/3dsmaxPluginWizard.gif" width="47" height="63" alt="" border="0" />
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<!--CLOSE OF INTRODUCTORY INFORMATION TABLE//-->
+			<!--OPEN OF NAVIGATION, CONTENT, AND BUTTON TABLES//-->
+			<tr valign="top" id="bottomhalf" >
+				<td class="THREE" valign="top" style="background-image: url(..\..\Images\3dsmaxPluginWizard_BG.gif) " >
+					<!--OPEN OF NAVIGATION TABLE//-->
+					<table class="THREE" border="0" cellpadding="0" cellspacing="0">
+						<colgroup>
+							<col width="12" />
+							<col width="166" />
+							<col width="1" />
+						</colgroup>
+						<tr>
+							<td valign="top" colspan="3" height="12" >
+								&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<td valign="top" height="100%" width="12">
+								&nbsp;
+							</td>
+							<td valign="top" height="100%" width="165">
+								<!--OPEN OF NAVIGATIONAL LINKS//-->
+								<div class="LINKSELECTED">
+									<span class="VERTLINE1"></span><span class="HORILINE1">
+										<table width="167" height="100%" border="0" cellpadding="0" cellspacing="0">
+											<tr valign="top">
+												<td class="DOTTEDLINE" height="1">
+												</td>
+											</tr>
+											<tr valign="top">
+												<td height="100%">
+												</td>
+											</tr>
+											<tr valign="top">
+												<td class="DOTTEDLINE" height="1">
+												</td>
+											</tr>
+										</table>
+									</span>
+									<table width="160" height="28" border="0" cellpadding="0" cellspacing="0" class="LINKTEXT">
+										<tr valign="center">
+											<td width="156">
+												<b><span id="Default" title="" onclick="Next(document, 'default.htm');" tabindex="1">
+													Plugin Type</span> </b>
+											</td>
+											<td width="4">
+											</td>
+										</tr>
+									</table>
+								</div>
+								<div class="LINK">
+									<table width="166" height="28" border="0" cellpadding="0" cellspacing="0" class="LINKTEXT">
+										<tr valign="center">
+											<td width="162">
+												<span class="ACTIVELINK" id="Page_2" title="" onclick="Next(document, 'Page_2.htm');"
+													tabindex="1"><font color="#eeeeee">Plugin Details</font></span>
+											</td>
+											<td width="4">
+											</td>
+										</tr>
+									</table>
+								</div>
+								<div class="LINK">
+									<table width="166" height="28" border="0" cellpadding="0" cellspacing="0" class="LINKTEXT">
+										<tr valign="center">
+											<td width="162">
+												<span class="ACTIVELINK" id="Page_3" title="" onclick="Next(document, 'Page_3.htm');"
+													tabindex="1"><font color="#eeeeee">Project Details</font></span>
+											</td>
+											<td width="4">
+											</td>
+										</tr>
+									</table>
+								</div>
+								<!--CLOSE OF NAVIGATIONAL LINKS//-->
+							</td>
+							<td width="1">
+								<div class="VERTLINE">
+								</div>
+							</td>
+						</tr>
+					</table>
+					<!--CLOSE OF NAVIGATION TABLE//-->
+				</td>
+				<td valign="top" height="100%">
+					<!--OPEN OF CONTENT AND BUTTON TABLE//-->
+					<table class="ONE" border="0" cellpadding="0" cellspacing="0">
+						<colgroup>
+							<col width="100%">
+							<tr valign="top">
+								<td height="100%">
+									<!--OPEN OF CONTENT//-->
+									<table class="CONTENT" border="0" cellpadding="0" cellspacing="0">
+										<colgroup>
+											<col width="12">
+											<col width="185">
+											<col width="12">
+											<col width="185">
+											<col width="12">
+											<col width="185">
+											<col width="12">
+											<tr>
+												<td valign="top" height="12" colspan="5">
+													&nbsp;
+												</td>
+											</tr>
+											<tr valign="top">
+												<td valign="top" width="12">
+													&nbsp;
+												</td>
+												<td valign="top" colspan="3">
+													<p class="ElementSpacer">
+														&nbsp;</p>
+													<span class="itemText">
+														<label for="PLUGTYPE_LISTBOX" title="Sample list box." id="AUT_ID5">
+															Please select a plugin type:</label>
+														<br>
+														<select class="sideBtn" size="24" id="PLUGTYPE_LISTBOX" accesskey="L" title="Sample list box." style="width: 200px">
+														</select>
+													</span>
+												</td>
+												<td valign="top" width="12">
+													&nbsp;
+												</td>
+											</tr>
+											<tr>
+												<td valign="top" height="100%" colspan="7">
+													&nbsp;
+												</td>
+											</tr>
+									</table>
+									<!--CLOSE OF CONTENT//-->
+								</td>
+							</tr>
+							<tr valign="bottom">
+								<td height="48">
+									<!--OPEN OF BUTTON HTML//-->
+									<table height="48" border="0" cellpadding="0" cellspacing="0">
+										<colgroup>
+											<col width="12">
+											<col>
+											<col width="75">
+											<col width="4">
+											<col width="75">
+											<col width="4">
+											<col width="75">
+											<col width="12">
+											<tr>
+												<td valign="top" class="RULE" colspan="8" height="2">
+													<table border="0" width="100%" height="1" cellpadding="0" cellspacing="0">
+														<tr valign="top">
+															<td height="1" width="100%" bgcolor="buttonshadow">
+															</td>
+															<td height="1" width="1" bgcolor="window">
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+											<tr>
+												<td valign="top" height="11" colspan="8">
+													&nbsp;
+												</td>
+											</tr>
+											<tr>
+												<td valign="center" height="23" width="12">
+													&nbsp;
+												</td>
+												<td valign="top" height="23">
+													&nbsp;
+												</td>
+												<td valign="center" height="23" width="75">
+													<!--<BUTTON CLASS="BUTTONS" ID="FinishBtn" ACCESSKEY="F" onClick="OnFinish(document);"><U>F</U>inish</BUTTON>-->
+													&nbsp;
+												</td>
+												<td valign="center" height="23" width="4">
+													&nbsp;
+												</td>
+												<td valign="center" height="23" width="75">
+													<button class="BUTTONS" id="CancelBtn" accesskey="C" onclick="window.external.Finish(document, 'cancel');"
+														type="button">
+														<u>C</u>ancel</button>
+												</td>
+												<td valign="center" height="23" width="4">
+													&nbsp;
+												</td>
+												<td valign="center" height="23" width="75">
+													<button class="BUTTONS" id="HelpBtn" accesskey="H" onclick="window.external.OnHelp('vc.appwiz.custom.overview');"
+														type="button">
+														<u>H</u>elp</button>
+												</td>
+												<td valign="center" height="23" width="12">
+													&nbsp;
+												</td>
+											</tr>
+											<tr>
+												<td valign="top" height="12" colspan="8">
+													&nbsp;
+												</td>
+											</tr>
+									</table>
+									<!--CLOSE OF BUTTON HTML//-->
+								</td>
+							</tr>
+					</table>
+					<!--CLOSE OF NAVIGATION, CONTENT, AND BUTTON TABLES//-->
+				</td>
+			</tr>
+		</table>
+	</BODY>
+</HTML>
+
+<SCRIPT LANGUAGE="JSCRIPT">
+
+var tab_array = new Array();
+tab_array[0] = Default;
+tab_array[1] = Page_2;
+tab_array[2] = Page_3;
+	
+
+
+function PopulatePluginList()
+{
+	// Populate plugins list
+	for (var i = 0; i < plugin_count; i++)
+	{
+		var oOption		= document.createElement("OPTION");
+		oOption.text	= PlugArray[i][0];
+		oOption.value	= PlugArray[i][1];
+		PLUGTYPE_LISTBOX.add(oOption);
+	}
+}
+
+// This is an example of a function which initializes the page
+//
+function InitDocument(document)
+{
+	PopulatePluginList()
+	setDirection();
+	
+	if (window.external.FindSymbol('DOCUMENT_FIRST_LOAD'))
+	{
+		// This function sets the default symbols based 
+		// on the values specified in the SYMBOL tags above
+		//
+		window.external.SetDefaults(document);
+	}
+
+	// Load the document and initialize the controls 
+	// with the appropriate symbol values
+	//
+	window.external.Load(document);
+	
+}
+
+// If the wizard has more than 1 page, this 
+// function will browse to the page specified
+//
+function Next(document, linkto)
+{
+	var plugSelection = PLUGTYPE_LISTBOX.value;
+	
+	for (var i=0; i < plugin_count; i++)
+	{
+		window.external.RemoveSymbol(PlugArray[i][1]);
+	}
+
+	window.external.RemoveSymbol("FLOATING_DIALOG");
+	window.external.RemoveSymbol("STATIC_TYPE");
+	window.external.RemoveSymbol("TEX_TYPE"); 	
+	window.external.RemoveSymbol("UI_BY_MAX"); 	
+
+	// Set plugin specific parameters
+	for (i=0; i < plugin_count; i++)
+	{		
+		//alert(plugSelection + "," + PlugArray[i][1]);
+		if (plugSelection == PlugArray[i][1])
+		{
+			var plugSet = PlugArray[i];
+			
+			// Add general key for template lookups
+			window.external.AddSymbol("PLUGINTYPE", plugSet[plugitem_key]);
+			
+			if (plugSet[plugitem_sid] == "TEXMAP_CLASS_ID")
+			{
+				window.external.AddSymbol("TEX_TYPE", true);
+			}
+			
+			// For following plugin types the UI is automatically generated by Max
+			if (plugSet[plugitem_key] == "SAMPLER_TYPE" || 
+				plugSet[plugitem_key] == "SHADER_TYPE"  ||
+				plugSet[plugitem_key] == "FILTER_KERNEL_TYPE")
+				{
+					window.external.AddSymbol("UI_BY_MAX", true);
+				}
+
+			window.external.AddSymbol(plugSet[plugitem_key], true);
+			window.external.AddSymbol("PLUGEXT", plugSet[plugitem_ext]);
+			window.external.AddSymbol("SUPER_CLASS_ID", plugSet[plugitem_sid]);
+		
+			// Use these symbols to populate list in page 2.
+			window.external.AddSymbol("BASECLASS_1", plugSet[plugitem_bclass1]);
+			window.external.AddSymbol("BASECLASS_2", plugSet[plugitem_bclass2]);
+			
+			if (!plugSet[plugitem_rollout])	 window.external.AddSymbol("FLOATING_DIALOG", true);
+			if (plugSet[plugitem_staticType])window.external.AddSymbol("STATIC_TYPE", true);
+			
+			// Warn the user the plugin is supported only minimally.
+			if (!plugSet[plugitem_supported])
+			{
+				//if (!window.external.FindSymbol("SUPPORT_WARN"))
+				//{
+					window.external.ReportError("This plugin type is not currently supported by the plugin wizard. Minimal code will be generated.");
+					window.external.AddSymbol("SUPPORT_WARN", true);
+				//}
+			}
+			break;
+		}
+	}
+	window.external.Next(document, linkto);
+}
+
+// This is an example of a function which
+// gets called when the user clicks on 'Finish'
+//
+function OnFinish(document)
+{
+	
+	OnWizFinish(document);
+}
+
+</SCRIPT>
+	
+<SCRIPT ID="INCLUDE_SCRIPT" LANGUAGE="JSCRIPT"></SCRIPT>
+<SCRIPT ID="INCLUDE_COMMON" LANGUAGE="JSCRIPT"></SCRIPT>
+<!-- 
+Common.js is a script file which contains the helper functions 
+used by the wizards.  Include this line if you want to
+call these functions from your html scripts.
+//-->
+<SCRIPT>
+	var strPath = window.external.FindSymbol("PRODUCT_INSTALLATION_DIR");
+	strPath += "VCWizards/";
+	strPath += window.external.GetHostLocale();
+	var strScriptPath = strPath + "/Script.js";
+	var strCommonPath = strPath + "/Common.js";
+	document.scripts("INCLUDE_SCRIPT").src = strScriptPath;
+	document.scripts("INCLUDE_COMMON").src = strCommonPath;
+</SCRIPT>
+
+<!-- discreet array -->
+<script type="text/javascript" src="plugarray.js"></script>
+<!-- userdefaults -->
+<script type="text/javascript" src="userDefaults.js"></script>
+<!-- external defs -->
+<script type="text/javascript" src="exdefs.js"></script>

@@ -1,0 +1,425 @@
+<HTML dir="ltr">
+	<HEAD>
+		<TITLE>3ds max Plugin Wizard</TITLE>
+		<META content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema">
+		<LINK ID="LINKURL" REL="stylesheet" HREF="../../1033/styles.css">
+		<STYLE type="text/css">@import url(); 
+		</STYLE>
+		<!--  -->
+		<!-- The SYMBOL tag is used to set the default values for the user-defined symbols.-->
+		<!--  -->
+		<!-- These are 3ds max Wizard specific symbols --><SYMBOL VALUE="" TYPE="text" NAME="CLASSNAME_TEXTBOX"></SYMBOL><SYMBOL VALUE="" TYPE="select-one" NAME="BASECLASS_LISTBOX"></SYMBOL><SYMBOL VALUE="" TYPE="text" NAME="PLUGCAT_TEXTBOX"></SYMBOL><SYMBOL VALUE="" TYPE="text" NAME="PLUGDESC_TEXTBOX"></SYMBOL></HEAD>
+	<BODY onkeypress="OnPress();" onkeydown="OnKey();" bottomMargin="0" bgColor="buttonface" leftMargin="0" topMargin="0" onload="InitDocument(document);" rightMargin="0">
+		<table class="ONE" height="100%" cellspacing="0" cellpadding="0" width="100%" border="0">
+			<colgroup>
+				<col width="178" />
+				<col />
+			</colgroup>
+			<!--OPEN OF INTRODUCTORY INFORMATION TABLE//-->
+			<tr valign="top" id="WelcomeRow" >
+				<td width="100%" colspan="2" height="79">
+					<table class="two" id="table2" cellpadding="12">
+						<colgroup>
+							<col />
+							<col width="71" />
+						</colgroup>
+						<tr>
+							<td align="left" valign="top">
+								<h4 class="HEAD" id="H1">Welcome to the 3ds max Plugin Wizard.</h4>
+								<p class="SUBHEAD" id="P1">Please complete the plugin details below and click Project Details to proceed.</p>
+							</td>
+							<td align="right">
+								<img src="../../Images/3dsmaxPluginWizard.gif" width="47" height="63" alt="" border="0" />
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<!--CLOSE OF INTRODUCTORY INFORMATION TABLE//-->
+			<!--OPEN OF NAVIGATION, CONTENT, AND BUTTON TABLES//-->
+			<tr valign="top" id="bottomhalf" >
+				<td class="THREE" valign="top"  style="background-image: url(..\..\Images\3dsmaxPluginWizard_BG.gif)" >
+					<!--OPEN OF NAVIGATION TABLE//-->
+					<table class="THREE" cellspacing="0" cellpadding="0" border="0">
+						<colgroup>
+							<col width="12" />
+							<col width="166" />
+							<col width="1" />
+						</colgroup>
+						<tr>
+							<td valign="top" colspan="3" height="12">
+								&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<td valign="top" width="12" height="100%">
+								&nbsp;
+							</td>
+							<td valign="top" width="165" height="100%">
+								<!--OPEN OF NAVIGATIONAL LINKS//-->
+								<div class="LINK">
+									<table class="LINKTEXT" height="28" cellspacing="0" cellpadding="0" width="166" border="0">
+										<tr valign="center">
+											<td width="162">
+												<span class="ACTIVELINK" id="Default" title="" onclick="Next(document, 'default.htm');"
+													tabindex="1"><font color="#eeeeee">Plugin Type</font></span>
+											</td>
+											<td width="4">
+											</td>
+										</tr>
+									</table>
+								</div>
+								<div class="LINKSELECTED">
+									<span class="VERTLINE1"></span><span class="HORILINE1">
+										<table height="100%" cellspacing="0" cellpadding="0" width="167" border="0">
+											<tr valign="top">
+												<td class="DOTTEDLINE" height="1">
+												</td>
+											</tr>
+											<tr valign="top">
+												<td height="100%">
+												</td>
+											</tr>
+											<tr valign="top">
+												<td class="DOTTEDLINE" height="1">
+												</td>
+											</tr>
+										</table>
+									</span>
+									<table class="LINKTEXT" height="28" cellspacing="0" cellpadding="0" width="160" border="0">
+										<tr valign="center">
+											<td width="162">
+												<b><span id="Page_2" title="" onclick="Next(document, 'Page_2.htm');" tabindex="1">Plugin
+													Details </span></b>
+											</td>
+											<td width="4">
+											</td>
+										</tr>
+									</table>
+								</div>
+								<div class="LINK">
+									<table class="LINKTEXT" height="28" cellspacing="0" cellpadding="0" width="166" border="0">
+										<tr valign="center">
+											<td width="162">
+												<span class="ACTIVELINK" id="Page_3" title="" onclick="Next(document, 'Page_3.htm');"
+													tabindex="1"><font color="#eeeeee">Project Details</font></span>
+											</td>
+											<td width="4">
+											</td>
+										</tr>
+									</table>
+								</div>
+								<!--CLOSE OF NAVIGATIONAL LINKS//-->
+							</td>
+							<td width="1">
+								<div class="VERTLINE">
+								</div>
+							</td>
+						</tr>
+					</table>
+					<!--CLOSE OF NAVIGATION TABLE//-->
+				</td>
+				<td valign="top" height="100%">
+					<!--OPEN OF CONTENT AND BUTTON TABLE//-->
+					<table class="ONE" cellspacing="0" cellpadding="0" border="0">
+						<colgroup>
+							<col width="100%">
+							<tr valign="top">
+								<td height="100%">
+									<!--OPEN OF CONTENT//-->
+									<table class="CONTENT" id="Table1" cellspacing="0" cellpadding="0" border="0">
+										<colgroup>
+											<col width="12">
+											<col width="185">
+											<col width="12">
+											<col width="185">
+											<col width="12">
+											<col width="185">
+											<col width="12">
+											<tr>
+												<td valign="top" colspan="5" height="12">
+													&nbsp;
+												</td>
+											</tr>
+											<tr valign="top">
+												<td valign="top" width="12">
+													&nbsp;
+												</td>
+												<td style="width: 265px" valign="top" colspan="3">
+													<p class="ElementSpacer">
+														&nbsp;</p>
+													<span class="itemText">Please enter&nbsp;your plugin class name:
+														<input id="CLASSNAME_TEXTBOX" style="width: 200px" type="text" size="30" name="CLASSNAME_TEXTBOX"><br>
+														<br>
+														Please select&nbsp;a base class:<br>
+														<select id="BASECLASS_LISTBOX" style="width: 200px" name="BASECLASS_LISTBOX">
+														</select><br>
+														<br>
+														Please enter a plugin category:<br>
+														<input id="PLUGCAT_TEXTBOX" style="width: 200px" type="text" size="30" name="PLUGCAT_TEXTBOX"><br>
+														<br>
+														Please enter a plugin description:<br>
+														<input id="PLUGDESC_TEXTBOX" style="width: 200px" type="text" size="30" name="PLUGDESC_TEXTBOX"><br>
+													</span>
+												</td>
+												<td valign="top" width="12">
+													&nbsp;
+												</td>
+											</tr>
+											<tr>
+												<td valign="top" colspan="7" height="100%">
+													&nbsp;
+												</td>
+											</tr>
+									</table>
+									<!--CLOSE OF CONTENT//-->
+								</td>
+							</tr>
+							<tr valign="bottom">
+								<td height="48">
+									<!--OPEN OF BUTTON HTML//-->
+									<table height="48" cellspacing="0" cellpadding="0" border="0">
+										<colgroup>
+											<col width="12">
+											<col>
+											<col width="75">
+											<col width="4">
+											<col width="75">
+											<col width="4">
+											<col width="75">
+											<col width="12">
+											<tr>
+												<td class="RULE" valign="top" colspan="8" height="2">
+													<table height="1" cellspacing="0" cellpadding="0" width="100%" border="0">
+														<tr valign="top">
+															<td width="100%" bgcolor="buttonshadow" height="1">
+															</td>
+															<td width="1" bgcolor="window" height="1">
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+											<tr>
+												<td valign="top" colspan="8" height="11">
+													&nbsp;
+												</td>
+											</tr>
+											<tr>
+												<td valign="center" width="12" height="23">
+													&nbsp;
+												</td>
+												<td valign="top" height="23">
+													&nbsp;
+												</td>
+												<td valign="center" width="75" height="23">
+													&nbsp;
+												</td>
+												<td valign="center" width="4" height="23">
+													&nbsp;
+												</td>
+												<td valign="center" width="75" height="23">
+													<button class="BUTTONS" id="CancelBtn" accesskey="C" onclick="window.external.Finish(document, 'cancel');"
+														type="button">
+														<u>C</u>ancel</button>
+												</td>
+												<td valign="center" width="4" height="23">
+													&nbsp;
+												</td>
+												<td valign="center" width="75" height="23">
+													<button class="BUTTONS" id="HelpBtn" accesskey="H" onclick="window.external.OnHelp('vc.appwiz.custom.overview');"
+														type="button">
+														<u>H</u>elp</button>
+												</td>
+												<td valign="center" width="12" height="23">
+													&nbsp;
+												</td>
+											</tr>
+											<tr>
+												<td valign="top" height="12" colspan="8">
+													&nbsp;
+												</td>
+											</tr>
+									</table>
+									<!--CLOSE OF BUTTON HTML//-->
+								</td>
+							</tr>
+					</table>
+					<!--CLOSE OF NAVIGATION, CONTENT, AND BUTTON TABLES//-->
+				</td>
+			</tr>
+		</table>
+	</BODY>
+</HTML>
+
+<SCRIPT language="JSCRIPT">
+
+var tab_array = new Array();
+tab_array[0] = Default;
+tab_array[1] = Page_2;
+tab_array[2] = Page_3;
+
+
+function PopulateFields()
+{
+	// Populate base class list
+	var baseArray = new Array();
+	baseArray[0] = window.external.FindSymbol("BASECLASS_1");
+	baseArray[1] = window.external.FindSymbol("BASECLASS_2");
+	
+	for (var i =0; i < baseArray.length; i++)
+	{
+		if (baseArray[i] != '')
+		{
+			var oOption		= document.createElement("OPTION");
+			oOption.text	= baseArray[i];
+			oOption.value	= baseArray[i];
+			BASECLASS_LISTBOX.add(oOption);
+		}
+	}
+	
+	// Also adding project name as default class name
+	var projectName	= new String();
+	var className	= new String();
+	
+	projectName = window.external.FindSymbol("PROJECT_NAME");
+	className	= projectName.replace(/ /g, "_");
+	
+	CLASSNAME_TEXTBOX.value = className;
+}
+
+// This is an example of a function which initializes the page
+//
+function InitDocument(document)
+{
+	PopulateFields();
+	setDirection();
+	
+	if (window.external.FindSymbol('DOCUMENT_FIRST_LOAD'))
+	{
+		// This function sets the default symbols based 
+		// on the values specified in the SYMBOL tags above
+		//
+		window.external.SetDefaults(document);
+	}
+
+	// Load the document and initialize the controls 
+	// with the appropriate symbol values
+	//
+	window.external.Load(document);
+}
+
+// Returns a random hexadecimal number in string form, such as "0x1234"
+function GenRandom()
+{
+	// Slapped together random num gen.
+	var randomNum = Math.random()*0.1 + Math.random()*0.2 + Math.random()*0.3 + Math.random()*0.4;
+	randomNum = randomNum.toString(16);
+	randomNum = "0x" + randomNum.substring(2,10);
+	return randomNum
+}
+
+// If the wizard has more than 1 page, this 
+// function will browse to the page specified
+//
+function Next(document, linkto)
+{
+	var canProgress = true;
+	var className	= '';
+	var baseClass	= '';
+	
+	if(CLASSNAME_TEXTBOX.value != null)
+	{
+		if (CLASSNAME_TEXTBOX.value == "")
+		{
+			window.external.ReportError("Please enter a class name for your plugin.");
+			canProgress = false;
+		}
+	}
+	else
+	{
+		canProgress = false;
+	}
+	
+	if (canProgress)
+	{
+		className = CLASSNAME_TEXTBOX.value;
+		baseClass = BASECLASS_LISTBOX.value;
+	
+		var nClassID1		= GenRandom(); //random hexadecimal number, as a string
+		var nClassID2		= GenRandom(); //random hexadecimal number, as a string
+		
+		var nExtClassID1	= GenRandom(); //random hexadecimal number, as a string
+		var nExtClassID2	= GenRandom(); //random hexadecimal number, as a string
+		
+		var warpClassID1	= GenRandom(); //random hexadecimal number, as a string
+		var warpClassID2	= GenRandom(); //random hexadecimal number, as a string
+	
+		var classNameUpper	= className.toUpperCase();
+		var classNameLower	= className.toLowerCase();
+		
+		window.external.AddSymbol("CLASS_NAME",	className);
+		window.external.AddSymbol("CLASS_NAME_UPPER", classNameUpper);
+		window.external.AddSymbol("CLASS_NAME_LOWER", classNameLower);
+		window.external.AddSymbol("SUPER_CLASS_NAME", baseClass);
+		
+		window.external.AddSymbol("EXTCLASSID1", nExtClassID1);
+		window.external.AddSymbol("EXTCLASSID2", nExtClassID2);
+		
+		window.external.AddSymbol("CLASSID1", nClassID1);
+		window.external.AddSymbol("CLASSID2", nClassID2);
+		
+		window.external.AddSymbol("WARPID1", warpClassID1);
+		window.external.AddSymbol("WARPID2", warpClassID2);
+
+		window.external.AddSymbol("CATEGORY", PLUGCAT_TEXTBOX.value);
+		window.external.AddSymbol("LIBDESC",  PLUGDESC_TEXTBOX.value);
+	
+		window.external.RemoveSymbol("SIMPLE_TYPE");
+		window.external.RemoveSymbol("SIMPLE_MANIP");
+
+		if( baseClass == "GenCamera"	  ||
+			baseClass == "StdControl"	  ||
+			baseClass == "ConstObject"	  ||
+			baseClass == "GenLight"		  ||
+			baseClass == "SimpleMod2"	  ||
+			baseClass == "SimpleParticle" ||
+			baseClass == "SimpleObject2"  ||
+			baseClass == "SimpleSpline"   ||
+			baseClass == "SimpleShape"    ||
+			baseClass == "SimpleWSMMod")
+			window.external.AddSymbol("SIMPLE_TYPE", true);
+	
+		if(baseClass == "SimpleManipulator")
+		{
+			window.external.AddSymbol("SIMPLE_MANIP", true);
+		}
+	}
+	if (canProgress) window.external.Next(document, linkto);
+}
+
+// This is an example of a function which
+// gets called when the user clicks on 'Finish'
+//
+function OnFinish(document)
+{
+	OnWizFinish(document);
+}
+
+		</SCRIPT>
+		<SCRIPT ID="INCLUDE_SCRIPT" LANGUAGE="JSCRIPT"></SCRIPT>
+		<SCRIPT language="JSCRIPT" id="INCLUDE_COMMON"></SCRIPT>
+		<!-- 
+Common.js is a script file which contains the helper functions 
+used by the wizards.  Include this line if you want to
+call these functions from your html scripts.
+//-->
+<SCRIPT>
+	var strPath = window.external.FindSymbol("PRODUCT_INSTALLATION_DIR");
+	strPath += "VCWizards/";
+	strPath += window.external.GetHostLocale();
+	var strScriptPath = strPath + "/Script.js";
+	var strCommonPath = strPath + "/Common.js";
+	document.scripts("INCLUDE_SCRIPT").src = strScriptPath;
+	document.scripts("INCLUDE_COMMON").src = strCommonPath;
+</SCRIPT>

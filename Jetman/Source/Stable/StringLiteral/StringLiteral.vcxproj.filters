@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="CSCommon">
+      <UniqueIdentifier>{bdcbf563-7528-4df3-9e35-d40ab0730d39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MMatchBuff.cxr">
+      <Filter>CSCommon</Filter>
+    </None>
+    <None Include="MMatchItem.cxr">
+      <Filter>CSCommon</Filter>
+    </None>
+    <None Include="..\Gunz\StringLiteralEncrypt\Encrypt.bat" />
+    <None Include="test.cxr" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cxr_inc.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StringLiteral.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="설명.txt" />
+  </ItemGroup>
+</Project>

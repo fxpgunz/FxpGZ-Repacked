@@ -1,0 +1,23 @@
+Various projects require the DirectX SDK to compile.
+DirectX SDK June 2010 (DXSDK_Jun10.exe)
+https://www.microsoft.com/en-us/download/details.aspx?id=6812
+
+The Point Cache modifier requires the FBX SDK to compile.
+Version 2016.1 VS2015 or newer is required.
+The FBX SDK can be found at www.autodesk.com/fbx
+After installing, create an environment variable called FBX_SDK_DIR that points to the installed sdk. For example:
+FBX_SDK_DIR=C:\Program Files\Autodesk\FBX\FBX SDK\2016.1
+
+The Sunlight plug-in (maxsdk\samples\systems\sunlight), the mxsagni plugin (maxsdk\samples\maxscript\mxsagni), and the RapidRTRenderer plugin (maxsdk\samples\render\RapidRTRenderer) require the Autodesk-patched version of Qt 4.8.5 to build.  
+The Autodesk-patched Qt 4.8.5 source can be found at:
+http://www.autodesk.com/company/legal-notices-trademarks/open-source-distribution
+Directions for building and using Qt can be found in the 3ds Max 2017 Developer's Guide.
+The pre-built Autodesk-patched Qt 4.8.5 can be found at:
+http://www.autodesk.com/develop3dsmax
+
+The uvwunwrap plugin (maxsdk\samples\modifiers\uvwunwrap\uvwunwrap\) requires Intel TBB to compile.
+TBB Version 4.2 Update 5 is required.  This can be downloaded as:
+https://www.threadingbuildingblocks.org/sites/default/files/software_releases/windows/tbb42_20140601oss_win.zip
+Note the licensing restrictions described at https://www.threadingbuildingblocks.org/licensing
+After installing, create an environment variable called TBB42_5_DIR that points to the installed sdk. For example:
+TBB42_5_DIR=H:\tbb42_20140601oss

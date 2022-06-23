@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" ?>
+<XML>
+	<XMLHEADER>version="1.0"</XMLHEADER>
+
+	<SKIN>Default</SKIN>
+
+	<DEFFONT>Arial</DEFFONT>
+
+	<IME>false</IME>
+
+	<BAREPORT>
+		<ADDR>www.battlearena.com</ADDR>
+		<DIR>incoming/gunz_US</DIR>
+	</BAREPORT>
+
+	<EMBLEM_URL>http://downimage.ijjimax.com</EMBLEM_URL>
+	<TEMBLEM_URL>http://alpha-downimage.ijjimax.com</TEMBLEM_URL>
+
+	<CASHSHOP_URL>http://gunz.ijji.com</CASHSHOP_URL>
+
+	<HOMEPAGE>
+	    <URL>http://gunz.ijji.com</URL>
+	    <TITLE>GunZ the Dual</TITLE>
+	</HOMEPAGE>
+
+	<LOCATORLIST>
+		<LOCATOR id="1" IP="u-gunz-gm01.pubgame.ijji.com" />
+		<LOCATOR id="2" IP="u-gunz-gm02.pubgame.ijji.com" />
+	</LOCATORLIST>
+
+	<TLOCATORLIST>
+		<LOCATOR id="1" IP="u-gunz-gm01.alpha-pubgame.ijji.com" />
+		<LOCATOR id="2" IP="u-gunz-gm02.alpha-pubgame.ijji.com" />
+	</TLOCATORLIST>
+</XML>

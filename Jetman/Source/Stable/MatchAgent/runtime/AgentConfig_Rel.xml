@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<XML>
+<AGENTCONFIG>
+	<NAME></NAME>
+	<MAXCLIENT></MAXCLIENT>
+	<ADDRESS ip="218.145.160.133" tcpport="5100" udpport="7778"/>
+	<MATCHSERVERADDRESS ip="218.145.160.133" tcpport="6000"/>
+<!--	<MATCHSERVERADDRESS ip="218.145.160.135" tcpport="6000"/> -->
+</AGENTCONFIG>
+</XML>

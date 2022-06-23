@@ -1,0 +1,12 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/MenuDemo/Icons">
+    <file>test1_24.png</file>
+    <file>test1_30.png</file>
+    <file>test1_36.png</file>
+    <file>test1_48.png</file>
+    <file>test2_24.png</file>
+    <file>test2_30.png</file>
+    <file>test2_36.png</file>
+    <file>test2_48.png</file>
+</qresource>
+</RCC>

@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="IconRenderItem.cpp" />
+    <ClCompile Include="IconWorld.cpp" />
+    <ClCompile Include="IconRenderStage.cpp" />
+    <ClCompile Include="IconMaterial.cpp" />
+    <ClCompile Include="SimDesktop.cpp" />
+    <ClCompile Include="SimDesktopMain.cpp" />
+    <ClCompile Include="CGdiBitmap.cpp">
+      <Filter>OS</Filter>
+    </ClCompile>
+    <ClCompile Include="CResource.cpp">
+      <Filter>OS</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>dllMain</Filter>
+    </ClInclude>
+    <ClInclude Include="veroverrides.h">
+      <Filter>dllMain</Filter>
+    </ClInclude>
+    <ClInclude Include="IconRenderItem.h" />
+    <ClInclude Include="IconWorld.h" />
+    <ClInclude Include="IconRenderStage.h" />
+    <ClInclude Include="IconMaterial.h" />
+    <ClInclude Include="SimDesktop.h" />
+    <ClInclude Include="SimDesktopMain.h" />
+    <ClInclude Include="CGdiBitmap.h">
+      <Filter>OS</Filter>
+    </ClInclude>
+    <ClInclude Include="CResource.h">
+      <Filter>OS</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="dllMain">
+      <UniqueIdentifier>{6a297766-80d8-4432-803d-01624401551b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="images">
+      <UniqueIdentifier>{4abacef7-409b-47f2-8223-70182990f5a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OS">
+      <UniqueIdentifier>{190f39d0-96c6-434e-aed9-fafa85ab959c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{092390e3-de5d-4028-a131-c7fa10c9143d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SimDesktop.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\01.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\02.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\03.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\04.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\05.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\06.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\07.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\08.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\09.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\10.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\11.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\12.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\13.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\14.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\15.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\16.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\17.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\18.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\19.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\20.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\21.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\22.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\23.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\24.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\25.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\26.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\27.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\28.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\29.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\30.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="images\31.jpg">
+      <Filter>images</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SimDesktop.rc">
+      <Filter>dllMain</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="shaders\FxIcon_dx11.fx">
+      <Filter>shaders</Filter>
+    </Text>
+    <Text Include="shaders\FxIcon_dx9.fx">
+      <Filter>shaders</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

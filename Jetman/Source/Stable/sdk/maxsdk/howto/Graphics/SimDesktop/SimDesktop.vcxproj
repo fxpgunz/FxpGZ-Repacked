@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Hybrid|x64">
+      <Configuration>Hybrid</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>SimDesktop</ProjectName>
+    <ProjectGuid>{47B5445E-137F-44FC-BEB9-DBB01C21839F}</ProjectGuid>
+    <RootNamespace>SimDesktop</RootNamespace>
+    <MaxSDK>../../../../maxsdk</MaxSDK>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <Import Project="$(MaxSDK)\ProjectSettings\PropertySheets\3dsmax.general.project.settings.props" />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(MaxSDK)\ProjectSettings\PropertySheets\3dsmax.cpp.props" />
+  </ImportGroup>
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir>$(MaxBuildStdplugs)</OutDir>
+    <TargetName>SimDesktop</TargetName>
+    <TargetExt>.dlu</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <AdditionalIncludeDirectories>$(MaxSdkInc);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(MaxSdkInc);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>gdiplus.lib;comctl32.lib;paramblk2.lib;maxutil.lib;core.lib;assetmanagement.lib;geom.lib;bmm.lib;DataBridge.lib;GraphicsUtility.lib;FragmentGraph.lib;GraphicsDriver.lib;ViewSystem.lib;MaxGraphicsObjects.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(MaxSdkLib);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>.\SimDesktop.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>_SECURE_SCL=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Hybrid|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>_SECURE_SCL=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CGdiBitmap.cpp" />
+    <ClCompile Include="CResource.cpp" />
+    <ClCompile Include="IconMaterial.cpp" />
+    <ClCompile Include="IconRenderItem.cpp" />
+    <ClCompile Include="IconRenderStage.cpp" />
+    <ClCompile Include="IconWorld.cpp" />
+    <ClCompile Include="SimDesktop.cpp" />
+    <ClCompile Include="SimDesktopMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SimDesktop.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SimDesktop.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CGdiBitmap.h" />
+    <ClInclude Include="CResource.h" />
+    <ClInclude Include="IconMaterial.h" />
+    <ClInclude Include="IconRenderItem.h" />
+    <ClInclude Include="IconRenderStage.h" />
+    <ClInclude Include="IconWorld.h" />
+    <ClInclude Include="SimDesktop.h" />
+    <ClInclude Include="SimDesktopMain.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="veroverrides.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\01.jpg" />
+    <Image Include="images\02.jpg" />
+    <Image Include="images\03.jpg" />
+    <Image Include="images\04.jpg" />
+    <Image Include="images\05.jpg" />
+    <Image Include="images\06.jpg" />
+    <Image Include="images\07.jpg" />
+    <Image Include="images\08.jpg" />
+    <Image Include="images\09.jpg" />
+    <Image Include="images\10.jpg" />
+    <Image Include="images\11.jpg" />
+    <Image Include="images\12.jpg" />
+    <Image Include="images\13.jpg" />
+    <Image Include="images\14.jpg" />
+    <Image Include="images\15.jpg" />
+    <Image Include="images\16.jpg" />
+    <Image Include="images\17.jpg" />
+    <Image Include="images\18.jpg" />
+    <Image Include="images\19.jpg" />
+    <Image Include="images\20.jpg" />
+    <Image Include="images\21.jpg" />
+    <Image Include="images\22.jpg" />
+    <Image Include="images\23.jpg" />
+    <Image Include="images\24.jpg" />
+    <Image Include="images\25.jpg" />
+    <Image Include="images\26.jpg" />
+    <Image Include="images\27.jpg" />
+    <Image Include="images\28.jpg" />
+    <Image Include="images\29.jpg" />
+    <Image Include="images\30.jpg" />
+    <Image Include="images\31.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="shaders\FxIcon_dx11.fx">
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">3.0</ShaderModel>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">pixel_main</EntryPointName>
+      <FileType>Document</FileType>
+    </Text>
+    <Text Include="shaders\FxIcon_dx9.fx">
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">3.0</ShaderModel>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">pixel_main</EntryPointName>
+      <FileType>Document</FileType>
+    </Text>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

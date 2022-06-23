@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" ?>
+<XML id="channel">
+	<DEFAULTCHANNELNAME name="STR:CHANNEL_DEFAULT_NAME"/>
+	<DEFAULTRULENAME name="novice"/>
+
+	<CLAN_CHANNEL IsTicketChannel="true" TicketItemID="700001" />
+
+
+<!-- Server 1 : for free match -->
+	<CHANNEL name="STR:CHANNEL_NOVICE_NAME_1"  maxplayers="100" rule="novice"/>
+
+	<CHANNEL name="STR:CHANNEL_FREE_NAME_1"    maxplayers="200" rule="set1" />
+	<CHANNEL name="STR:CHANNEL_FREE_NAME_2"    maxplayers="200" rule="set1" />
+	<CHANNEL name="STR:CHANNEL_FREE_NAME_3"    maxplayers="200" rule="set1" />
+	<CHANNEL name="STR:CHANNEL_FREE_NAME_4"    maxplayers="200" rule="set1" />
+	<CHANNEL name="STR:CHANNEL_FREE_NAME_5"    maxplayers="200" rule="set1" />
+	<CHANNEL name="STR:CHANNEL_FREE_NAME_6"    maxplayers="200" rule="set1" />
+	<CHANNEL name="STR:CHANNEL_FREE_NAME_7"    maxplayers="200" rule="set1" />
+	<CHANNEL name="STR:CHANNEL_FREE_NAME_8"    maxplayers="200" rule="set1" />
+
+
+<!-- Server 2 for quest -->
+	<CHANNEL name="STR:CHANNEL_NOVICE_NAME_1"  maxplayers="100" rule="novice"/>
+
+	<CHANNEL name="STR:CHANNEL_FREELV_NAME_1"  maxplayers="200" rule="set2"                                 IsTicketChannel="true" TicketItemID="700001" />
+
+	<CHANNEL name="STR:CHANNEL_NEWBIE_NAME_1"  maxplayers="150" rule="newbie"   levelmin="1"  levelmax='10' IsTicketChannel="true" TicketItemID="700001" />
+	<CHANNEL name="STR:CHANNEL_NEWBIE_NAME_2"  maxplayers="150" rule="newbie"   levelmin="1"  levelmax='10' IsTicketChannel="true" TicketItemID="700001" />
+
+	<CHANNEL name="STR:CHANNEL_ROOKIE_NAME_1"  maxplayers="150" rule="rookie"   levelmin='11' levelmax='20' IsTicketChannel="true" TicketItemID="700001" />
+	<CHANNEL name="STR:CHANNEL_ROOKIE_NAME_2"  maxplayers="150" rule="rookie"   levelmin='11' levelmax='20' IsTicketChannel="true" TicketItemID="700001" />
+
+	<CHANNEL name="STR:CHANNEL_MASTERY_NAME_1" maxplayers="150" rule="mastery"  levelmin='21' levelmax='34' IsTicketChannel="true" TicketItemID="700001" />
+	<CHANNEL name="STR:CHANNEL_MASTERY_NAME_2" maxplayers="150" rule="mastery"  levelmin='21' levelmax='34' IsTicketChannel="true" TicketItemID="700001" />
+
+	<CHANNEL name="STR:CHANNEL_ELITE_NAME_1"   maxplayers="150" rule="elite"    levelmin='35'               IsTicketChannel="true" TicketItemID="700001" />
+	<CHANNEL name="STR:CHANNEL_ELITE_NAME_2"   maxplayers="150" rule="elite"    levelmin='35'               IsTicketChannel="true" TicketItemID="700001" />
+
+
+<!-- Server 3 for clan war -->
+	<CHANNEL name="STR:CHANNEL_NOVICE_NAME_1"  maxplayers="100" rule="novice"/>
+
+	<CHANNEL name="STR:CHANNEL_FREELV_NAME_1"  maxplayers="200" rule="set2"                                 IsTicketChannel="true" TicketItemID="700001" />
+
+	<CHANNEL name="STR:CHANNEL_NEWBIE_NAME_1"  maxplayers="150" rule="newbie"   levelmin="1"  levelmax='10' IsTicketChannel="true" TicketItemID="700001" />
+	<CHANNEL name="STR:CHANNEL_NEWBIE_NAME_2"  maxplayers="150" rule="newbie"   levelmin="1"  levelmax='10' IsTicketChannel="true" TicketItemID="700001" />
+
+	<CHANNEL name="STR:CHANNEL_ROOKIE_NAME_1"  maxplayers="150" rule="rookie"   levelmin='11' levelmax='20' IsTicketChannel="true" TicketItemID="700001" />
+	<CHANNEL name="STR:CHANNEL_ROOKIE_NAME_2"  maxplayers="150" rule="rookie"   levelmin='11' levelmax='20' IsTicketChannel="true" TicketItemID="700001" />
+
+	<CHANNEL name="STR:CHANNEL_MASTERY_NAME_1" maxplayers="150" rule="mastery"  levelmin='21' levelmax='34' IsTicketChannel="true" TicketItemID="700001" />
+	<CHANNEL name="STR:CHANNEL_MASTERY_NAME_2" maxplayers="150" rule="mastery"  levelmin='21' levelmax='34' IsTicketChannel="true" TicketItemID="700001" />
+
+	<CHANNEL name="STR:CHANNEL_ELITE_NAME_1"   maxplayers="150" rule="elite"    levelmin='35'               IsTicketChannel="true" TicketItemID="700001" />
+	<CHANNEL name="STR:CHANNEL_ELITE_NAME_2"   maxplayers="150" rule="elite"    levelmin='35'               IsTicketChannel="true" TicketItemID="700001" />
+
+	<CHANNEL name="STR:CHANNEL_DUELTOURNAMENT_NAME_1" maxplayers="200" rule="dueltournament" IsDuelTournament="true"/>
+	<CHANNEL name="STR:CHANNEL_DUELTOURNAMENT_NAME_2" maxplayers="200" rule="dueltournament" IsDuelTournament="true"/>
+	<CHANNEL name="STR:CHANNEL_DUELTOURNAMENT_NAME_3" maxplayers="200" rule="dueltournament" IsDuelTournament="true"/>
+	<CHANNEL name="STR:CHANNEL_DUELTOURNAMENT_NAME_4" maxplayers="200" rule="dueltournament" IsDuelTournament="true"/>
+	<CHANNEL name="STR:CHANNEL_DUELTOURNAMENT_NAME_5" maxplayers="200" rule="dueltournament" IsDuelTournament="true"/>
+	<CHANNEL name="STR:CHANNEL_DUELTOURNAMENT_NAME_6" maxplayers="200" rule="dueltournament" IsDuelTournament="true"/>
+	<CHANNEL name="STR:CHANNEL_DUELTOURNAMENT_NAME_7" maxplayers="200" rule="dueltournament" IsDuelTournament="true"/>
+	<CHANNEL name="STR:CHANNEL_DUELTOURNAMENT_NAME_8" maxplayers="200" rule="dueltournament" IsDuelTournament="true"/>
+
+</XML>

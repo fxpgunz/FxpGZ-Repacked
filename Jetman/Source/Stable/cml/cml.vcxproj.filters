@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="math">
+      <UniqueIdentifier>{a9aa0e26-d33d-476e-a218-e40c8be192fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extern">
+      <UniqueIdentifier>{0ac0e5ed-df95-417f-bb20-05f076b35a14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="security">
+      <UniqueIdentifier>{ab2013c2-9f1c-4411-b0ed-c701fee549a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AFS">
+      <UniqueIdentifier>{8528ecdd-69ed-4e9e-8974-df255b8736eb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\MMath.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMatrix.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MPlane.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MQuat.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MVector3.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\seed.h">
+      <Filter>extern</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\HMAC_SHA1.h">
+      <Filter>security</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MMD5.h">
+      <Filter>security</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SHA1.h">
+      <Filter>security</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\CfgFile.h" />
+    <ClInclude Include="Include\CMError.h" />
+    <ClInclude Include="Include\CMErrorDef.h" />
+    <ClInclude Include="Include\CMLexicalAnalyzer.h" />
+    <ClInclude Include="Include\CMList.h" />
+    <ClInclude Include="Include\CMPtrList.h" />
+    <ClInclude Include="Include\CommonLog.h" />
+    <ClInclude Include="Include\FileInfo.h" />
+    <ClInclude Include="Include\Hash.h" />
+    <ClInclude Include="Include\LibPak.h" />
+    <ClInclude Include="Include\MArchive.h" />
+    <ClInclude Include="Include\MAsyncHttp.h" />
+    <ClInclude Include="Include\MBlobArray.h" />
+    <ClInclude Include="Include\MCheckSum.h" />
+    <ClInclude Include="Include\MChunkReWriter.h" />
+    <ClInclude Include="Include\MCrashDump.h" />
+    <ClInclude Include="Include\MCRC32.h" />
+    <ClInclude Include="Include\MCrypt.h" />
+    <ClInclude Include="Include\MCsvParser.h" />
+    <ClInclude Include="Include\MDataChecker.h" />
+    <ClInclude Include="Include\MDebug.h" />
+    <ClInclude Include="Include\MemPool.h" />
+    <ClInclude Include="Include\MFolderNotifier.h" />
+    <ClInclude Include="Include\MHttpSpooler.h" />
+    <ClInclude Include="Include\MInet.h" />
+    <ClInclude Include="Include\MInetUtil.h" />
+    <ClInclude Include="Include\MLex.h" />
+    <ClInclude Include="Include\MListSTL.h" />
+    <ClInclude Include="Include\MLocale.h" />
+    <ClInclude Include="Include\MMemoryProxy.h" />
+    <ClInclude Include="Include\MPageArray.h" />
+    <ClInclude Include="Include\MPdb.h" />
+    <ClInclude Include="Include\MProcessController.h" />
+    <ClInclude Include="Include\MProfiler.h" />
+    <ClInclude Include="Include\MRegistry.h" />
+    <ClInclude Include="Include\MRsaEncrypt.h" />
+    <ClInclude Include="Include\MRTTI.h" />
+    <ClInclude Include="Include\MSmartRefresh.h" />
+    <ClInclude Include="Include\MStateMachine.h" />
+    <ClInclude Include="Include\MStrEx.h" />
+    <ClInclude Include="Include\MSync.h" />
+    <ClInclude Include="Include\MThread.h" />
+    <ClInclude Include="Include\MTraceMemory.h" />
+    <ClInclude Include="Include\MTrafficLog.h" />
+    <ClInclude Include="Include\MTypes.h" />
+    <ClInclude Include="Include\MUtil.h" />
+    <ClInclude Include="Include\MWindowFinder.h" />
+    <ClInclude Include="Include\MZFileSystem.h" />
+    <ClInclude Include="Include\stdafx.h" />
+    <ClInclude Include="Include\rapidxml.hpp" />
+    <ClInclude Include="Include\rapidxml_utils.hpp" />
+    <ClInclude Include="Include\rapidxml_print.hpp" />
+    <ClInclude Include="Include\MXml.h" />
+    <ClInclude Include="Include\sha2.h">
+      <Filter>security</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MZip.h">
+      <Filter>security</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\MMatrix.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MVector3.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="source\seed.cpp">
+      <Filter>extern</Filter>
+    </ClCompile>
+    <ClCompile Include="source\HMAC_SHA1.cpp">
+      <Filter>security</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MMD5.cpp">
+      <Filter>security</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SHA1.cpp">
+      <Filter>security</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CfgFile.cpp" />
+    <ClCompile Include="Source\CMError.c" />
+    <ClCompile Include="Source\CMLexicalAnalyzer.cpp" />
+    <ClCompile Include="Source\CommonLog.cpp" />
+    <ClCompile Include="Source\FileInfo.cpp" />
+    <ClCompile Include="Source\hash.c" />
+    <ClCompile Include="Source\LibPak.cpp" />
+    <ClCompile Include="Source\MArchive.cpp" />
+    <ClCompile Include="source\MAsyncHttp.cpp" />
+    <ClCompile Include="Source\MBlobArray.cpp" />
+    <ClCompile Include="Source\MCheckSum.cpp" />
+    <ClCompile Include="Source\MChunkReWriter.cpp" />
+    <ClCompile Include="Source\MCrashDump.cpp" />
+    <ClCompile Include="source\MCRC32.cpp" />
+    <ClCompile Include="source\MCrypt.cpp" />
+    <ClCompile Include="source\MCsvParser.cpp" />
+    <ClCompile Include="source\MDataChecker.cpp" />
+    <ClCompile Include="Source\MDebug.cpp" />
+    <ClCompile Include="Source\MemPool.cpp" />
+    <ClCompile Include="source\MFolderNotifier.cpp" />
+    <ClCompile Include="source\MHttpSpooler.cpp" />
+    <ClCompile Include="Source\MInet.cpp" />
+    <ClCompile Include="source\MInetUtil.cpp" />
+    <ClCompile Include="source\MLex.cpp" />
+    <ClCompile Include="source\MLocale.cpp" />
+    <ClCompile Include="source\MMemoryProxy.cpp" />
+    <ClCompile Include="source\MPageArray.cpp" />
+    <ClCompile Include="Source\MPdb.cpp" />
+    <ClCompile Include="source\MProcessController.cpp" />
+    <ClCompile Include="Source\MProfiler.cpp" />
+    <ClCompile Include="Source\MRegistry.cpp" />
+    <ClCompile Include="source\MRsaEncrypt.cpp" />
+    <ClCompile Include="source\MSmartRefresh.cpp" />
+    <ClCompile Include="Source\MStateMachine.cpp" />
+    <ClCompile Include="Source\MStrEx.cpp" />
+    <ClCompile Include="source\MSync.cpp" />
+    <ClCompile Include="source\MThread.cpp" />
+    <ClCompile Include="source\MTraceMemory.cpp" />
+    <ClCompile Include="Source\MUtil.cpp" />
+    <ClCompile Include="Source\MZFileSystem.cpp" />
+    <ClCompile Include="source\stdafx.cpp" />
+    <ClCompile Include="source\MXml.cpp" />
+    <ClCompile Include="source\sha2.cpp">
+      <Filter>security</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MZip.cpp">
+      <Filter>security</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="msxml.dll" />
+  </ItemGroup>
+</Project>

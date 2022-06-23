@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- 백분율로 나타내는 단위는 0.0 ~ 1.0 사이 값을 사용합니다. -->
+<!-- 시간은 초단위로 사용합니다. -->
+
+<XML id="blitzkrieg">
+
+	<!-- 이벤트 -->
+	<EVENT>
+		<!-- 명예 이벤트 -->
+		<!-- [startHonor] 시작시 지급하는 명예 포인트 -->
+		<!-- [autoIncHonorSec]초당 [autoIncHonor]명예 지급 -->
+		<HONOR	startHonor="470"
+				autoIncHonorSec="1"
+				autoIncHonor="2"
+				firstKillHonor="50">
+				<!-- EXPEL_BONUS는 유저가 나간 수 만큼 autoIncHonor가 바뀐다. -->
+				<!-- 순서대로 입력한다. 3명남았을때, 2명남았을때, 1명남았을때... -->
+				<LEAVE_AUTO_INC_HONOR autoIncHonor="3" />
+				<LEAVE_AUTO_INC_HONOR autoIncHonor="4" />
+				<LEAVE_AUTO_INC_HONOR autoIncHonor="8" />
+		</HONOR>
+		
+		<!-- note to self : i wont be using this, ill hardcode it -->
+		<RESPAWN baseTime="8" invincibleTime="5"/>
+		<!-- 플레이어 기본 강화 -->
+		<!-- [apHp] Ap Hp 추가, [dps] dps 추가 -->
+		<ENHANCE_PLAYER apHp="75" dps="60" />
+		<!-- NPC 강화 -->
+		<!-- [nextTime] NPC 강화 간격, [maxCount] 최대 강화 횟수, [enhancedRatio] 한번에 강화되는 비율 -->
+		<ENHANCE_NPC nextTime="90" maxCount="20" enhancedRatio="0.06" />
+		<!-- 플레이어가 건물 근처에 갔을 때, 발생하는 이벤트 -->
+		<!-- [reduceDamageRatioFromPlayer] 건물이 플레이어에게 받는 데미지의 감소 비율 [checkDelay] 이벤트 검사 간격 -->
+		<BUILDING reduceDamageRatioFromPlayer="0.93" checkDelay="1.0">
+			<!-- [dist] 거리, [reduceDamageRatio] 데미지 감소 비율, [recoveryMagazine] 초당 탄창 회복 비율, [recoveryDelay] 회복 간격 -->
+			<BARRICADE dist="800" reduceDamageRatio="0.5" recoveryMagazineRatio="0.1" recoveryDelay="2.0"/>
+			<!-- [dist] 거리, [recoveryApHp] 초당 Ap Hp 회복 비율, [recoveryMagazine] 초당 탄창 회복 비율, [recoveryDelay] 회복 간격 -->
+			<RADAR dist="600" recoveryApHpRatio="0.1" recoveryMagazineRatio="0.1" recoveryDelay="0.7"/>
+		</BUILDING>
+		<HONOR_ITEM_LIST respawnTime="120">
+			<HONOR_ITEM actor="tresure1" />
+			<HONOR_ITEM actor="tresure2" />
+			<HONOR_ITEM actor="tresure3" />
+			<HONOR_ITEM actor="tresure4" />
+		</HONOR_ITEM_LIST>
+		<!-- this has been hardcoded-->
+		<!--
+		<REINFORCE_LIST>
+			<REINFORCE barricadeCount="9" state="summon_zealot" alliance="true" />
+			<REINFORCE barricadeCount="6" state="summon_cleric" alliance="true" />
+			<REINFORCE barricadeCount="3" state="summon_knight" alliance="true" />
+			<REINFORCE barricadeCount="0" state="summon_terminator" alliance="false" />
+		</REINFORCE_LIST>-->
+	</EVENT>
+	
+	<!-- 보상 -->
+	<!--  [baseBounty] 바운티 기준량
+		, [baseExp] 경험치 기준량
+		, [minTime] 보상을 받기 위한 최소 게임 시간
+		, [minHonor] 보상을 받기 위한 최소 명예
+		, [winnerMedal] 승자 획득 메달
+		, [loserMedal] 패자 획득 메달
+		, [minuteBonusMedal] 분당 추가 획득 메달
+		, [minuteBonusMedalMax] 보너스 받을 수 있는 MAX값
+		, [minPlayCount] 이하로 플레이시 [minPlayCountBonusMedal] 만큼 메달 보너스
+		, [WaitingTime] 만큼 매칭을 대기할때마다 [WaitingRewardMedal]의 메달을 지급 일일 최대값은 [WaitingRewardMax]
+		, [WinXPBonusMVP][WinBPBonusMVP][WinMedalBonusMVP][LoseXPBonusMVP][LoseBPBonusMVP][LoseMedalBonusMVP] 진팀 이긴팀 각각의 MVP가 받는 보너스
+	-->
+	<!-- may not use this-->
+	<REWARD baseBounty="50" 
+			baseExp="50"
+			minTime="420"
+			minHonor="2000"
+			winnerMedal="15"
+			loserMedal="5"
+			minuteBonusMedal="1"
+			minuteBonusMedalMax="20"
+			minPlayCount="10"
+			minPlayCountBonusMedal="10"
+			WaitingTime="60"
+			WaitingRewardMedal="1"
+			WaitingRewardMax="80"
+			WinXPBonusMVP="0.15"
+			WinBPBonusMVP="0.15"
+			WinMedalBonusMVP="0.15"
+			LoseXPBonusMVP="0.45"
+			LoseBPBonusMVP="0.45"
+			LoseMedalBonusMVP="0.45"
+			/>
+	
+	<!-- 탈주 페널티 -->
+	<!-- [first] 초범일때 다른방 입장 불가 시간, [second] 재범일때 다른방 입장 불가 시간, [afterThird] 상습범일때 다른방 입장 불가 시간 -->
+	<PENALTY first="120" second="300" afterThird="600" />
+
+	<!-- 병과 테이블 -->
+	<!-- 병과는 병과별로 제공되는 능력치가 틀리기 때문에 병과가 새로 추가된다면 소스코드 부분도 수정해야 됨 -->
+	<CLASS_TABLE>
+		<HUNTER aquirHonorRatio="0.2" />
+		<SLAUGHTER enchantFireDamage="3" fireDamageDuration="4.0" addMagazineRatio="0.4" />
+		<TRICKSTER recoveryApHpRatio="0.33" recoveryMagazineRatio="1.0" reduceDamageRatio="1.0"/>
+		<GLADIATOR enhanceMeleeDPS="60" addMaxApHp="60" />
+		<DUELIST addShotgunMagazine="3" enhanceShotgunDamage="1" />
+		<INCINERATOR enchantFireDamage="7" fireDamageDuration="4.0" reduceDPS="20" />
+		<COMBATOFFICER reduceDamageRatioForMyTeam="0.15" distance="800" checkDelay="1.0" />
+		<ASSASSIN enhanceDamageRatio="0.15" />
+		<TERRORIST enhanceDamageRatioAtBuilding="1.0" />
+	</CLASS_TABLE>
+	
+	<!-- 병과 교본 테이블 -->
+	<!-- 각 병과의 id는 교본 아이템의 id -->
+	<CLASS_BOOK gladiator="900000" duelist="900001" incinerator="900002" combatofficer="900003" assassin="900004" terrorist="900005" />
+	
+	<!-- 업그레이드 -->
+	<!-- 업그레이드는 4단계까지 가능하다. 따라서 각 속성당 4개의 수치가 필요한데, 각 수치를 같은 문자열에 넣되 ':'로 구분한다. -->
+	<!--	
+			[requireHonor] 업그레이드에 필요한 명예, 
+			[dps] 신형 무기 지급,
+			[reduceShotDelay] 신형 탄환 지급,
+			[hpAp] 신형 방탄복 지급, 
+			[enchantFire] 소이탄 지급, 
+			[magazine] 대형 탄창 지급, 
+			[revive] 전용 의무대 
+	-->
+	<UPGRADE requireHonor="250:325:400:1200"
+		dps="40:40:40:120" reduceShotDelayRatio="0.25:0.25:0.25:0.75"
+		hpAp="65:65:65:195" enchantFire="7:7:7:21" fireDamageDuration="4.0"
+		magazineRatio="0.5:0.5:0.5:1.5" reviveRatio="0.2:0.35:0.5:0.7" />
+		
+	<!-- 무기에 따른 DPS 보정 -->
+	<WEAPON>
+	<DPS smg="1.1" rifle="1.0" machineGun="1.0" pistol="1.3" revolver="1.15"
+		shotGun="0.1" roket="0.9" dagger="0.95" katana="0.9" doubleKatana="0.9" />
+	<DELAY smg="85" rifle="95" machineGun="90" pistol="200" revolver="400"
+			shotGun="1000" roket="1000" dagger="326" katana="329" doubleKatana="329" />
+	</WEAPON>
+	
+	<!-- 기본 NPC 스폰 (레이더, 바리게이트)-->
+	<SPAWN_LIST>
+		<!-- [actor] 스폰할 액터 이름, [num] 스폰되는 수(동일한 이름의 스폰노드 갯수에 맞게..), [team] 2:레드, 3:블루 -->
+		<!-- 주의! 스폰할 액터 이름의 시작은 레이더인 경우 "radar...", 바리게이트인 경우 "barricade..." 형식으로 한다. -->
+		<SPAWN actor="radar_red" num="1" team="2" />
+		<SPAWN actor="radar_blue" num="1" team="3" />
+		<SPAWN actor="barricade_red" num="12" team="2" />
+		<SPAWN actor="barricade_blue" num="12" team="3" />
+		<SPAWN actor="guardian" num="1" team="2" />
+		<SPAWN actor="guardian" num="1" team="3" />
+	</SPAWN_LIST>
+
+	<HONOR_LIST>
+		<PLYAER_HONOR single="50" assist="25" singleTotalDiv="50.0" assistTotalDiv="100.0" killDelay="5.0" assistDelay="5.0" />
+		<HONOR actorType="barricade" single="30" all="60"/>
+		<HONOR actorType="honor_item" single="20" all="35"/>
+		<HONOR actorType="knifeman" single="5" all="0"/>
+		<HONOR actorType="throwman" single="10" all="0"/>
+		<HONOR actorType="zealot" single="40" all="0"/>
+		<HONOR actorType="cleric" single="50" all="0"/>
+		<HONOR actorType="knight" single="60" all="0"/>		
+		<HONOR actorType="terminator" single="50" all="150"/>
+		<HONOR_SOUND lessGainHonor="Blitzkrieg/LessGainHonor" regularGainHonor="Blitzkrieg/RegularGainHonor" moreGainHonor="Blitzkrieg/MoreGainHonor"/>
+	</HONOR_LIST>
+	
+	<!-- NPC 진격로 -->
+	<ROUTE_LIST>
+		<!-- [id] 진격로 번호, [route...] 맵 리소스에 존재하는 루트 노드 이름들을 나열해서 경로를 만든다. -->
+		<ROUTE id="100" route1="route_top_2" route2="route_top_3" route3="route_top_4" route4="route_top_5" route5="route_top_6" route6="route_top_7" route7="route_top_8" /> 
+		<ROUTE id="101" route1="route_top_7" route2="route_top_6" route3="route_top_5" route4="route_top_4" route5="route_top_3" route6="route_top_2" route7="route_top_1" /> 
+		<ROUTE id="210" route1="route_mid1_2" route2="route_mid1_3" route3="route_mid1_4" route4="route_mid1_5" route5="route_mid1_6" route6="route_mid1_7" /> 
+		<ROUTE id="211" route1="route_mid1_6" route2="route_mid1_5" route3="route_mid1_4" route4="route_mid1_3" route5="route_mid1_2" route6="route_mid1_1" /> 
+		<ROUTE id="220" route1="route_mid2_2" route2="route_mid2_3" route3="route_mid2_4" route4="route_mid2_5" route5="route_mid2_6" route6="route_mid1_7" /> 
+		<ROUTE id="221" route1="route_mid2_6" route2="route_mid2_5" route3="route_mid2_4" route4="route_mid2_3" route5="route_mid2_2" route6="route_mid1_1" /> 
+		<ROUTE id="300" route1="route_bot_2" route2="route_bot_3" route3="route_bot_4" route4="route_bot_5" route5="route_bot_6" route6="route_bot_7" route7="route_bot_8" /> 
+		<ROUTE id="301" route1="route_bot_7" route2="route_bot_6" route3="route_bot_5" route4="route_bot_4" route5="route_bot_3" route6="route_bot_2" route7="route_bot_1" /> 
+	</ROUTE_LIST>
+
+	<!-- 이벤트 메시지 -->
+	<!-- [viewTime] 노출 시간, [delayTime] 다음 메시지가 존재할 때, 노출하는 시간, [damagedRadarViewTime] 레이더가 공격받을 때 보여주는 시간, [sound] 소리 -->
+	<EVENT_MESSAGE viewTime="4" delayTime="1.0" damagedRadarCoolDown="2" sound_Benefit="Blitzkrieg/EventBenefit" sound_Loss="Blitzkrieg/EventLoss">
+	</EVENT_MESSAGE>
+	
+	<!--도움말 메시지 -->
+	<!-- dist:특정 이벤트 발생 기준거리, honor:특권 업글하라는 이벤트 발생 기준 -->
+	<HELP_MESSAGE viewTime="4" dist="500" honor="300" sound="Blitzkrieg/Help"/>
+	
+</XML>

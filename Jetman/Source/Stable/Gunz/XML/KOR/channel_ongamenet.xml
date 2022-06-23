@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XML id="channel">
+	<!-- 이 파일은 온게임넷 서버를 위해서 만들어 졌습니다. 
+ 	 옷게임넷 서버에만 사용을 하고 다른 서버에서는 사용하지 마세요. -->
+	<DEFAULTCHANNELNAME name="STR:CHANNEL_DEFAULT_NAME"/>
+	<DEFAULTRULENAME name="novice"/>
+
+	<!-- example code - by SungE 2007-03-15
+	<CLAN_CHANNEL IsTicketChannel="true" TicketItemID="700001" />
+	-->
+
+	<CHANNEL name="라이브채널1" maxplayers="200" rule="elite"/>
+	<CHANNEL name="라이브채널2" maxplayers="200" rule="elite"/>
+	<CHANNEL name="라이브채널3" maxplayers="200" rule="elite"/>
+	<CHANNEL name="라이브채널4" maxplayers="200" rule="elite"/>
+	<CHANNEL name="라이브채널5" maxplayers="200" rule="elite"/>
+	<CHANNEL name="라이브채널6" maxplayers="200" rule="elite"/>
+	<CHANNEL name="라이브채널7" maxplayers="200" rule="elite"/>
+	<CHANNEL name="라이브채널8" maxplayers="200" rule="elite"/>
+	<CHANNEL name="라이브채널9" maxplayers="200" rule="elite"/>
+	<CHANNEL name="라이브채널10" maxplayers="200" rule="elite"/>
+
+
+</XML>

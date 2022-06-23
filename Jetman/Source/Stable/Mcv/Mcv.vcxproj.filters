@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{529787fa-2b7d-4635-a4f3-19148dae638f}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Mcv.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\McvDoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Mcv.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Mcv.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RCFrameInfoDlg.htm" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="Mcv.h" />
+    <ClInclude Include="McvDoc.h" />
+    <ClInclude Include="McvView.h" />
+    <ClInclude Include="ModelInfoDlg.h" />
+    <ClInclude Include="MtrlEditDlg.h" />
+    <ClInclude Include="RCFrameInfoDlg.h" />
+    <ClInclude Include="ScaleDlg.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="Mcv.cpp" />
+    <ClCompile Include="McvDoc.cpp" />
+    <ClCompile Include="McvView.cpp" />
+    <ClCompile Include="ModelInfoDlg.cpp" />
+    <ClCompile Include="MtrlEditDlg.cpp" />
+    <ClCompile Include="RCFrameInfoDlg.cpp" />
+    <ClCompile Include="ScaleDlg.cpp" />
+  </ItemGroup>
+</Project>

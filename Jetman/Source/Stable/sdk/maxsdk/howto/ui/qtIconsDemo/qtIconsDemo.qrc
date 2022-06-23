@@ -1,0 +1,12 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="qtIconsDemo/Icons">
+    <file>Array_24.png</file>
+    <file>Array_30.png</file>
+    <file>Array_36.png</file>
+    <file>Array_48.png</file>
+    <file>Snapshot_24.png</file>
+    <file>Snapshot_30.png</file>
+    <file>Snapshot_36.png</file>
+    <file>Snapshot_48.png</file>
+</qresource>
+</RCC>

@@ -1,0 +1,136 @@
+GUNZ 1,0,0,290 launched. build (Jun 25 2021 01:03:10) 
+Log time (06/25/21 01:14:49)
+Windows = 6.1 Build 7600 ,  (16701652KB) :  Windows 7..
+CPU ID = AMD Ryzen 5 3500X 6-Core Processor              ( family = 0 , model = 586 , stepping = 28928 )
+Display Device = Radeon RX 570 Series ( vendor=1002 device=67df subsys=341b1462 revision=ef )
+Display Driver Version = 27.20.21003.8013
+Load XML from memory : system/locale.xml- SUCCESS
+Country : (BRZ), Language : (BRZ)
+Load Config from file : config.xml- SUCCESS
+Load XML from memory : system/system.xml- SUCCESS
+Load XML from memory : system/USA/strings.xml(0x0009) - SUCCESS
+Load XML from memory : system/USA/cserror.xml(0x0009) - SUCCESS
+Load XML from memory : system/USA/messages.xml(0x0009) - SUCCESS
+Load XML from memory : system/gametypecfg.xml 
+InitializeNotify ok.
+WFog Enabled Device.
+device created.
+Video memory 2042.500000 
+shader initialize successful : 1
+Reset Device 
+Video memory 2042.500000 
+shader initialize successful : 1
+main : RGetLenzFlare()->Initialize() 
+Alpha GunZ - Ver 0
+InitialLoading success.
+interface Initialize success
+ZApplication::OnCreate : begin
+0(Primary Sound Driver): Hardware Mixing Not Supported
+1(4 - 55S517 (4- AMD High Definition Audio Device)): Hardware Mixing Not Supported
+2(Speakers (5- USB Audio Device)): Hardware Mixing Not Supported
+3(Realtek Digital Output (Realtek(R) Audio)): Hardware Mixing Not Supported
+[[[getMaxChannel32]]]]
+
+-------------------> Sound Engine Create : 0.675000 
+
+sound engine create.
+Load XML from memory : system/USA/tips.xml(0x0009)start log bipmap
+end of load bitmaps2
+loading pictures : 1.587000 
+IDLResource Loading Success!!
+IDL resources : 0.169000 
+start InitInterface option
+Number of Display mode : 92
+end of InitInterface option ok
+Init maps : no Current ChannelRule 
+Screen Effect Manager Create : 0.200000 
+Screen effect manager create success.
+SFX/ef_hp ampulla.elu mesh Plane57 node 2 face 0 point -> physique 3 Greater than
+SFX/ef_hp ampulla.elu mesh Plane50 node 2 face 0 point -> physique 3 Greater than
+SFX/ef_hp ampulla.elu mesh Plane51 node 2 face 0 point -> physique 3 Greater than
+SFX/ef_hp ampulla.elu mesh Plane52 node 2 face 0 point -> physique 3 Greater than
+SFX/ef_hp ampulla.elu mesh Plane53 node 2 face 0 point -> physique 3 Greater than
+SFX/ef_hp ampulla.elu mesh Plane54 node 2 face 0 point -> physique 3 Greater than
+SFX/ef_hp ampulla.elu mesh Plane56 node 2 face 0 point -> physique 3 Greater than
+SFX/ef_ap ampulla.elu mesh Plane50 node 2 face 0 point -> physique 3 Greater than
+SFX/ef_ap ampulla.elu mesh Plane51 node 2 face 0 point -> physique 3 Greater than
+SFX/ef_ap ampulla.elu mesh Plane52 node 2 face 0 point -> physique 3 Greater than
+SFX/ef_ap ampulla.elu mesh Plane53 node 2 face 0 point -> physique 3 Greater than
+SFX/ef_ap ampulla.elu mesh Plane54 node 2 face 0 point -> physique 3 Greater than
+SFX/ef_ap ampulla.elu mesh Plane56 node 2 face 0 point -> physique 3 Greater than
+SFX/ef_ap ampulla.elu mesh Plane57 node 2 face 0 point -> physique 3 Greater than
+SFX/ef_haste ampulla.elu mesh Plane50 node 2 face 0 point -> physique 3 Greater than
+SFX/ef_haste ampulla.elu mesh Plane51 node 2 face 0 point -> physique 3 Greater than
+SFX/ef_haste ampulla.elu mesh Plane52 node 2 face 0 point -> physique 3 Greater than
+SFX/ef_haste ampulla.elu mesh Plane53 node 2 face 0 point -> physique 3 Greater than
+SFX/ef_haste ampulla.elu mesh Plane54 node 2 face 0 point -> physique 3 Greater than
+SFX/ef_haste ampulla.elu mesh Plane56 node 2 face 0 point -> physique 3 Greater than
+SFX/ef_haste ampulla.elu mesh Plane57 node 2 face 0 point -> physique 3 Greater than
+Effect manager create success.
+Client create success.
+game interface create success.
+
+-------------------> GameInterface Create : 2.694000 
+
+model/man/man-parts_shunter.elu mesh eq_chest_shunter node 34 face 0 point -> physique 3 Greater than
+model/man/man-parts_dryad.elu mesh eq_chest_dryad node 680 face 0 point -> physique 3 Greater than
+model/man/man-parts_gveteran.elu mesh eq_chest_gveteran node 6 face 2 point -> physique 3 Greater than
+model/woman/woman-parts_blackdragon.elu mesh eq_legs_blackdragon node 301 face 1 point -> physique 3 Greater than
+model/woman/woman-parts_eskimo.elu mesh eq_chest_eskimo node 80 face 1 point -> physique 3 Greater than
+model/woman/woman-parts_bloodsuit.elu mesh eq_chest_bloodsuit node 129 face 0 point -> physique 3 Greater than
+model/woman/woman-parts_gveteran.elu mesh eq_chest_gveteran node 6 face 1 point -> physique 3 Greater than
+Load character.xml success,
+
+-------------------> Character Loading : 1.488000 
+
+
+-------------------> WeaponMesh Loading : 0.232000 
+
+Load weapon.xml success. 
+
+-------------------> Worlditem Loading : 0.017000 
+
+Load zitem info success.
+Load zBuff info success.
+Init world item manager success.
+Init map Descriptor success.
+Init channel rule manager success.
+Init abuse manager success.
+Init chatting filter. success
+
+-------------------> ETC .. : 0.338000 
+
+game create begin , type = 0
+BspObject open : begin maps/mansion/mansion.rs 
+RBspObject::Open : Open_MaterialList
+RBspObject::Open : Open_LightList
+BspObject open object list : begin
+RBspObject::Open_ObjectList : size 8 
+RBspObject::Open_ObjectList : pInfo->pVisualMesh == NULL 
+RBspObject::Open_ObjectList : pInfo->pVisualMesh == NULL 
+RBspObject::Open_ObjectList : pInfo->pVisualMesh == NULL 
+RBspObject::Open_ObjectList : pInfo->pVisualMesh == NULL 
+RBspObject::Open_ObjectList : end
+RBspObject::Open : OpenDescription
+RBspObject::OpenRs : file.Open 
+RBspObject::OpenRs : file.Read(&header) 
+RBspObject::OpenRs : file.Read(&nMaterial) 
+RBspObject::OpenRs : Open_Nodes begin 
+RBspObject::OpenRs : Open_Nodes end 
+RBspObject::Open : OpenRs 
+RBspObject::Open : OpenBsp 
+BspObject load lightmap : file.Read(&header)
+BspObject load lightmap nCount = 4
+BspObject load lightmap 0
+BspObject load lightmap 1
+BspObject load lightmap 2
+BspObject load lightmap 3
+BspObject load lightmap : file.Read(&m_nLightmap) done
+BspObject load lightmap : end 
+RBspObject::Open : done
+create game enrvironment.
+game world create success.
+Reload all animation end 
+game created ( 01:14:56 )
+Create character : Name=Jeff Level=99 
+main : OnCreate() done

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- 시간은 초단위로 사용합니다. -->
+<XML id="SpyMode">
+	<BASE
+		minPlayer="4"
+	/>
+
+	<!-- 게임시작 되고 selectSpyTime 초 이후 스파이 선정 -->
+	<!-- 스파이 선정 기준 DefaultRating(초기값), SelectedRating(스파이나 추적자가 될시 기본 계산값)
+						, MinimumRating(최소값), MaximumRating(최대값) -->
+	<!-- RoundFinishWaitTime 라운드가 끝날때 다음 라운드로 넘어가기까지 대기 시간 -->
+	<SELECT_SPY
+		selectSpyTime="10"
+		DefaultRating="1000"
+		SelectedRating="500"
+		MinimumRating="500"
+		MaximumRating="1500"
+		RounFinishWaitTime="3"
+	/>
+	
+	<!-- Desc가 SPY_TABLE의 Attribute로 사용된다. -->
+	<SPY_ITEM_DESC ID="601006" Desc="BAG" />
+	<SPY_ITEM_DESC ID="601001" Desc="LIGHT" />
+	<SPY_ITEM_DESC ID="601003" Desc="ICE" />
+	<SPY_ITEM_DESC ID="601002" Desc="SMOKE" />
+	<SPY_ITEM_DESC ID="601004" Desc="STUN" />
+	<SPY_ITEM_DESC ID="601005" Desc="MINE" />
+	
+	<!-- BAG의 경우 무조건 1개 지급이지만 다른 아이템과 일관성을 위하여 그냥 1이라고 기록 -->
+	<SPY_TABLE TotalCount="4" SpyCount="1" HPAP="50" BAG="1" LIGHT="2" ICE="4" SMOKE="8"/>
+	<SPY_TABLE TotalCount="5" SpyCount="1" HPAP="100" BAG="1" LIGHT="3" ICE="5" SMOKE="10"/>
+	<SPY_TABLE TotalCount="6" SpyCount="1" HPAP="150" BAG="1" LIGHT="4" ICE="6" SMOKE="12"/>
+	<SPY_TABLE TotalCount="7" SpyCount="2" HPAP="50" BAG="1" LIGHT="2" ICE="4" SMOKE="5"/>
+	<SPY_TABLE TotalCount="8" SpyCount="2" HPAP="80" BAG="1" LIGHT="3" ICE="5" SMOKE="6"/>
+	<SPY_TABLE TotalCount="9" SpyCount="2" HPAP="110" BAG="1" LIGHT="4" ICE="6" SMOKE="7"/>
+	<SPY_TABLE TotalCount="10" SpyCount="3" HPAP="50" BAG="1" LIGHT="2" ICE="3" SMOKE="4"/>
+	<SPY_TABLE TotalCount="11" SpyCount="3" HPAP="70" BAG="1" LIGHT="3" ICE="4" SMOKE="5"/>
+	<SPY_TABLE TotalCount="12" SpyCount="3" HPAP="90" BAG="1" LIGHT="4" ICE="5" SMOKE="6"/>
+
+	<TRACER_TABLE STUN="2" MINE="10"/>
+</XML>

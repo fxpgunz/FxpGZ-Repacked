@@ -1,0 +1,586 @@
+<HTML dir="ltr">
+	<HEAD>
+		<TITLE>3ds max Plugin Wizard</TITLE>
+		<META content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema">
+		<LINK ID="LINKURL" REL="stylesheet" HREF="../../1033/styles.css">
+		<STYLE type="text/css">@import url(); 
+		</STYLE>
+		</HEAD>
+	<BODY onkeypress="OnPress();" onkeydown="OnKey();" bottomMargin="0" bgColor="buttonface" leftMargin="0" topMargin="0" onload="InitDocument(document);SetEnabled();" rightMargin="0">
+		<table class="ONE" height="100%" cellspacing="0" cellpadding="0" width="100%" border="0">
+			<colgroup>
+				<col width="178" />
+				<col />
+			</colgroup>
+			<!--OPEN OF INTRODUCTORY INFORMATION TABLE//-->
+			<tr valign="top" id="WelcomeRow" >
+				<td width="100%" colspan="2" height="79">
+					<table class="two" cellpadding="12">
+						<colgroup>
+							<col />
+							<col width="71" />
+						</colgroup>
+						<tr>
+							<td align="left" valign="top">
+								<h4 class="HEAD" id="H1">Welcome to the 3ds max Plugin Wizard.</h4>
+								<p class="SUBHEAD" id="P1">Please complete the project settings below and click Finish to generate the project.</p>
+							</td>
+							<td align="right">
+								<img src="../../Images/3dsmaxPluginWizard.gif" width="47" height="63" alt="" border="0" />
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<!--CLOSE OF INTRODUCTORY INFORMATION TABLE//-->
+			<!--OPEN OF NAVIGATION, CONTENT, AND BUTTON TABLES//-->
+			<tr valign="top" id="bottomhalf" >
+				<td class="THREE" valign="top" style="background-image: url(..\..\Images\3dsmaxPluginWizard_BG.gif)" >
+					<!--OPEN OF NAVIGATION TABLE//-->
+					<table class="THREE" cellspacing="0" cellpadding="0" border="0">
+						<colgroup>
+							<col width="12" />
+							<col width="166" />
+							<col width="1" />
+						</colgroup>
+						<tr>
+							<td valign="top" colspan="3" height="12">
+								&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<td valign="top" width="12" height="100%">
+								&nbsp;
+							</td>
+							<td valign="top" width="165" height="100%">
+								<!--OPEN OF NAVIGATIONAL LINKS//-->
+								<div class="LINK">
+									<table class="LINKTEXT" height="28" cellspacing="0" cellpadding="0" width="166" border="0">
+										<tr valign="center">
+											<td width="162">
+												<span class="ACTIVELINK" id="Default" title="" onclick="Next(document, 'default.htm');"
+													tabindex="1"><font color="#eeeeee">Plugin Type</font></span>
+											</td>
+											<td width="4">
+											</td>
+										</tr>
+									</table>
+								</div>
+								<div class="LINK">
+									<table class="LINKTEXT" height="28" cellspacing="0" cellpadding="0" width="166" border="0">
+										<tr valign="center">
+											<td width="162">
+												<span class="ACTIVELINK" id="Page_2" title="" onclick="Next(document, 'Page_2.htm');"
+													tabindex="1"><font color="#eeeeee">Plugin Details</font></span>
+											</td>
+											<td width="4">
+											</td>
+										</tr>
+									</table>
+								</div>
+								<div class="LINKSELECTED">
+									<span class="VERTLINE1"></span><span class="HORILINE1">
+										<table height="100%" cellspacing="0" cellpadding="0" width="167" border="0">
+											<tr valign="top">
+												<td class="DOTTEDLINE" height="1">
+												</td>
+											</tr>
+											<tr valign="top">
+												<td height="100%">
+												</td>
+											</tr>
+											<tr valign="top">
+												<td class="DOTTEDLINE" height="1">
+												</td>
+											</tr>
+										</table>
+									</span>
+									<table class="LINKTEXT" height="28" cellspacing="0" cellpadding="0" width="160" border="0">
+										<tr valign="center">
+											<td width="162">
+												<b><span id="Page_3" title="" onclick="Next(document, 'Page_3.htm');" tabindex="1">Project
+													Details </span></b>
+											</td>
+											<td width="4">
+											</td>
+										</tr>
+									</table>
+								</div>
+								<!--CLOSE OF NAVIGATIONAL LINKS//-->
+							</td>
+							<td width="1">
+								<div class="VERTLINE">
+								</div>
+							</td>
+						</tr>
+					</table>
+					<!--CLOSE OF NAVIGATION TABLE//-->
+				</td>
+				<td valign="top" height="100%">
+					<!--OPEN OF CONTENT AND BUTTON TABLE//-->
+					<table class="ONE" cellspacing="0" cellpadding="0" border="0">
+						<colgroup>
+							<col width="100%">
+							<tr valign="top">
+								<td style="width: 118.74%" height="100%">
+									<!--OPEN OF CONTENT//-->
+									<table class="CONTENT" id="Table1" cellspacing="0" cellpadding="0" border="0">
+										<colgroup>
+											<col width="12" />
+											<col width="185" />
+											<col width="12" />
+											<col width="185" />
+											<col width="12" />
+											<col width="185" />
+											<col width="12" />
+										</colgroup>
+										<tr>
+											<td valign="top" colspan="5" height="12">
+												&nbsp;
+											</td>
+										</tr>
+										<tr valign="top">
+											<td valign="top" width="12">
+												&nbsp;
+											</td>
+											<td style="width: 281px" valign="top" colspan="3">
+												<p class="ElementSpacer">
+													&nbsp;</p>
+												<span class="itemText">Enter your MAXSDK path:
+													<br>
+													<input id="MAXSDKPATH_TEXTBOX" style="width: 250px" type="text" name="MAXSDKPATH_TEXTBOX" />
+													<input id="MAXSDKPATH_BUTTON" style="width: 25px; height: 20px" onclick="GetDirectory(MAXSDKPATH_TEXTBOX, '3ds max SDK ');"
+														type="button" value="..." name="MAXSDKPATH_BUTTON" />
+													<br>
+													<br>
+													Enter your x64 Plugin output path:<br>
+													<input id="PLUGPATHX64_TEXTBOX" style="width: 250px" type="text" name="PLUGPATHX64_TEXTBOX" />
+													<input id="PLUGPATHX64_BUTTON" style="width: 25px; height: 20px" onclick="GetDirectory(PLUGPATHX64_TEXTBOX, '3ds max x64 Plugins');"
+														type="button" value="..." name="PLUGPATHX64_BUTTON" />
+													<br>
+													<br>
+													Enter your x64 3dsmax.exe path:<br>
+													<input id="EXEPATHX64_TEXTBOX" style="width: 250px" type="text" name="EXEPATHX64_TEXTBOX">
+													<input id="EXEPATHX64_BUTTON" style="width: 25px; height: 20px" onclick="GetDirectory(EXEPATHX64_TEXTBOX, '3ds max x64');"
+														type="button" value="..." name="EXEPATHX64_BUTTON" />
+													<br>
+													<br>
+													<input id="PARAMMAP_CHECKBOX" type="checkbox" name="PARAMMAP_CHECKBOX" />&nbsp;Implement Parameter Maps
+													<br>
+													<br>
+													<input id="EXTCHANNEL_CHECKBOX" type="checkbox" name="EXTCHANNEL_CHECKBOX" />&nbsp;Implement Extension Channels
+													<br>
+												</span>
+											</td>
+											<td valign="top" width="12">
+												&nbsp;
+											</td>
+										</tr>
+										<tr>
+											<td valign="top" colspan="7" height="100%">
+												&nbsp;
+											</td>
+										</tr>
+									</table>
+									<!--CLOSE OF CONTENT//-->
+								</td>
+							</tr>
+							<tr valign="bottom">
+								<td style="width: 118.74%" height="48">
+									<!--OPEN OF BUTTON HTML//-->
+									<table height="48" cellspacing="0" cellpadding="0" border="0">
+										<colgroup>
+											<col width="12">
+											<col>
+											<col width="75">
+											<col width="4">
+											<col width="75">
+											<col width="4">
+											<col width="75">
+											<col width="12">
+											<tr>
+												<td class="RULE" valign="top" colspan="8" height="2">
+													<table height="1" cellspacing="0" cellpadding="0" width="100%" border="0">
+														<tr valign="top">
+															<td width="100%" bgcolor="buttonshadow" height="1">
+															</td>
+															<td width="1" bgcolor="window" height="1">
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+											<tr>
+												<td valign="top" colspan="8" height="11">
+													&nbsp;
+												</td>
+											</tr>
+											<tr>
+												<td valign="center" width="12" height="23">
+													&nbsp;
+												</td>
+												<td valign="top" height="23">
+													&nbsp;
+												</td>
+												<td valign="center" width="75" height="23">
+													<button class="BUTTONS" id="FinishBtn" accesskey="F" onclick="OnFinish(document);"
+														type="button">
+														<u>F</u>inish</button>
+												</td>
+												<td valign="center" width="4" height="23">
+													&nbsp;
+												</td>
+												<td valign="center" width="75" height="23">
+													<button class="BUTTONS" id="CancelBtn" accesskey="C" onclick="window.external.Finish(document, 'cancel');"
+														type="button">
+														<u>C</u>ancel</button>
+												</td>
+												<td valign="center" width="4" height="23">
+													&nbsp;
+												</td>
+												<td valign="center" width="75" height="23">
+													<button class="BUTTONS" id="HelpBtn" accesskey="H" onclick="window.external.OnHelp('vc.appwiz.custom.overview');"
+														type="button">
+														<u>H</u>elp</button>
+												</td>
+												<td valign="center" width="12" height="23">
+													&nbsp;
+												</td>
+											</tr>
+											<tr>
+												<td valign="top" height="12" colspan="8">
+													&nbsp;
+												</td>
+											</tr>
+									</table>
+									<!--CLOSE OF BUTTON HTML//-->
+								</td>
+							</tr>
+					</table>
+					<!--CLOSE OF NAVIGATION, CONTENT, AND BUTTON TABLES//-->
+				</td>
+			</tr>
+		</table>
+	</BODY>
+</HTML>
+
+<SCRIPT language="JSCRIPT">
+
+var tab_array = new Array();
+tab_array[0] = Default;
+tab_array[1] = Page_2;
+tab_array[2] = Page_3;
+
+// Init ini path.
+var iniPath = window.external.FindSymbol("START_PATH") + '\\' + '3dsmaxPluginWizard.ini';
+
+function GetDirectory(textBox, mssString)
+{
+	var bBrowseDlg = true;
+	try
+	{
+		var strDirectory = window.external.GetDirectoryViaBrowseDlg("Choose " + mssString + " Directory", "C:\\");
+		if (strDirectory != "")
+		{
+			if (strDirectory.charAt(strDirectory.length - 1) == '\\')
+			{
+				if (strDirectory.charAt(strDirectory.length - 2) != ':')
+					strDirectory = strDirectory.substring(0, strDirectory.length - 1);
+			}
+
+			textBox.value = strDirectory;
+		}
+	}
+	catch(e)
+	{
+	}
+}
+
+function SetEnabled()
+{
+	// Forcing parameters maps the following types
+	if (window.external.FindSymbol("SIMPLE_TYPE") ||
+		window.external.FindSymbol("MODIFIER_TYPE") ||
+		window.external.FindSymbol("ATMOSPHERIC_TYPE") ||
+		window.external.FindSymbol("MATERIAL_TYPE") ||
+		window.external.FindSymbol("RENDER_EFFECT_TYPE") ||
+		window.external.FindSymbol("TEX_TYPE") ||
+		window.external.FindSymbol("SHADOW_TYPE") ||
+		window.external.FindSymbol("SKIN_GIZMO_TYPE") ||
+		window.external.FindSymbol("MANIP_TYPE") ||
+		window.external.FindSymbol("UI_BY_MAX"))
+	{
+		PARAMMAP_CHECKBOX.checked = true;
+		PARAMMAP_CHECKBOX.disabled = true;
+	}
+	else if (window.external.FindSymbol("STATIC_TYPE") ||
+			window.external.FindSymbol("IMAGE_FILTER_COMPOSITOR_TYPE") ||
+			window.external.FindSymbol("GUP_TYPE") ||
+			window.external.FindSymbol("IK_TYPE") ||
+			window.external.FindSymbol("COLPICK_TYPE") ||
+			window.external.FindSymbol("FILE_EXPORT_3DXI_TYPE") ||
+			window.external.FindSymbol("FILE_EXPORT_TYPE") ||
+			window.external.FindSymbol("FILE_IMPORT_TYPE"))
+	{
+		window.external.AddSymbol("NON_ANIM_TYPE", true);
+		PARAMMAP_CHECKBOX.checked = false;
+		PARAMMAP_CHECKBOX.disabled = true;
+	}
+	else
+	{
+		PARAMMAP_CHECKBOX.disabled = false;
+	}
+
+	if(window.external.FindSymbol("MODIFIER_TYPE"))
+	{
+		EXTCHANNEL_CHECKBOX.disabled = false;
+	}
+	else
+	{
+		EXTCHANNEL_CHECKBOX.disabled = true;
+	}
+
+	ExtractFromDefaults();
+}
+
+function ExtractFromDefaults()
+{
+	// Michaelson: defaults are now loaded from userDefaults.js (rendered from template)
+	var sdkPath = window.external.FindSymbol("SDKPATH"); //getINIValue("wizard paths", "SDKPATH");
+	MAXSDKPATH_TEXTBOX.value = sdkPath;
+	
+	//var plugPath = window.external.FindSymbol("PLGPATH"); //getINIValue("wizard paths", "PLGPATH");
+	//PLUGPATH_TEXTBOX.value = plugPath;
+	
+	//var exePath = window.external.FindSymbol("EXEPATH"); //getINIValue("wizard paths", "EXEPATH");
+	//EXEPATH_TEXTBOX.value = exePath;
+
+	var plugPathx64 = window.external.FindSymbol("PLGPATHX64"); //getINIValue("wizard paths", "PLGPATHX64");
+	PLUGPATHX64_TEXTBOX.value = plugPathx64;
+
+	var exePathx64 = window.external.FindSymbol("EXEPATHX64"); //getINIValue("wizard paths", "EXEPATHX64");
+	EXEPATHX64_TEXTBOX.value = exePathx64;
+}
+
+function WriteToIniFile()
+{
+	// Writing .ini file 
+	try
+	{
+		//var fso = new ActiveXObject("Scripting.FileSystemObject");
+		var a; // = fso.CreateTextFile(iniPath,true);
+	
+		a.WriteLine("[wizard paths]");
+	
+		a.WriteLine(";SDK include path");
+		a.WriteLine("SDKPATH=" + MAXSDKPATH_TEXTBOX.value);
+	
+		//a.WriteLine(";Plugin output path");
+		//a.WriteLine("PLGPATH=" + PLUGPATH_TEXTBOX.value);
+	
+		//a.WriteLine(";3ds max exe path");
+		//a.WriteLine("EXEPATH=" + EXEPATH_TEXTBOX.value);
+
+		a.WriteLine(";Plugin x64 output path");
+		a.WriteLine("PLGPATHX64=" + PLUGPATHX64_TEXTBOX.value);
+
+		a.WriteLine(";3ds max x64 exe path");
+		a.WriteLine("EXEPATHX64=" + EXEPATHX64_TEXTBOX.value);
+
+		a.Close();
+	}
+	catch(e) 
+	{
+		// let it go.
+	}
+}
+
+function getINIValue(header, key) 
+{
+	// Reading .ini file 
+	var bFound = false;
+	var i      = -1;
+	var out    = "";
+	var s      = "";
+	var fso;
+	var f;
+	var t;
+	try 
+	{
+		fso = 0;
+		
+		f = fso.opentextfile(iniPath, 1, false);
+		while (!f.AtEndOfStream) 
+		{
+			s = f.readline();
+		
+			if (s.toLowerCase() == "\[" + header.toLowerCase() + "\]") 
+			{
+				bFound = true;
+			}
+			if (bFound) 
+			{
+				i = s.indexOf("=");
+				if (i > -1) 
+				{
+					t = s.substring(0, i);
+					if (key.toLowerCase() == t.toLowerCase()) 
+					{
+						out = s.substring(i + 1, s.length);
+						break;
+					}
+				}
+			}
+		}
+		f.close();
+		f = null;
+		fso = null;
+	}
+	catch(e) 
+	{
+		// let it go.
+	}
+	return out;
+}
+
+// This is an example of a function which initializes the page
+//
+function InitDocument(document)
+{
+	setDirection();
+	
+	if (window.external.FindSymbol('DOCUMENT_FIRST_LOAD'))
+	{
+		// This function sets the default symbols based 
+		// on the values specified in the SYMBOL tags above
+		//
+		window.external.SetDefaults(document);
+	}
+
+	// Load the document and initialize the controls 
+	// with the appropriate symbol values
+	//
+	window.external.Load(document);
+}
+
+function HandleNav()
+{
+	var hybridConfig = false; 
+
+	// TODO: Set template variables based on the dialog's data.
+	window.external.AddSymbol("SDKPATH", MAXSDKPATH_TEXTBOX.value);
+	//window.external.AddSymbol("PLGPATH", PLUGPATH_TEXTBOX.value);
+	//window.external.AddSymbol("EXEPATH", EXEPATH_TEXTBOX.value);
+	window.external.AddSymbol("PLGPATHX64", PLUGPATHX64_TEXTBOX.value);
+	window.external.AddSymbol("EXEPATHX64", EXEPATHX64_TEXTBOX.value);
+	window.external.AddSymbol("ADD_COMMENTS", true);
+	
+	// Not sure where the UI for this is in original wizard
+	if(hybridConfig)
+	{
+		window.external.AddSymbol("HYBCONFIG", true);
+	}
+	else
+	{
+		window.external.RemoveSymbol("HYBCONFIG");
+	}
+	
+	if(EXTCHANNEL_CHECKBOX.checked)
+	{
+		window.external.AddSymbol("EXTENSION",true);
+	}
+	else
+	{
+		window.external.RemoveSymbol("EXTENSION");
+	}
+	
+	var tex = window.external.FindSymbol("TEX_TYPE");
+	var mtl = window.external.FindSymbol("MATERIAL_TYPE");
+	
+	if(PARAMMAP_CHECKBOX.checked) // Set the necessary keys if implementing param maps
+	{
+		window.external.AddSymbol("PARAM_MAPS",	true);
+		window.external.AddSymbol("PARAM_NAME",	"GetString(IDS_PARAMS)");
+		
+		// Should refer to SimpleObject2::pblock2 instead of old SimpleObject::pblock
+		if (window.external.FindSymbol("SIMPLE_TYPE") && (window.external.FindSymbol("PROCEDURAL_OBJECT_TYPE") || window.external.FindSymbol("MODIFIER_TYPE")))
+		{
+			window.external.AddSymbol("PBLOCK",	"pblock2");
+			window.external.AddSymbol("SIMPLE_OBJ", true);
+		}
+		else
+			window.external.AddSymbol("PBLOCK",	"pblock");
+		
+		if (tex) // if a texture map plugin
+		{
+			window.external.AddSymbol("NUM_REFS", "2+NSUBTEX");
+			window.external.AddSymbol("PB_REF", "1");
+		}
+		else if(mtl) 
+		{
+			window.external.AddSymbol("NUM_REFS","1+NSUBMTL");
+			window.external.AddSymbol("PB_REF", "0");		
+		}
+		else 
+		{
+			window.external.AddSymbol("NUM_REFS","1");
+			window.external.AddSymbol("PB_REF",	"0");
+		}
+	}
+	else
+	{
+		window.external.RemoveSymbol("PARAM_MAPS");
+		window.external.AddSymbol("PBLOCK", "NULL");
+		window.external.AddSymbol("PARAM_NAME", "_T(\"\")");
+		
+		if (tex) // If a texture map plugin
+		{
+			window.external.AddSymbol("NUM_REFS", "1+NSUBTEX");
+		}
+		else if(mtl) 
+		{
+			window.external.AddSymbol("NUM_REFS", "NSUBMTL");
+		}
+		else
+		{
+			window.external.AddSymbol("NUM_REFS", "0");	
+		}
+	}
+}
+
+// If the wizard has more than 1 page, this 
+// function will browse to the page specified
+//
+function Next(document, linkto)
+{	
+	HandleNav();
+	window.external.Next(document, linkto);
+}
+
+// This is an example of a function which
+// gets called when the user clicks on 'Finish'
+//
+function OnFinish(document)
+{
+	HandleNav();
+	OnWizFinish(document);
+}
+
+</SCRIPT>
+		<SCRIPT ID="INCLUDE_SCRIPT" LANGUAGE="JSCRIPT"></SCRIPT>
+		<SCRIPT language="JSCRIPT" id="INCLUDE_COMMON"></SCRIPT>
+		<!-- 
+Common.js is a script file which contains the helper functions 
+used by the wizards.  Include this line if you want to
+call these functions from your html scripts.
+//-->
+
+<SCRIPT>
+	var strPath = window.external.FindSymbol("PRODUCT_INSTALLATION_DIR");
+	strPath += "VCWizards/";
+	strPath += window.external.GetHostLocale();
+	var strScriptPath = strPath + "/Script.js";
+	var strCommonPath = strPath + "/Common.js";
+	document.scripts("INCLUDE_SCRIPT").src = strScriptPath;
+	document.scripts("INCLUDE_COMMON").src = strCommonPath;
+</SCRIPT>

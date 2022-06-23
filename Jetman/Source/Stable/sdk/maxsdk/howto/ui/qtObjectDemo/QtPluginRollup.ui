@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QtPluginRollup</class>
+ <widget class="QWidget" name="QtPluginRollup">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>173</width>
+    <height>379</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QFormLayout" name="formLayout">
+   <property name="fieldGrowthPolicy">
+    <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+   </property>
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Size</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="MaxSDK::QmaxDoubleSpinBox" name="qfloatspinbox"/>
+   </item>
+   <item row="1" column="0" colspan="2">
+    <widget class="QCheckBox" name="qcheckbox">
+     <property name="text">
+      <string>Raised Center</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0" colspan="2">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>Num Verts:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0" colspan="2">
+    <widget class="QDial" name="dial">
+     <property name="maximum">
+      <number>100</number>
+     </property>
+     <property name="wrapping">
+      <bool>false</bool>
+     </property>
+     <property name="notchesVisible">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="0">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>Texmap:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="1">
+    <widget class="QPushButton" name="qbutton">
+     <property name="text">
+      <string>texmap</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="1">
+    <widget class="QPushButton" name="hibutton">
+     <property name="text">
+      <string>Say Hi</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="0">
+    <widget class="QLabel" name="label_5">
+     <property name="text">
+      <string>Point 3:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="1">
+    <widget class="MaxSDK::QmaxPoint3Spinner" name="qspinPoint3"/>
+   </item>
+   <item row="10" column="0">
+    <widget class="QLabel" name="label_6">
+     <property name="text">
+      <string>Point 4:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="1">
+    <widget class="MaxSDK::QmaxPoint4Spinner" name="qspinPoint4"/>
+   </item>
+   <item row="11" column="0">
+    <widget class="QLabel" name="label_7">
+     <property name="text">
+      <string>Matrix 3:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="1">
+    <widget class="MaxSDK::QmaxMatrix3Spinner" name="qspinMatrix3"/>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>MaxSDK::QmaxDoubleSpinBox</class>
+   <extends>QDoubleSpinBox</extends>
+   <header location="global">Qt/qmaxspinbox.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>MaxSDK::QmaxPoint3Spinner</class>
+   <extends>QSpinBox</extends>
+   <header location="global">Qt/QMaxMultiSpinner.h</header>
+  </customwidget>
+  <customwidget>
+   <class>MaxSDK::QmaxPoint4Spinner</class>
+   <extends>QSpinBox</extends>
+   <header location="global">Qt/QMaxMultiSpinner.h</header>
+  </customwidget>
+  <customwidget>
+   <class>MaxSDK::QmaxMatrix3Spinner</class>
+   <extends>QSpinBox</extends>
+   <header location="global">Qt/QMaxMultiSpinner.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

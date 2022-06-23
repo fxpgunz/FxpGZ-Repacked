@@ -1,0 +1,28 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly SceneExplorerExtension, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly SceneExplorer, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=None, flags=None
+Assembly ExplorerFramework, Version=20.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly MaxExplorerBindings, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=None, flags=None
+Class SceneExplorerExtension.AssemblyEntry: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    AssemblyMain(): PrivateScope, Public, Static, HideBySig
+    AssemblyShutdown(): PrivateScope, Public, Static, HideBySig
+Class SceneExplorerExtension.HitPointsProperty: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :SceneExplorer.INodePropertyDescriptor`1[System.Int32]
+  Interfaces:
+    System.IDisposable
+  Methods:
+    Create(): PrivateScope, Public, Static, HideBySig
+    GetName(): PrivateScope, Public, Static, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Struct INode: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Abstract, Sealed, BeforeFieldInit
+  :System.ValueType
